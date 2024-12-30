@@ -1,0 +1,29 @@
+\section{Przegląd narzędzi implementacyjnych}
+Dla prawidłowej i jak najskuteczniejszej pracy przygotowywanej aplikacji najważniejsze jest w procesie jej projektowania, aby dobrać optymalne narzędzia i technologie. W tym rozdziale skupiono się na krótkim omówieniu popularnych technologii programistycznych, które posiadają najbardziej potrzebne funkcje do prawidłowego działania systemu.
+
+\subsection*{Usługi Firebase}
+Dla prostej skalowalności całego projektu, a także usprawnienie połączeń między bazą danych a aplikacją oraz względne pozbycie się serwera aplikacji wielu programistów decyduje się na korzystanie z usług oferowanych przez Firebase \cite{firebase}. Do obsługi bazy danych najczęściej wybieraną usługą jest Firebase Firestore \cite{firebase-book}. Jest to szybka i elastyczna baza danych NoSQL, która działa w infrastrukturze Google Cloud i synchronizuje dane pomiędzy różnymi platformami.\par
+Do usprawnienia logowania i autoryzacji w aplikacji często wykorzystuje się usługę Firebase Authentication \cite{fireauth} pozwalającą na sprawdzanie tożsamości użytkowników i personalizowanie treści wyświetlanych na urządzeniach klientów. Authentication obsługuje uwierzytelnianie przy użyciu haseł, numerów telefonów, a także kont na platformach mediów społecznościowych, takich jak Google, Facebook, Twitter i innych kanałów.\par
+Przechowywanie plików w chmurze często jest potrzebne do sprawnej synchronizacji danych pomiędzy urządzeniami, kontami, jak i platformami. Firebase również tym razem wychodzi programistom na przeciw, udostępniając usługę Storage. Jest to wydajna, prosta w obsłudze i niedroga usługa pamięci masowej opracowana z myślą o skali Google.
+
+\subsection*{Google Maps Platform}
+Po dogłębnym przeszukaniu rynku oferującego wiele API obsługujących mapy na platformę Android, Google Maps Platform okazała się najbardziej odpowiednia. Jest to jedno z wielu usprawnień oferowanych przez Google przez dostęp do ich Google Clouds Platform. Dzięki temu wszelkie inne API z kategorii takich jak: obliczenia, przechowywanie i bazy danych, analiza danych, sztuczna inteligencja, sieci itp. są ze sobą zsynchronizowane, a do obsługiwania ich wszystkich wystarczy jedno konto, które przez pierwsze 90 dni jest darmowe i posiada 300USD przypisanych do portfela usługi. Po tym czasie użytkownik może zmienić typ swojego konta na płatne, wtedy środki pobierane są bezpośrednio z karty użytkownika za każde ponadplanowe użycie zasobów.
+Aspekt płatności, choć może się wydawać odstraszający dla wielu, nie jest skomplikowany i pozwala na w pełni darmowy rozwój aplikacji, jednak przy komercjalizacji projektu darmowe zasoby mogą okazać się niewystarczające.
+
+
+\subsection*{Android Studio}
+Najpopularniejsze IDE pozwalające na tworzenie aplikacji mobilnych na urządzenia z systemem Android \cite{androidstudio} \cite{android-studio-book}. Obsługuje język Java oraz Kotlin i zawiera wiele wbudowanych narzędzi ułatwiających tworzenie aplikacji na urządzenia mobilne. Posiada m.in. emulatory urządzeń, integrację z systemem kontroli wersji Git oraz narzędzia do profilowania wydajności aplikacji.
+
+\subsection*{Język Java}
+Java\cite{java} jest to wysokopoziomowy, obiektowy język programowania. Jego szeroki zakres użytku pozwala na tworzenie różnych aplikacji w zależności od potrzeby, m.in. aplikacji webowych, systemów biznesowych, aplikacji mobilnych (Android), a także można go wykorzystać w systemach wbudowanych i przetwarzaniu danych \cite{firebase-book}.
+Dlaczego Java?
+\begin{itemize}
+    \item Obiektowość. Napisany kod można wykorzystywać wielokrotnie i dzielić go na moduły.
+    \item Ogromny zasób gotowych bibliotek, które obsługują wszelakie funkcje.
+    \item Aplikacje tworzone w Javie można uruchamiać na wszelkiego typu urządzeniach dzięki maszynie wirtualnej (JVM).
+\end{itemize}
+
+\cite{gmapsand}
+\cite{gmapsogol}
+\cite{java-book}
+
