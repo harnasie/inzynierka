@@ -3,7 +3,7 @@ Implementacją projektu autorki podzieliły się według ich możliwości oraz m
 W tym rozdziale opisane zostały najistotniejsze elementy aplikacji: listingi wybranych funkcji, ich opisy oraz wszystkie dostępne widoki. 
 
 \subsection{Moduł map}
-Krótki opis modułu MK
+Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób działają funkcje, które umożliwiają poruszanie się po górach oraz wpływają na wygląd mapy. Każda z nich sprawia, iż użytkownik ma możliwość pokonania wybranej trasy, a naniesione na mapę szlaki pozwalają mu zaplanować wędrówkę w każdym momencie. Poniżej przedstawione zostały wybrane funkcje składające się na implementację rysowania szlaków, wyznaczenia trasy, zapisu lokalnego plików oraz obsługi ikon ze schroniskami, szczytami i stawami.
 
 \textbf{Implementacja rysowania szlaków na mapie} \\
 Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z pliku KML i na ich podstawie rysuje szlaki na mapie. Za pomocą FileInputStream zostaje stworzony strumień wejściowy do odczytania pliku, który potrzebny jest do utworzenia warstwy KML. Następnie jest ona dodawana do mapy i rozpoczyna się iterowanie po kontenerach. Pętla odczytująca obiekty KmlPlacemark, pobiera ich nazwę i na jej podstawie określa kolor szlaku. W kolejnym kroku zostają zdefiniowane opcje linii, czyli wybrany kolor oraz szerokość. Jeżeli geometria danego znacznika jest linią (KmlLineString), tworzona jest lista, przechowująca współrzędne szlaku, które następnie dodane są do wcześniej zdefiniowanej linii. Na koniec, utworzona trasa zostanie narysowana na mapie, dzięki czemu użytkownik widzi wszystkie szlaki Tatr. Efekt ten widoczny jest na rys.\ref{widok:map}.\\
@@ -75,6 +75,8 @@ Funkcja, przedstawiona na listingu \ref{lst:rystras} rysuje wyznaczoną trasę z
 \\
 
 \subsection{Moduł zgłoszeń}
+Przy procesie obsługi zgłoszeń uczestniczy zarówno użytkownik jak i administrator. Pierwszy z nich zgłasza zagrożenie, podając wszystkie niezbędne informacje o niebezpieczeństwie. Drugi natomiast decyduje, czy dane zgłoszenie jest pomocne dla innych użytkowników.  Poniżej zostały przedstawione najważniejsze funkcje składające się na implementację zapisu zgłoszeń do bazy Firebase oraz akceptację zgłoszeń.
+
 \textbf{Implementacja zapisu zgłoszeń do bazy (Firebase)} \\ 
 Fragment kod, pokazany na rys. \ref{lst:danger} odpowiada za zapis zgłoszenia do bazy. Na początku sprawdzone zostaje połączenie z internetem, jeśli go nie ma, dane zostają zapisane lokalnie na urządzeniu, za co odpowiedzialna jest funkcja \verb|saveDangerLocally()|. W przypadku, gdy użytkownik ma włączony internet i GPS, zostaje zapisana jego lokalizacja oraz możliwe jest pobranie jego nazwy oraz email. Na podstawie danych o zalogowanym zostaje utworzony obiekt  \verb|Map<String, Object>|, który jest potrzebny do poprawnego zapisu zgłoszenia. Następnie dane przekazane w parametrze funkcji zostają dodane do obiektu “danger”, który zawiera informacje o zagrożeniu. W kolejnym kroku zostają one zapisane do bazy. W przypadku niepowodzenia zostaje wyświetlony komunikat o błędzie. \\
 
@@ -98,7 +100,7 @@ Funkcja, pokazana na rys. \ref{lst:accepted} odpowiada za aktualizację danych z
     \includegraphics[width=0.8\linewidth]{img/kod/imp-acceptdanger.png}
 \end{minipage}
 
-Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokalizacji zgłoszeń zagrożeń, które zostały zaakceptowane. Na początku dane są filtrowane, tzn. sprawdzane jest czy dane zgłoszenie w polu dokumentu “accepted” ma wartość “true”. W przypadku niepowodzenia podczas pobierania danych z bazy, zostaje wyświetlony komunikat, informujący o takiej sytuacji. Jeśli pobieranie danych zakończy się powodzeniem i wyniki filtrowania nie są puste, następuje iteracja przez każdy dokument. W kolejnym kroku jest sprawdzane czy posiada on pole “location”, jeśli tak, dane zostają pobrane i zapisane do \verb|Map<String, Object>|. Kluczem stworzonej mapy jest “latitude” lub “longitude”, a wartością współrzędne. Następnie, dane te są łączone w jeden obiekt LatLng, reprezentujący miejsce, w którym zostało wykonane zgłoszenie. Na koniec, współrzędne są dodawane do listy, przechowującej lokalizacje zaakceptowanych zgłoszeń. Po sprawdzeniu czy nie jest ona pusta zostaje wywołana funkcja \verb|updateMapWithAcceptedDangers()|, przedstawiona na rys. \ref{lst:markeraccepted}. Odpowiada ona za ustawienie markerów na mapie w miejscu, wystąpienia zagrożenia. \\
+Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokalizacji zgłoszeń zagrożeń, które zostały zaakceptowane. Na początku dane są filtrowane, tzn. sprawdzane jest czy dane zgłoszenie w polu dokumentu “accepted” ma wartość “true”. W przypadku niepowodzenia podczas pobierania danych z bazy, zostaje wyświetlony komunikat, informujący o takiej sytuacji. Jeśli pobieranie danych zakończy się powodzeniem i wyniki filtrowania nie są puste, następuje iteracja przez każdy dokument. W kolejnym kroku jest sprawdzane czy posiada on pole “location”, jeśli tak, dane zostają pobrane i zapisane do \verb|Map<String, Object>|. Kluczem stworzonej mapy jest “latitude” lub “longitude”, a wartością współrzędne. Następnie, dane te są łączone w jeden obiekt LatLng, reprezentujący miejsce, w którym zostało wykonane zgłoszenie. Na koniec, współrzędne są dodawane do listy, przechowującej lokalizacje zaakceptowanych zgłoszeń. Po sprawdzeniu czy nie jest ona pusta zostaje wywołana funkcja \verb|updateMapWithAcceptedDangers()|, przedstawiona na rys. \ref{lst:markeraccepted}. Odpowiada ona za ustawienie markerów na mapie w miejscu, wystąpienia zagrożenia. Mapa po akuktualizacji została przedstawiona na rys XX.\\
 
 \noindent
 \begin{minipage}{\linewidth}
@@ -201,7 +203,7 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 \end{figure}
 
 \textbf{Wyznaczanie trasę} \\
-Wybranie opcji “wyznacz trasę” z widoku mapy (rys. \ref{widok:wyznacztrase}) spowoduje wyświetlenie okna, które umożliwia użytkownikowi podanie szczegółów trasy. Po kliknięciu pola, które użytkownik chce ustawić, na środku mapy pokazuje się marker oraz przycisk do zatwierdzenia lokalizacji, co zostało przedstawione na rys. \ref{widok:ustawlokalizacje}. W przypadku włączonej lokalizacji, początek trasy jest uzupełniony już o te dane. Po ustawieniu pól trasy, użytkownik może wybrać następujące opcje:
+Wybranie opcji “wyznacz trasę” z widoku mapy (rys. \ref{widok:wyznacztrase}) spowoduje wyświetlenie okna, które umożliwia użytkownikowi podanie szczegółów trasy. Po kliknięciu pola z punktem trasy, na środku mapy pokazuje się marker oraz przycisk do zatwierdzenia lokalizacji, co zostało przedstawione na rys.\ref{widok:ustawlokalizacje} Potwierdzenie wybranej lokalizacji spowoduje, iż w miejscu pola z punktem trasy pojawia się jej nazwa (rys. \ref{widok:ustawlokalizacjewynik}). Użytkownik w każdej chwili może zmienić ustawione punkty trasy, ponownie klikając w wybrane pole. W przypadku włączonej lokalizacji, pole z początkiem trasy jest uzupełnione już o współrzędne wędrówkowicza. Po ustawieniu wszystkich pól z punktami trasy, użytkownik może wybrać następujące opcje:
 \begin{itemize}
     \item Dodaj przystanek - pokazuje pole do podania jego lokalizacji,
     \item Zatwierdź - wyznacza na mapie trasę, którą stworzył użytkownik po podaniu wszystkich potrzebnych punktów,
@@ -210,17 +212,26 @@ Wybranie opcji “wyznacz trasę” z widoku mapy (rys. \ref{widok:wyznacztrase}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=1.0]{img/test/testmap2.jpg}
+    \includegraphics[scale=1.0]{img/imp/widok-loka.png}
     \caption{Opcje widoczne po kliknięciu przycisku "Wyznacz trasę".}
     \label{widok:wyznacztrase}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=1.0]{img/test/testmap3.jpg}
-    \caption{Wybór początku i końca trasy za pomocą markera.}
+    \includegraphics[scale=1.0]{img/imp/widok-marker.png}
+    \caption{Wybór punktów trasy za pomocą markera.}
     \label{widok:ustawlokalizacje}
 \end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=1.0]{img/imp/widok-pkt.png}
+    \caption{Rezultat wyboru lokalizacji punktu trasy.}
+    \label{widok:ustawlokalizacjewynik}
+\end{figure}
+
 
 \textbf{Zatwierdzanie trasy} \\
 Po zatwierdzeniu trasy, pokazuje się ona na mapie wraz z kolejnych opcjami, które zostały przedstawione na rys. \ref{widok:zatwierdztrase}:
@@ -231,7 +242,7 @@ Po zatwierdzeniu trasy, pokazuje się ona na mapie wraz z kolejnych opcjami, kt�
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=1.0]{img/test/testmap5.jpg}
+    \includegraphics[scale=1.0]{img/imp/widok-trasa.png}
     \caption{Widok aplikacji po zatwierdzeniu wybranej przez użytkownika trasy.}
     \label{widok:zatwierdztrase}
 \end{figure}
