@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  2 JAN 2025 13:36
-=======
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.30)  31 DEC 2024 14:55
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.30)  2 JAN 2025 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,174 +522,402 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count298
 \enitdp@description=\count299
 )
-<<<<<<< HEAD
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen191
-\TX@old@table=\dimen192
-\TX@old@col=\dimen193
-\TX@target=\dimen194
-\TX@delta=\dimen195
-\TX@cols=\count308
-=======
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen190
+\TX@old@table=\dimen191
+\TX@old@col=\dimen192
+\TX@target=\dimen193
+\TX@delta=\dimen194
+\TX@cols=\count300
+\TX@ftn=\toks25
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular
+.sty
+Package: xltabular 2024/11/13 v0.2h `xltabular' package (hv,RN)
+
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count301
+\LTcapwidth=\dimen195
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count302
+\LT@rows=\count303
+\c@LT@tables=\count304
+\c@LT@chunks=\count305
+\LT@p@ftn=\toks26
+)))
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.s
+ty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count306
+\multirow@dima=\skip59
+\bigstrutjot=\dimen196
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stacken
+gine.sty
+Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient 
+ways
+
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofi
+tems.sty
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listo
+fitems.tex
+\loi_cnt_foreach_nest=\count307
+\loi_nestcnt=\count308
+)
+Package: listofitems 2024/03/09 v1.65 Grab items in lists using user-specified 
+sep char (CT)
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count309
+\calc@Bcount=\count310
+\calc@Adimen=\dimen197
+\calc@Bdimen=\dimen198
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count311
+\calc@Cskip=\skip62
+)
+\c@@stackindex=\count312
+\@boxshift=\skip63
+\stack@tmplength=\skip64
+\temp@stkl=\skip65
+\@stackedboxwidth=\skip66
+\@addedbox=\box63
+\@anchorbox=\box64
+\@insetbox=\box65
+\se@backgroundbox=\box66
+\stackedbox=\box67
+\@centerbox=\box68
+\c@ROWcellindex@=\count313
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip67
+\cftbeforetoctitleskip=\skip68
+\cftaftertoctitleskip=\skip69
+\cftbeforepartskip=\skip70
+\cftpartnumwidth=\skip71
+\cftpartindent=\skip72
+\cftbeforesecskip=\skip73
+\cftsecindent=\skip74
+\cftsecnumwidth=\skip75
+\cftbeforesubsecskip=\skip76
+\cftsubsecindent=\skip77
+\cftsubsecnumwidth=\skip78
+\cftbeforesubsubsecskip=\skip79
+\cftsubsubsecindent=\skip80
+\cftsubsubsecnumwidth=\skip81
+\cftbeforeparaskip=\skip82
+\cftparaindent=\skip83
+\cftparanumwidth=\skip84
+\cftbeforesubparaskip=\skip85
+\cftsubparaindent=\skip86
+\cftsubparanumwidth=\skip87
+\cftbeforeloftitleskip=\skip88
+\cftafterloftitleskip=\skip89
+\cftbeforefigskip=\skip90
+\cftfigindent=\skip91
+\cftfignumwidth=\skip92
+\c@lofdepth=\count314
+\c@lotdepth=\count315
+\cftbeforelottitleskip=\skip93
+\cftafterlottitleskip=\skip94
+\cftbeforetabskip=\skip95
+\cfttabindent=\skip96
+\cfttabnumwidth=\skip97
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.s
+ty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/newfloat\newfloat.s
+ty
+Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
+Package newfloat Info: Unsupported document class, or \@chapter 
+(newfloat)             was already redefined by another package.
+Package newfloat Info: \@chapter = macro:->\def \Hy@next {\Hy@MakeCurrentHrefAu
+to {\Hy@chapapp *}\Hy@raisedlink {\hyper@anchorstart {\@currentHref }\hyper@anc
+horend }}\ifnum \c@secnumdepth >\m@ne \@ifundefined {if@mainmatter}\iftrue {\cs
+name if@mainmatter\endcsname }\let \Hy@next \relax \fi \fi \Hy@next \Hy@org@cha
+pter .
+Package newfloat Info: \Hy@org@chapter = macro:[#1]#2->\NR@gettitle {#1}\NR@cha
+pter [{#1}]{#2}.
+Package newfloat Info: \algocf@original@chapter = undefined.
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.st
+y
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen199
+\captionmargin=\dimen256
+\caption@leftmargin=\dimen257
+\caption@rightmargin=\dimen258
+\caption@width=\dimen259
+\caption@indent=\dimen260
+\caption@parindent=\dimen261
+\caption@hangindent=\dimen262
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count316
+\c@continuedfloat=\count317
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.s
+ty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/shipunov\boldline.s
+ty
+Package: boldline 2008/02/04 v0.2 Adjust line width in tables
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.s
+ty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.s
+ty
+\lst@mode=\count318
+\lst@gtempboxa=\box69
+\lst@token=\toks27
+\lst@length=\count319
+\lst@currlwidth=\dimen263
+\lst@column=\count320
+\lst@pos=\count321
+\lst@lostspace=\dimen264
+\lst@width=\dimen265
+\lst@newlines=\count322
+\lst@lineno=\count323
+\lst@maxwidth=\dimen266
+
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.st
+y
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count324
+\lst@skipnumbers=\count325
+\lst@framebox=\box70
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.c
+fg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.s
+ty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count326
+\csq@gtype=\count327
+\csq@glevel=\count328
+\csq@qlevel=\count329
+\csq@maxlvl=\count330
+\csq@tshold=\count331
+\csq@ltx@everypar=\toks28
+
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.d
+ef
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.c
+fg
+File: csquotes.cfg 
+))
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count332
+\float@exts=\toks29
+\float@box=\box71
+\@float@everytoks=\toks30
+\@floatcapt=\box72
+)
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/capt-of\capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+)
 (C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.s
 ty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count300
+\lrq@indent=\count333
 
 (C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count301
-\c@listtotal=\count302
-\c@listcount=\count303
-\c@liststart=\count304
-\c@liststop=\count305
-\c@citecount=\count306
-\c@citetotal=\count307
-\c@multicitecount=\count308
-\c@multicitetotal=\count309
-\c@instcount=\count310
-\c@maxnames=\count311
-\c@minnames=\count312
-\c@maxitems=\count313
-\c@minitems=\count314
-\c@citecounter=\count315
-\c@maxcitecounter=\count316
-\c@savedcitecounter=\count317
-\c@uniquelist=\count318
-\c@uniquename=\count319
-\c@refsection=\count320
-\c@refsegment=\count321
-\c@maxextratitle=\count322
-\c@maxextratitleyear=\count323
-\c@maxextraname=\count324
-\c@maxextradate=\count325
-\c@maxextraalpha=\count326
-\c@abbrvpenalty=\count327
-\c@highnamepenalty=\count328
-\c@lownamepenalty=\count329
-\c@maxparens=\count330
-\c@parenlevel=\count331
-\blx@tempcnta=\count332
-\blx@tempcntb=\count333
-\blx@tempcntc=\count334
-\c@blx@maxsection=\count335
-\blx@maxsegment@0=\count336
-\blx@notetype=\count337
-\blx@parenlevel@text=\count338
-\blx@parenlevel@foot=\count339
-\blx@sectionciteorder@0=\count340
-\blx@sectionciteorderinternal@0=\count341
-\blx@entrysetcounter=\count342
-\blx@biblioinstance=\count343
-\labelnumberwidth=\skip54
-\labelalphawidth=\skip55
-\biblabelsep=\skip56
-\bibitemsep=\skip57
-\bibnamesep=\skip58
-\bibinitsep=\skip59
-\bibparsep=\skip60
-\bibhang=\skip61
+\c@tabx@nest=\count334
+\c@listtotal=\count335
+\c@listcount=\count336
+\c@liststart=\count337
+\c@liststop=\count338
+\c@citecount=\count339
+\c@citetotal=\count340
+\c@multicitecount=\count341
+\c@multicitetotal=\count342
+\c@instcount=\count343
+\c@maxnames=\count344
+\c@minnames=\count345
+\c@maxitems=\count346
+\c@minitems=\count347
+\c@citecounter=\count348
+\c@maxcitecounter=\count349
+\c@savedcitecounter=\count350
+\c@uniquelist=\count351
+\c@uniquename=\count352
+\c@refsection=\count353
+\c@refsegment=\count354
+\c@maxextratitle=\count355
+\c@maxextratitleyear=\count356
+\c@maxextraname=\count357
+\c@maxextradate=\count358
+\c@maxextraalpha=\count359
+\c@abbrvpenalty=\count360
+\c@highnamepenalty=\count361
+\c@lownamepenalty=\count362
+\c@maxparens=\count363
+\c@parenlevel=\count364
+\blx@tempcnta=\count365
+\blx@tempcntb=\count366
+\blx@tempcntc=\count367
+\c@blx@maxsection=\count368
+\blx@maxsegment@0=\count369
+\blx@notetype=\count370
+\blx@parenlevel@text=\count371
+\blx@parenlevel@foot=\count372
+\blx@sectionciteorder@0=\count373
+\blx@sectionciteorderinternal@0=\count374
+\blx@entrysetcounter=\count375
+\blx@biblioinstance=\count376
+\labelnumberwidth=\skip98
+\labelalphawidth=\skip99
+\biblabelsep=\skip100
+\bibitemsep=\skip101
+\bibnamesep=\skip102
+\bibinitsep=\skip103
+\bibparsep=\skip104
+\bibhang=\skip105
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count344
-\c@maxcomprange=\count345
-\c@mincompwidth=\count346
+\c@mincomprange=\count377
+\c@maxcomprange=\count378
+\c@mincompwidth=\count379
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count347
-\c@savedafterword=\count348
-\c@annotator=\count349
-\c@savedannotator=\count350
-\c@author=\count351
-\c@savedauthor=\count352
-\c@bookauthor=\count353
-\c@savedbookauthor=\count354
-\c@commentator=\count355
-\c@savedcommentator=\count356
-\c@editor=\count357
-\c@savededitor=\count358
-\c@editora=\count359
-\c@savededitora=\count360
-\c@editorb=\count361
-\c@savededitorb=\count362
-\c@editorc=\count363
-\c@savededitorc=\count364
-\c@foreword=\count365
-\c@savedforeword=\count366
-\c@holder=\count367
-\c@savedholder=\count368
-\c@introduction=\count369
-\c@savedintroduction=\count370
-\c@namea=\count371
-\c@savednamea=\count372
-\c@nameb=\count373
-\c@savednameb=\count374
-\c@namec=\count375
-\c@savednamec=\count376
-\c@translator=\count377
-\c@savedtranslator=\count378
-\c@shortauthor=\count379
-\c@savedshortauthor=\count380
-\c@shorteditor=\count381
-\c@savedshorteditor=\count382
-\c@labelname=\count383
-\c@savedlabelname=\count384
-\c@institution=\count385
-\c@savedinstitution=\count386
-\c@lista=\count387
-\c@savedlista=\count388
-\c@listb=\count389
-\c@savedlistb=\count390
-\c@listc=\count391
-\c@savedlistc=\count392
-\c@listd=\count393
-\c@savedlistd=\count394
-\c@liste=\count395
-\c@savedliste=\count396
-\c@listf=\count397
-\c@savedlistf=\count398
-\c@location=\count399
-\c@savedlocation=\count400
-\c@organization=\count401
-\c@savedorganization=\count402
-\c@origlocation=\count403
-\c@savedoriglocation=\count404
-\c@origpublisher=\count405
-\c@savedorigpublisher=\count406
-\c@publisher=\count407
-\c@savedpublisher=\count408
-\c@language=\count409
-\c@savedlanguage=\count410
-\c@origlanguage=\count411
-\c@savedoriglanguage=\count412
-\c@pageref=\count413
-\c@savedpageref=\count414
-\shorthandwidth=\skip62
-\shortjournalwidth=\skip63
-\shortserieswidth=\skip64
-\shorttitlewidth=\skip65
-\shortauthorwidth=\skip66
-\shorteditorwidth=\skip67
-\locallabelnumberwidth=\skip68
-\locallabelalphawidth=\skip69
-\localshorthandwidth=\skip70
-\localshortjournalwidth=\skip71
-\localshortserieswidth=\skip72
-\localshorttitlewidth=\skip73
-\localshortauthorwidth=\skip74
-\localshorteditorwidth=\skip75
+\c@afterword=\count380
+\c@savedafterword=\count381
+\c@annotator=\count382
+\c@savedannotator=\count383
+\c@author=\count384
+\c@savedauthor=\count385
+\c@bookauthor=\count386
+\c@savedbookauthor=\count387
+\c@commentator=\count388
+\c@savedcommentator=\count389
+\c@editor=\count390
+\c@savededitor=\count391
+\c@editora=\count392
+\c@savededitora=\count393
+\c@editorb=\count394
+\c@savededitorb=\count395
+\c@editorc=\count396
+\c@savededitorc=\count397
+\c@foreword=\count398
+\c@savedforeword=\count399
+\c@holder=\count400
+\c@savedholder=\count401
+\c@introduction=\count402
+\c@savedintroduction=\count403
+\c@namea=\count404
+\c@savednamea=\count405
+\c@nameb=\count406
+\c@savednameb=\count407
+\c@namec=\count408
+\c@savednamec=\count409
+\c@translator=\count410
+\c@savedtranslator=\count411
+\c@shortauthor=\count412
+\c@savedshortauthor=\count413
+\c@shorteditor=\count414
+\c@savedshorteditor=\count415
+\c@labelname=\count416
+\c@savedlabelname=\count417
+\c@institution=\count418
+\c@savedinstitution=\count419
+\c@lista=\count420
+\c@savedlista=\count421
+\c@listb=\count422
+\c@savedlistb=\count423
+\c@listc=\count424
+\c@savedlistc=\count425
+\c@listd=\count426
+\c@savedlistd=\count427
+\c@liste=\count428
+\c@savedliste=\count429
+\c@listf=\count430
+\c@savedlistf=\count431
+\c@location=\count432
+\c@savedlocation=\count433
+\c@organization=\count434
+\c@savedorganization=\count435
+\c@origlocation=\count436
+\c@savedoriglocation=\count437
+\c@origpublisher=\count438
+\c@savedorigpublisher=\count439
+\c@publisher=\count440
+\c@savedpublisher=\count441
+\c@language=\count442
+\c@savedlanguage=\count443
+\c@origlanguage=\count444
+\c@savedoriglanguage=\count445
+\c@pageref=\count446
+\c@savedpageref=\count447
+\shorthandwidth=\skip106
+\shortjournalwidth=\skip107
+\shortserieswidth=\skip108
+\shorttitlewidth=\skip109
+\shortauthorwidth=\skip110
+\shorteditorwidth=\skip111
+\locallabelnumberwidth=\skip112
+\locallabelalphawidth=\skip113
+\localshorthandwidth=\skip114
+\localshortjournalwidth=\skip115
+\localshortserieswidth=\skip116
+\localshorttitlewidth=\skip117
+\localshortauthorwidth=\skip118
+\localshorteditorwidth=\skip119
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -712,19 +936,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.d
 ef
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count415
-\c@textcitetotal=\count416
-\c@textcitemaxnames=\count417
-\c@biburlbigbreakpenalty=\count418
-\c@biburlbreakpenalty=\count419
-\c@biburlnumpenalty=\count420
-\c@biburlucpenalty=\count421
-\c@biburllcpenalty=\count422
+\c@textcitecount=\count448
+\c@textcitetotal=\count449
+\c@textcitemaxnames=\count450
+\c@biburlbigbreakpenalty=\count451
+\c@biburlbreakpenalty=\count452
+\c@biburlnumpenalty=\count453
+\c@biburlucpenalty=\count454
+\c@biburllcpenalty=\count455
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count423
+\c@smartand=\count456
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -738,8 +962,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standa
 rd.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count424
-\c@bbx:relatedtotal=\count425
+\c@bbx:relatedcount=\count457
+\c@bbx:relatedtotal=\count458
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -778,648 +1002,19 @@ Package biblatex Info: ... and expl3
 xpl3.sty
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen190
-\TX@old@table=\dimen191
-\TX@old@col=\dimen192
-\TX@target=\dimen193
-\TX@delta=\dimen194
-\TX@cols=\count426
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
-\TX@ftn=\toks25
-)
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular
-.sty
-Package: xltabular 2024/11/13 v0.2h `xltabular' package (hv,RN)
-
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
-Package: ltablex 2014/08/13 v1.1 Modified tabularx
-
-<<<<<<< HEAD
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip55
-\LTright=\skip56
-\LTpre=\skip57
-\LTpost=\skip58
-\LTchunksize=\count309
-\LTcapwidth=\dimen196
-\LT@head=\box59
-\LT@firsthead=\box60
-\LT@foot=\box61
-\LT@lastfoot=\box62
-\LT@gbox=\box63
-\LT@cols=\count310
-\LT@rows=\count311
-\c@LT@tables=\count312
-\c@LT@chunks=\count313
-\LT@p@ftn=\toks26
-)))
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
-Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip59
-\multirow@cntb=\count314
-\multirow@dima=\skip60
-\bigstrutjot=\dimen197
-)
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stackengine.s
-=======
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
-\LTleft=\skip76
-\LTright=\skip77
-\LTpre=\skip78
-\LTpost=\skip79
-\LTchunksize=\count427
-\LTcapwidth=\dimen195
-\LT@head=\box58
-\LT@firsthead=\box59
-\LT@foot=\box60
-\LT@lastfoot=\box61
-\LT@gbox=\box62
-\LT@cols=\count428
-\LT@rows=\count429
-\c@LT@tables=\count430
-\c@LT@chunks=\count431
-\LT@p@ftn=\toks26
-)))
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.s
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
-ty
-Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip80
-\multirow@cntb=\count432
-\multirow@dima=\skip81
-\bigstrutjot=\dimen196
-)
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stacken
-gine.sty
-Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient 
-ways
-
-<<<<<<< HEAD
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofitems.s
-ty
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofitems
-.tex
-\loi_cnt_foreach_nest=\count315
-\loi_nestcnt=\count316
-=======
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofi
-tems.sty
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listo
-fitems.tex
-\loi_cnt_foreach_nest=\count433
-\loi_nestcnt=\count434
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
-)
-Package: listofitems 2024/03/09 v1.65 Grab items in lists using user-specified 
-sep char (CT)
-)
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-<<<<<<< HEAD
-\calc@Acount=\count317
-\calc@Bcount=\count318
-\calc@Adimen=\dimen198
-\calc@Bdimen=\dimen199
-\calc@Askip=\skip61
-\calc@Bskip=\skip62
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count319
-\calc@Cskip=\skip63
-)
-\c@@stackindex=\count320
-\@boxshift=\skip64
-\stack@tmplength=\skip65
-\temp@stkl=\skip66
-\@stackedboxwidth=\skip67
-\@addedbox=\box64
-\@anchorbox=\box65
-\@insetbox=\box66
-\se@backgroundbox=\box67
-\stackedbox=\box68
-\@centerbox=\box69
-\c@ROWcellindex@=\count321
-=======
-\calc@Acount=\count435
-\calc@Bcount=\count436
-\calc@Adimen=\dimen197
-\calc@Bdimen=\dimen198
-\calc@Askip=\skip82
-\calc@Bskip=\skip83
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count437
-\calc@Cskip=\skip84
-)
-\c@@stackindex=\count438
-\@boxshift=\skip85
-\stack@tmplength=\skip86
-\temp@stkl=\skip87
-\@stackedboxwidth=\skip88
-\@addedbox=\box63
-\@anchorbox=\box64
-\@insetbox=\box65
-\se@backgroundbox=\box66
-\stackedbox=\box67
-\@centerbox=\box68
-\c@ROWcellindex@=\count439
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
-)
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
-Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
-Package tocloft Info: The document has section divisions on input line 51.
-<<<<<<< HEAD
-\cftparskip=\skip68
-\cftbeforetoctitleskip=\skip69
-\cftaftertoctitleskip=\skip70
-\cftbeforepartskip=\skip71
-\cftpartnumwidth=\skip72
-\cftpartindent=\skip73
-\cftbeforesecskip=\skip74
-\cftsecindent=\skip75
-\cftsecnumwidth=\skip76
-\cftbeforesubsecskip=\skip77
-\cftsubsecindent=\skip78
-\cftsubsecnumwidth=\skip79
-\cftbeforesubsubsecskip=\skip80
-\cftsubsubsecindent=\skip81
-\cftsubsubsecnumwidth=\skip82
-\cftbeforeparaskip=\skip83
-\cftparaindent=\skip84
-\cftparanumwidth=\skip85
-\cftbeforesubparaskip=\skip86
-\cftsubparaindent=\skip87
-\cftsubparanumwidth=\skip88
-\cftbeforeloftitleskip=\skip89
-\cftafterloftitleskip=\skip90
-\cftbeforefigskip=\skip91
-\cftfigindent=\skip92
-\cftfignumwidth=\skip93
-\c@lofdepth=\count322
-\c@lotdepth=\count323
-\cftbeforelottitleskip=\skip94
-\cftafterlottitleskip=\skip95
-\cftbeforetabskip=\skip96
-\cfttabindent=\skip97
-\cfttabnumwidth=\skip98
-=======
-\cftparskip=\skip89
-\cftbeforetoctitleskip=\skip90
-\cftaftertoctitleskip=\skip91
-\cftbeforepartskip=\skip92
-\cftpartnumwidth=\skip93
-\cftpartindent=\skip94
-\cftbeforesecskip=\skip95
-\cftsecindent=\skip96
-\cftsecnumwidth=\skip97
-\cftbeforesubsecskip=\skip98
-\cftsubsecindent=\skip99
-\cftsubsecnumwidth=\skip100
-\cftbeforesubsubsecskip=\skip101
-\cftsubsubsecindent=\skip102
-\cftsubsubsecnumwidth=\skip103
-\cftbeforeparaskip=\skip104
-\cftparaindent=\skip105
-\cftparanumwidth=\skip106
-\cftbeforesubparaskip=\skip107
-\cftsubparaindent=\skip108
-\cftsubparanumwidth=\skip109
-\cftbeforeloftitleskip=\skip110
-\cftafterloftitleskip=\skip111
-\cftbeforefigskip=\skip112
-\cftfigindent=\skip113
-\cftfignumwidth=\skip114
-\c@lofdepth=\count440
-\c@lotdepth=\count441
-\cftbeforelottitleskip=\skip115
-\cftafterlottitleskip=\skip116
-\cftbeforetabskip=\skip117
-\cfttabindent=\skip118
-\cfttabnumwidth=\skip119
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
-)
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.s
-ty
-Package: chngcntr 2018/04/09 v1.1a change counter resetting
-Package chngcntr Info: \counterwithout already defined.
-(chngcntr)             Quitting chngcntr on input line 21.
-)
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/newfloat\newfloat.s
-ty
-Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
-Package newfloat Info: Unsupported document class, or \@chapter 
-(newfloat)             was already redefined by another package.
-Package newfloat Info: \@chapter = macro:->\def \Hy@next {\Hy@MakeCurrentHrefAu
-to {\Hy@chapapp *}\Hy@raisedlink {\hyper@anchorstart {\@currentHref }\hyper@anc
-horend }}\ifnum \c@secnumdepth >\m@ne \@ifundefined {if@mainmatter}\iftrue {\cs
-name if@mainmatter\endcsname }\let \Hy@next \relax \fi \fi \Hy@next \Hy@org@cha
-pter .
-Package newfloat Info: \Hy@org@chapter = macro:[#1]#2->\NR@gettitle {#1}\NR@cha
-pter [{#1}]{#2}.
-Package newfloat Info: \algocf@original@chapter = undefined.
-)
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.st
-y
-Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen199
-\captionmargin=\dimen256
-\caption@leftmargin=\dimen257
-\caption@rightmargin=\dimen258
-\caption@width=\dimen259
-\caption@indent=\dimen260
-\caption@parindent=\dimen261
-\caption@hangindent=\dimen262
-Package caption Info: Standard document class detected.
-)
-<<<<<<< HEAD
-\c@caption@flags=\count324
-\c@continuedfloat=\count325
-=======
-\c@caption@flags=\count442
-\c@continuedfloat=\count443
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
-Package caption Info: hyperref package is loaded.
-Package caption Info: longtable package is loaded.
-
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.s
-ty
-Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-))
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/shipunov\boldline.s
-ty
-Package: boldline 2008/02/04 v0.2 Adjust line width in tables
-)
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.s
-ty
-Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-)
-<<<<<<< HEAD
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count326
-\lst@gtempboxa=\box70
-\lst@token=\toks27
-\lst@length=\count327
-\lst@currlwidth=\dimen264
-\lst@column=\count328
-\lst@pos=\count329
-\lst@lostspace=\dimen265
-\lst@width=\dimen266
-\lst@newlines=\count330
-\lst@lineno=\count331
-\lst@maxwidth=\dimen267
-=======
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.s
-ty
-\lst@mode=\count444
-\lst@gtempboxa=\box69
-\lst@token=\toks27
-\lst@length=\count445
-\lst@currlwidth=\dimen263
-\lst@column=\count446
-\lst@pos=\count447
-\lst@lostspace=\dimen264
-\lst@width=\dimen265
-\lst@newlines=\count448
-\lst@lineno=\count449
-\lst@maxwidth=\dimen266
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
-
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.st
-y
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count450
-\lst@skipnumbers=\count451
-\lst@framebox=\box70
-)
-<<<<<<< HEAD
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count332
-\lst@skipnumbers=\count333
-\lst@framebox=\box71
-)
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
-=======
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.c
-fg
-File: listings.cfg 2023/02/27 1.9 listings configuration
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
-))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
-
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.s
-ty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-<<<<<<< HEAD
-\csq@reset=\count334
-\csq@gtype=\count335
-\csq@glevel=\count336
-\csq@qlevel=\count337
-\csq@maxlvl=\count338
-\csq@tshold=\count339
-=======
-\csq@reset=\count452
-\csq@gtype=\count453
-\csq@glevel=\count454
-\csq@qlevel=\count455
-\csq@maxlvl=\count456
-\csq@tshold=\count457
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
-\csq@ltx@everypar=\toks28
-
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.d
-ef
-File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
-
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.c
-fg
-File: csquotes.cfg 
-))
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-<<<<<<< HEAD
-\c@float@type=\count340
-=======
-\c@float@type=\count458
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
-\float@exts=\toks29
-\float@box=\box71
-\@float@everytoks=\toks30
-\@floatcapt=\box72
-)
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/capt-of\capt-of.sty
-Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
-)
-<<<<<<< HEAD
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count341
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count342
-\c@listtotal=\count343
-\c@listcount=\count344
-\c@liststart=\count345
-\c@liststop=\count346
-\c@citecount=\count347
-\c@citetotal=\count348
-\c@multicitecount=\count349
-\c@multicitetotal=\count350
-\c@instcount=\count351
-\c@maxnames=\count352
-\c@minnames=\count353
-\c@maxitems=\count354
-\c@minitems=\count355
-\c@citecounter=\count356
-\c@maxcitecounter=\count357
-\c@savedcitecounter=\count358
-\c@uniquelist=\count359
-\c@uniquename=\count360
-\c@refsection=\count361
-\c@refsegment=\count362
-\c@maxextratitle=\count363
-\c@maxextratitleyear=\count364
-\c@maxextraname=\count365
-\c@maxextradate=\count366
-\c@maxextraalpha=\count367
-\c@abbrvpenalty=\count368
-\c@highnamepenalty=\count369
-\c@lownamepenalty=\count370
-\c@maxparens=\count371
-\c@parenlevel=\count372
-\blx@tempcnta=\count373
-\blx@tempcntb=\count374
-\blx@tempcntc=\count375
-\c@blx@maxsection=\count376
-\blx@maxsegment@0=\count377
-\blx@notetype=\count378
-\blx@parenlevel@text=\count379
-\blx@parenlevel@foot=\count380
-\blx@sectionciteorder@0=\count381
-\blx@sectionciteorderinternal@0=\count382
-\blx@entrysetcounter=\count383
-\blx@biblioinstance=\count384
-\labelnumberwidth=\skip99
-\labelalphawidth=\skip100
-\biblabelsep=\skip101
-\bibitemsep=\skip102
-\bibnamesep=\skip103
-\bibinitsep=\skip104
-\bibparsep=\skip105
-\bibhang=\skip106
-\blx@bcfin=\read3
-\blx@bcfout=\write3
-\blx@langwohyphens=\language80
-\c@mincomprange=\count385
-\c@maxcomprange=\count386
-\c@mincompwidth=\count387
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'numeric.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count388
-\c@savedafterword=\count389
-\c@annotator=\count390
-\c@savedannotator=\count391
-\c@author=\count392
-\c@savedauthor=\count393
-\c@bookauthor=\count394
-\c@savedbookauthor=\count395
-\c@commentator=\count396
-\c@savedcommentator=\count397
-\c@editor=\count398
-\c@savededitor=\count399
-\c@editora=\count400
-\c@savededitora=\count401
-\c@editorb=\count402
-\c@savededitorb=\count403
-\c@editorc=\count404
-\c@savededitorc=\count405
-\c@foreword=\count406
-\c@savedforeword=\count407
-\c@holder=\count408
-\c@savedholder=\count409
-\c@introduction=\count410
-\c@savedintroduction=\count411
-\c@namea=\count412
-\c@savednamea=\count413
-\c@nameb=\count414
-\c@savednameb=\count415
-\c@namec=\count416
-\c@savednamec=\count417
-\c@translator=\count418
-\c@savedtranslator=\count419
-\c@shortauthor=\count420
-\c@savedshortauthor=\count421
-\c@shorteditor=\count422
-\c@savedshorteditor=\count423
-\c@labelname=\count424
-\c@savedlabelname=\count425
-\c@institution=\count426
-\c@savedinstitution=\count427
-\c@lista=\count428
-\c@savedlista=\count429
-\c@listb=\count430
-\c@savedlistb=\count431
-\c@listc=\count432
-\c@savedlistc=\count433
-\c@listd=\count434
-\c@savedlistd=\count435
-\c@liste=\count436
-\c@savedliste=\count437
-\c@listf=\count438
-\c@savedlistf=\count439
-\c@location=\count440
-\c@savedlocation=\count441
-\c@organization=\count442
-\c@savedorganization=\count443
-\c@origlocation=\count444
-\c@savedoriglocation=\count445
-\c@origpublisher=\count446
-\c@savedorigpublisher=\count447
-\c@publisher=\count448
-\c@savedpublisher=\count449
-\c@language=\count450
-\c@savedlanguage=\count451
-\c@origlanguage=\count452
-\c@savedoriglanguage=\count453
-\c@pageref=\count454
-\c@savedpageref=\count455
-\shorthandwidth=\skip107
-\shortjournalwidth=\skip108
-\shortserieswidth=\skip109
-\shorttitlewidth=\skip110
-\shortauthorwidth=\skip111
-\shorteditorwidth=\skip112
-\locallabelnumberwidth=\skip113
-\locallabelalphawidth=\skip114
-\localshorthandwidth=\skip115
-\localshortjournalwidth=\skip116
-\localshortserieswidth=\skip117
-\localshorttitlewidth=\skip118
-\localshortauthorwidth=\skip119
-\localshorteditorwidth=\skip120
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.def)
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count456
-\c@textcitetotal=\count457
-\c@textcitemaxnames=\count458
-\c@biburlbigbreakpenalty=\count459
-\c@biburlbreakpenalty=\count460
-\c@biburlnumpenalty=\count461
-\c@biburlucpenalty=\count462
-\c@biburllcpenalty=\count463
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count464
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
-File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count465
-\c@bbx:relatedtotal=\count466
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
-File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2024-11-02 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.s
-ty
-Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-))
 Package newfloat Info: New float `graph' with options `' on input line 41.
-\c@graph=\count467
-Package newfloat Info: float type `graph'=4 on input line 41.
-\c@lographdepth=\count468
-=======
-Package newfloat Info: New float `graph' with options `' on input line 39.
 \c@graph=\count459
-Package newfloat Info: float type `graph'=4 on input line 39.
+Package newfloat Info: float type `graph'=4 on input line 41.
 \c@lographdepth=\count460
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 \@float@every@listing=\toks31
 \c@listing=\count461
 
 (C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/newtx\TeXGyreTermes
 X.fontspec)
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 10
-<<<<<<< HEAD
 4.
- (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
-=======
-2.
 
 (C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
@@ -1494,7 +1089,6 @@ LaTeX Warning: Label `result:login' multiply defined.
 ) (chapters/chapter7.aux))
 \openout1 = `main.aux'.
 
-<<<<<<< HEAD
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
@@ -1504,6 +1098,12 @@ LaTeX Font Info:    ... okay on input line 104.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+04.
+
+(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
 LaTeX Font Info:    ... okay on input line 104.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
@@ -1515,34 +1115,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
-=======
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-02.
-
-(C:\Users\Magdalena\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
-File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1654,7 +1226,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count470
+\c@lstlisting=\count462
 Package biblatex Info: Trying to load language 'polish'...
 Package biblatex Info: ... file 'polish.lbx' found.
 
@@ -1676,25 +1248,15 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-<<<<<<< HEAD
+
+
+Package biblatex Warning: File 'main.bbl' is wrong format version - expected 3.
+2.
+
 Package biblatex Info: ... file 'main.bbl' found.
 (main.bbl)
 Package biblatex Info: Reference section=0 on input line 104.
 Package biblatex Info: Reference segment=0 on input line 104.
-=======
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 102.
-Package biblatex Info: Reference segment=0 on input line 102.
-Package newfloat Info: Trying Plan B...
-Package newfloat Info: `float' package detected.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count462
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 File: img/title/weii-2.jpg Graphic file (type bmp)
 <img/title/weii-2.jpg>
 
@@ -1764,12 +1326,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout2 = `chapters/chapter1.aux'.
 
  (chapters/chapter1.tex
-<<<<<<< HEAD
-File: img/wykresy/sprzedaż 2023.jpg Graphic file (type bmp)
-<img/wykresy/sprzedaż 2023.jpg>
-
-
-=======
 
 LaTeX Warning: Citation 'ptt' on page 5 undefined on input line 6.
 
@@ -1779,23 +1335,16 @@ LaTeX Warning: Citation 'tpn' on page 5 undefined on input line 6.
 
 LaTeX Warning: Citation 'tpnstat' on page 5 undefined on input line 8.
 
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+File: img/wykresy/sprzedaż 2023.jpg Graphic file (type bmp)
+<img/wykresy/sprzedaż 2023.jpg>
 [5
 
 
 
-<<<<<<< HEAD
 ]
 File: img/wykresy/sprzedaż ogółem.jpg Graphic file (type bmp)
 <img/wykresy/sprzedaż ogółem.jpg>
-
-
-[6]
-
-[7])
-=======
-] [6])
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [6] [7])
 \openout2 = `chapters/chapter2.aux'.
 
  (chapters/chapter2.tex
@@ -1803,236 +1352,86 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 31.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 31.
-<<<<<<< HEAD
-
-
-[8
+ [8
 
 
 
-]
-
-[9]
-
-[10])
-=======
- [7
-
-
-
-] [8] [9])
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+] [9] [10])
 \openout2 = `chapters/chapter3.aux'.
 
  (chapters/chapter3.tex
+
+LaTeX Warning: Citation 'mapatu' on page 11 undefined on input line 6.
+
 File: img/rynek/mamatu-mapa.jpg Graphic file (type bmp)
 <img/rynek/mamatu-mapa.jpg>
 File: img/rynek/mapatu-menu.jpg Graphic file (type bmp)
 <img/rynek/mapatu-menu.jpg>
-
-<<<<<<< HEAD
-
 [11
-=======
-[10
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 
 
 
 ]
 File: img/rynek/mapatu-warstwy.jpg Graphic file (type bmp)
 <img/rynek/mapatu-warstwy.jpg>
-
-<<<<<<< HEAD
-
-[12]
+ [12]
 File: img/rynek/mapatu-premium.jpg Graphic file (type bmp)
 <img/rynek/mapatu-premium.jpg>
+ [13] [14]
 
+LaTeX Warning: Citation 'mapycz' on page 15 undefined on input line 60.
 
-[13]
-
-[14]
 File: img/rynek/Mapycz_logowanie.jpg Graphic file (type bmp)
 <img/rynek/Mapycz_logowanie.jpg>
 File: img/rynek/Mapycz_glowna.jpg Graphic file (type bmp)
 <img/rynek/Mapycz_glowna.jpg>
-
-
 [15]
 File: img/rynek/Mapycz_mapy.jpg Graphic file (type bmp)
 <img/rynek/Mapycz_mapy.jpg>
-
-
-[16]
+ [16]
 File: img/rynek/Mapycz_pomoc.jpg Graphic file (type bmp)
 <img/rynek/Mapycz_pomoc.jpg>
-
-
-[17]
-
-[18])
-
-[19]
-=======
-[11]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...ale=0.15]{img/rynek/Mapycz_mapy.jpg}
-                                                  
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\fbox  ...x {\color@begingroup \kern \fboxsep {#1}
-                                                  \kern \fboxsep \color@endg...
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...le=0.15]{img/rynek/Mapycz_pomoc.jpg}
-                                                  
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\fbox  ...x {\color@begingroup \kern \fboxsep {#1}
-                                                  \kern \fboxsep \color@endg...
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[12]) [13]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [17] [18]) [19]
 \openout2 = `chapters/chapter4.aux'.
 
  (chapters/chapter4.tex
 
+LaTeX Warning: Citation 'firebase' on page 20 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'firebase-book' on page 20 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'fireauth' on page 20 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'androidstudio' on page 20 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'android-studio-book' on page 20 undefined on input lin
+e 15.
+
 [20
-
-<<<<<<< HEAD
-
-
-])
-
-[21]
-=======
-[14
 
 
 
 ]
 
-LaTeX Warning: Citation 'java' on page 15 undefined on input line 18.
+LaTeX Warning: Citation 'java' on page 21 undefined on input line 18.
 
 
-LaTeX Warning: Citation 'firebase-book' on page 15 undefined on input line 18.
+LaTeX Warning: Citation 'firebase-book' on page 21 undefined on input line 18.
 
 
-LaTeX Warning: Citation 'gmapsand' on page 15 undefined on input line 26.
+LaTeX Warning: Citation 'gmapsand' on page 21 undefined on input line 26.
 
 
-LaTeX Warning: Citation 'gmapsogol' on page 15 undefined on input line 27.
+LaTeX Warning: Citation 'gmapsogol' on page 21 undefined on input line 27.
 
 
-LaTeX Warning: Citation 'java-book' on page 15 undefined on input line 28.
+LaTeX Warning: Citation 'java-book' on page 21 undefined on input line 28.
 
-) [15]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+) [21]
 \openout2 = `chapters/chapter5.aux'.
 
  (chapters/chapter5.tex
@@ -2041,13 +1440,7 @@ Overfull \hbox (3.23427pt too wide) in paragraph at lines 17--18
 konkretnego regionu o miej-
  []
 
-<<<<<<< HEAD
-
-
 [22
-=======
-[16
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 
 
 
@@ -2057,81 +1450,33 @@ Overfull \hbox (7.89825pt too wide) in paragraph at lines 57--58
 ch lub z wybranego okresu. 
  []
 
-<<<<<<< HEAD
-
-
 [23]
-=======
-[17]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 File: img/diagramy/UCD/UCDszlaki.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDszlaki.jpg>
 File: img/diagramy/UCD/UCDpowiadomieniaAdmin.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDpowiadomieniaAdmin.jpg>
-<<<<<<< HEAD
-
-
-[24]
-=======
- [18]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [24]
 File: img/diagramy/UCD/UCDkonto.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDkonto.jpg>
 File: img/diagramy/UCD/UCDtrasa.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDtrasa.jpg>
-<<<<<<< HEAD
-
-
-[25]
-=======
- [19]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [25]
 File: img/diagramy/UCD/UCDnawigacja.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDnawigacja.jpg>
 File: img/diagramy/UCD/UCDhistoria.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDhistoria.jpg>
-<<<<<<< HEAD
-
-
-[26]
-=======
- [20]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [26]
 File: img/diagramy/UCD/UCDpomoc.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDpomoc.jpg>
 File: img/diagramy/UCD/UCDzagrozenia.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDzagrozenia.jpg>
-<<<<<<< HEAD
-
-
-[27]
-File: img/diagramy/UCD/UCDkrokomierz.jpg Graphic file (type bmp)
-<img/diagramy/UCD/UCDkrokomierz.jpg>
-
-
-[28]
-
-[29]
-
-[30]
-
-[31]
-
-[32]
-File: img/diagramy/klasyyy.jpg Graphic file (type bmp)
-<img/diagramy/klasyyy.jpg>
-
-
-[33]
-=======
- [21]
-File: img/diagramy/UCD/UCDkrokomierz.jpg Graphic file (type bmp)
-<img/diagramy/UCD/UCDkrokomierz.jpg>
- [22] [23] [24] [25] [26]
-File: img/diagramy/klasyyy.jpg Graphic file (type bmp)
-<img/diagramy/klasyyy.jpg>
  [27]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+File: img/diagramy/UCD/UCDkrokomierz.jpg Graphic file (type bmp)
+<img/diagramy/UCD/UCDkrokomierz.jpg>
+ [28] [29] [30] [31] [32]
+File: img/diagramy/klasyyy.jpg Graphic file (type bmp)
+<img/diagramy/klasyyy.jpg>
+ [33]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 335.
 
@@ -2146,104 +1491,43 @@ Overfull \hbox (0.60226pt too wide) in paragraph at lines 347--348
 - zwraca nowo utworzony obiekt typu Zagrożenie z jego wszyst-
  []
 
-<<<<<<< HEAD
-
-
-[34]
-
-[35]
-
-[36]
+[34] [35] [36]
 File: img/diagramy/erd.jpg Graphic file (type bmp)
 <img/diagramy/erd.jpg>
-
-
-[37]
-
-[38]
-
-[39]
-=======
-[28] [29] [30]
-File: img/diagramy/erd.jpg Graphic file (type bmp)
-<img/diagramy/erd.jpg>
- [31] [32] [33]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [37] [38] [39]
 File: img/interfejsy/if_rejestracja.jpg Graphic file (type bmp)
 <img/interfejsy/if_rejestracja.jpg>
 File: img/interfejsy/if_loguj.jpg Graphic file (type bmp)
 <img/interfejsy/if_loguj.jpg>
-<<<<<<< HEAD
-
-
-[40]
-=======
- [34]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [40]
 File: img/interfejsy/if_główna.jpg Graphic file (type bmp)
 <img/interfejsy/if_główna.jpg>
 File: img/interfejsy/if_menu.jpg Graphic file (type bmp)
 <img/interfejsy/if_menu.jpg>
-<<<<<<< HEAD
-
-
-[41]
-=======
- [35]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [41]
 File: img/interfejsy/if_konto.jpg Graphic file (type bmp)
 <img/interfejsy/if_konto.jpg>
 File: img/interfejsy/if_historia.jpg Graphic file (type bmp)
 <img/interfejsy/if_historia.jpg>
-<<<<<<< HEAD
-
-
-[42]
-=======
- [36]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [42]
 File: img/interfejsy/if_wyznacz.jpg Graphic file (type bmp)
 <img/interfejsy/if_wyznacz.jpg>
 File: img/interfejsy/if_zgłoszenie.jpg Graphic file (type bmp)
 <img/interfejsy/if_zgłoszenie.jpg>
-<<<<<<< HEAD
-
-
-[43]
+ [43]
 File: img/interfejsy/if_alarmm.jpg Graphic file (type bmp)
 <img/interfejsy/if_alarmm.jpg>
-
-
-[44]
+ [44]
 File: img/interfejsy/if_admin.jpg Graphic file (type bmp)
 <img/interfejsy/if_admin.jpg>
-
-
-[45]
-=======
- [37]
-File: img/interfejsy/if_alarmm.jpg Graphic file (type bmp)
-<img/interfejsy/if_alarmm.jpg>
- [38]
-File: img/interfejsy/if_admin.jpg Graphic file (type bmp)
-<img/interfejsy/if_admin.jpg>
- [39]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [45]
 File: img/interfejsy/if_zatwierdz.jpg Graphic file (type bmp)
 <img/interfejsy/if_zatwierdz.jpg>
 File: img/interfejsy/if_zarzadzaj_szlaki.jpg Graphic file (type bmp)
 <img/interfejsy/if_zarzadzaj_szlaki.jpg>
 File: img/interfejsy/if_nowy_szlak.jpg Graphic file (type bmp)
 <img/interfejsy/if_nowy_szlak.jpg>
-<<<<<<< HEAD
-
-
-[46])
-
-[47]
-=======
- [40]) [41]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [46]) [47]
 \openout2 = `chapters/chapter6.aux'.
 
 
@@ -2262,13 +1546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--18
 
  []
 
-<<<<<<< HEAD
-
-
 [48
-=======
-[42
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 
 
 
@@ -2289,15 +1567,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--31
 
  []
 
-<<<<<<< HEAD
-
-
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
-=======
-[43]
 Underfull \hbox (badness 10000) in paragraph at lines 32--34
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 
  []
 
@@ -2313,15 +1584,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--42
 
  []
 
-<<<<<<< HEAD
 
-
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-=======
-[44]
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 
  []
 
@@ -2330,13 +1594,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
+[50]
 
-<<<<<<< HEAD
-
-[51]
-
-=======
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 50.
 See the caption package documentation for explanation.
@@ -2348,13 +1607,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--56
 
  []
 
-[45]
+
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-File: img/test/testmap5.jpg Graphic file (type bmp)
-<img/test/testmap5.jpg>
+File: img/imp/widok-trasa.png Graphic file (type bmp)
+<img/imp/widok-trasa.png>
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2368,7 +1627,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[46]
+[51]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 70.
@@ -2381,36 +1640,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--76
 
  []
 
-<<<<<<< HEAD
 
-
-[52]
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 72.
-See the caption package documentation for explanation.
-
-File: img/kod/imp-adddanger.jpg Graphic file (type bmp)
-<img/kod/imp-adddanger.jpg>
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--78
-=======
-[47]
 Overfull \hbox (5.43831pt too wide) in paragraph at lines 78--79
 []\TU/TeXGyreTermesX(0)/m/n/12 Przy procesie obsługi zgłoszeń uczestniczy zarów
 no użytkownik jak i administrator. Pierw-
  []
 
-
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
-[48]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 85.
@@ -2420,23 +1660,16 @@ File: img/kod/imp-adddanger.png Graphic file (type bmp)
 <img/kod/imp-adddanger.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--91
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 
  []
 
 
-<<<<<<< HEAD
-
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 79--82
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 
  []
 
 
-Overfull \hbox (110.2423pt too wide) in paragraph at lines 79--82
-=======
-Overfull \hbox (110.2423pt too wide) in paragraph at lines 92--94
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+Overfull \hbox (110.2423pt too wide) in paragraph at lines 92--95
 \TU/TeXGyreTermesX(0)/m/n/12 działania tego fragmentu kodu są wykorzystane w in
 nych funkcjach aplikacji, np. [][]\TU/lmtt/m/n/12 getAccpetDangersLocations()[]
 \TU/TeXGyreTermesX(0)/m/n/12 ,
@@ -2444,62 +1677,31 @@ nych funkcjach aplikacji, np. [][]\TU/lmtt/m/n/12 getAccpetDangersLocations()[]
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-<<<<<<< HEAD
-(caption)                particular \caption on input line 85.
-=======
-(caption)                particular \caption on input line 97.
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+(caption)                particular \caption on input line 98.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-acceptdanger.png Graphic file (type bmp)
 <img/kod/imp-acceptdanger.png>
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 83--91
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+Underfull \hbox (badness 10000) in paragraph at lines 96--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-
-
-[54]
+[53]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-<<<<<<< HEAD
-(caption)                particular \caption on input line 96.
-See the caption package documentation for explanation.
-
-File: img/kod/imp-getacceptedloc.jpg Graphic file (type bmp)
-<img/kod/imp-getacceptedloc.jpg>
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--102
-
- []
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 105.
-See the caption package documentation for explanation.
-
-File: img/kod/imp-updatemap.jpg Graphic file (type bmp)
-<img/kod/imp-updatemap.jpg>
-=======
-(caption)                particular \caption on input line 107.
+(caption)                particular \caption on input line 109.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-getacceptedloc.png Graphic file (type bmp)
 <img/kod/imp-getacceptedloc.png>
-[49]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--111
+Underfull \hbox (badness 10000) in paragraph at lines 107--115
 
  []
 
@@ -2508,216 +1710,106 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 118.
 See the caption package documentation for explanation.
 
-<<<<<<< HEAD
-File: img/kod/imp-reje.jpg Graphic file (type bmp)
-<img/kod/imp-reje.jpg>
+File: img/kod/imp-updatemap.png Graphic file (type bmp)
+<img/kod/imp-updatemap.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--124
+Underfull \hbox (badness 10000) in paragraph at lines 116--124
 
  []
 
 
-
-[55]
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 128.
-=======
-File: img/kod/imp-updatemap.png Graphic file (type bmp)
-<img/kod/imp-updatemap.png>
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 128.
+(caption)                particular \caption on input line 131.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-reje.jpg Graphic file (type bmp)
 <img/kod/imp-reje.jpg>
-[50]
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--137
+
+ []
+
+[54]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 137.
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+(caption)                particular \caption on input line 141.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-addtofs.jpg Graphic file (type bmp)
 <img/kod/imp-addtofs.jpg>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-<<<<<<< HEAD
-(caption)                particular \caption on input line 137.
-=======
-(caption)                particular \caption on input line 146.
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+(caption)                particular \caption on input line 150.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-login1.jpg Graphic file (type bmp)
 <img/kod/imp-login1.jpg>
-<<<<<<< HEAD
-
-
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
-=======
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 154--156
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
-File: img/imp/widok-home.jpg Graphic file (type bmp)
-<img/imp/widok-home.jpg>
-File: img/imp/widok-reje.jpg Graphic file (type bmp)
-<img/imp/widok-reje.jpg>
-<<<<<<< HEAD
+File: img/imp/welcome.png Graphic file (type bmp)
+<img/imp/welcome.png>
+File: img/imp/widok-reje.png Graphic file (type bmp)
+<img/imp/widok-reje.png>
+[56]
+File: img/imp/widok-log.png Graphic file (type bmp)
+<img/imp/widok-log.png>
+ [57]
+File: img/imp/widok-user.png Graphic file (type bmp)
+<img/imp/widok-user.png>
 
+Underfull \hbox (badness 10000) in paragraph at lines 180--187
 
-[57]
-File: img/imp/widok-log.jpg Graphic file (type bmp)
-<img/imp/widok-log.jpg>
-
+ []
 
 [58]
-
-[59]
-File: img/imp/widok-user.png Graphic file (type bmp)
-<img/imp/widok-user.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--174
-
- []
-
-
-
-[60]
 File: img/imp/widok-mapa.png Graphic file (type bmp)
 <img/imp/widok-mapa.png>
-
-
-[61]
-File: img/test/testmap2.jpg Graphic file (type bmp)
-<img/test/testmap2.jpg>
-
-
-[62]
-File: img/test/testmap3.jpg Graphic file (type bmp)
-<img/test/testmap3.jpg>
-
-
-[63]
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
-
- []
-
-File: img/test/testmap5.jpg Graphic file (type bmp)
-<img/test/testmap5.jpg>
-
-
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
-=======
-[52]
-File: img/imp/widok-log.jpg Graphic file (type bmp)
-<img/imp/widok-log.jpg>
- [53] [54]
-File: img/imp/widok-user.png Graphic file (type bmp)
-<img/imp/widok-user.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--183
-
- []
-
-[55]
-File: img/imp/widok-mapa.png Graphic file (type bmp)
-<img/imp/widok-mapa.png>
- [56]
+ [59]
 File: img/imp/widok-loka.png Graphic file (type bmp)
 <img/imp/widok-loka.png>
- [57]
+ [60]
 File: img/imp/widok-marker.png Graphic file (type bmp)
 <img/imp/widok-marker.png>
- [58]
 File: img/imp/widok-pkt.png Graphic file (type bmp)
 <img/imp/widok-pkt.png>
- [59]
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+ [61]
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
 File: img/imp/widok-trasa.png Graphic file (type bmp)
 <img/imp/widok-trasa.png>
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 250--252
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 
  []
 
-File: img/imp/lista-szlakow.jpg Graphic file (type bmp)
-<img/imp/lista-szlakow.jpg>
-<<<<<<< HEAD
-
-
-[65]
-File: img/imp/po-wyborze-z-listy.jpg Graphic file (type bmp)
-<img/imp/po-wyborze-z-listy.jpg>
-
-
-[66]
-File: img/imp/widok-danger.png Graphic file (type bmp)
-<img/imp/widok-danger.png>
-
-
-[67]
-File: img/imp/widok-telefony.png Graphic file (type bmp)
-<img/imp/widok-telefony.png>
-
-
-[68]
-File: img/imp/widok-admin-home.jpg Graphic file (type bmp)
-<img/imp/widok-admin-home.jpg>
-
-
-[69]
-File: img/imp/widok-admin-danger.jpg Graphic file (type bmp)
-<img/imp/widok-admin-danger.jpg>
-
-
-[70]
-File: img/imp/widok-admin-accept.jpg Graphic file (type bmp)
-<img/imp/widok-admin-accept.jpg>
-
-
-[71]
-File: img/imp/widok-dodajkml.jpg Graphic file (type bmp)
-<img/imp/widok-dodajkml.jpg>
-
-
-[72])
-
-[73]
-=======
-[61]
-File: img/imp/po-wyborze-z-listy.jpg Graphic file (type bmp)
-<img/imp/po-wyborze-z-listy.jpg>
- [62]
-File: img/imp/widok-danger.png Graphic file (type bmp)
-<img/imp/widok-danger.png>
- [63]
-File: img/imp/widok-telefony.png Graphic file (type bmp)
-<img/imp/widok-telefony.png>
+File: img/imp/lista_szlakow.png Graphic file (type bmp)
+<img/imp/lista_szlakow.png>
+[63]
+File: img/imp/po-wyborze-z-listy.png Graphic file (type bmp)
+<img/imp/po-wyborze-z-listy.png>
  [64]
+File: img/imp/widok-danger.png Graphic file (type bmp)
+<img/imp/widok-danger.png>
+File: img/imp/widok-telefony.png Graphic file (type bmp)
+<img/imp/widok-telefony.png>
+ [65]
 File: img/imp/widok-admin-home.jpg Graphic file (type bmp)
 <img/imp/widok-admin-home.jpg>
- [65]
+ [66]
 File: img/imp/widok-admin-danger.jpg Graphic file (type bmp)
 <img/imp/widok-admin-danger.jpg>
- [66]
+ [67]
 File: img/imp/widok-admin-accept.jpg Graphic file (type bmp)
 <img/imp/widok-admin-accept.jpg>
- [67]
+ [68]
 File: img/imp/widok-dodajkml.jpg Graphic file (type bmp)
 <img/imp/widok-dodajkml.jpg>
- [68]) [69]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ [69]) [70]
 \openout2 = `chapters/testy.aux'.
 
  (chapters/testy.tex
@@ -2744,13 +1836,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--26
 
  []
 
-<<<<<<< HEAD
-
-
-[74
-=======
-[70
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+[71
 
 
 
@@ -2773,13 +1859,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--40
 
  []
 
-<<<<<<< HEAD
-
-
-[75]
-=======
-[71]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+[72]
 File: img/test/login-wynik.jpg Graphic file (type bmp)
 <img/test/login-wynik.jpg>
 
@@ -2787,13 +1867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--48
 
  []
 
-<<<<<<< HEAD
-
-
-[76]
-=======
-[72]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+[73]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 54.
@@ -2808,13 +1882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--61
 
 File: img/test/maptest_wynik.jpg Graphic file (type bmp)
 <img/test/maptest_wynik.jpg>
-<<<<<<< HEAD
-
-
-[77]
-=======
-[73]
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+[74]
 File: img/test/testmap1.jpg Graphic file (type bmp)
 <img/test/testmap1.jpg>
 
@@ -2825,61 +1893,9 @@ iknąć przycisk ”Wyznacz trasę”widoczny
 
 File: img/test/testmap2.jpg Graphic file (type bmp)
 <img/test/testmap2.jpg>
-<<<<<<< HEAD
-
-
-[78]
+[75]
 File: img/test/testmap3.jpg Graphic file (type bmp)
 <img/test/testmap3.jpg>
-
-
-[79]
-File: img/test/testmap4.jpg Graphic file (type bmp)
-<img/test/testmap4.jpg>
-
-
-[80]
-File: img/test/testmap5.jpg Graphic file (type bmp)
-<img/test/testmap5.jpg>
-
-
-[81]
-
-[82]
-File: img/test/testzglos1.jpg Graphic file (type bmp)
-<img/test/testzglos1.jpg>
-File: img/test/testzglosopis.jpg Graphic file (type bmp)
-<img/test/testzglosopis.jpg>
-
-
-[83]
-File: img/test/brakinternetu.jpg Graphic file (type bmp)
-<img/test/brakinternetu.jpg>
-
-
-[84]
-File: img/test/braklok.jpg Graphic file (type bmp)
-<img/test/braklok.jpg>
-
-
-[85]
-File: img/test/testzglosadmin.jpg Graphic file (type bmp)
-<img/test/testzglosadmin.jpg>
-
-
-[86])
-
-[87]
-\openout2 = `chapters/chapter7.aux'.
-
- (chapters/chapter7.tex)
-
-[88
-=======
-[74]
-File: img/test/testmap3.jpg Graphic file (type bmp)
-<img/test/testmap3.jpg>
- [75]
 File: img/test/testmap4.jpg Graphic file (type bmp)
 <img/test/testmap4.jpg>
  [76]
@@ -2888,24 +1904,20 @@ File: img/test/testmap5.jpg Graphic file (type bmp)
  [77]
 File: img/test/testzglos1.jpg Graphic file (type bmp)
 <img/test/testzglos1.jpg>
- [78]
 File: img/test/testzglosopis.jpg Graphic file (type bmp)
 <img/test/testzglosopis.jpg>
- [79]
+ [78]
 File: img/test/brakinternetu.jpg Graphic file (type bmp)
 <img/test/brakinternetu.jpg>
- [80]
 File: img/test/braklok.jpg Graphic file (type bmp)
 <img/test/braklok.jpg>
- [81]
+ [79]
 File: img/test/testzglosadmin.jpg Graphic file (type bmp)
 <img/test/testzglosadmin.jpg>
- [82]) [83]
+) [80]
 \openout2 = `chapters/chapter7.aux'.
 
- (chapters/chapter7.tex)
-[84
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+ (chapters/chapter7.tex) [81
 
 
 
@@ -2920,6 +1932,9 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
 
+LaTeX Warning: Empty bibliography on input line 171.
+
+
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
 (biblatex)                non-overlapping bibliographies benefit from
@@ -2928,21 +1943,18 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 172.
+
+LaTeX Warning: Empty bibliography on input line 172.
+
 
 Package biblatex Warning: 'sorting' option to '\printbibliography' is no longer
  supported.
 (biblatex)                Please use 'sorting' option to '\newrefcontext'.
 
 
+LaTeX Warning: Empty bibliography on input line 173.
 
-[89
-
-
-]
-
-[90] (main.aux (chapters/chapter0.aux) (chapters/chapter1.aux)
+(main.aux (chapters/chapter0.aux) (chapters/chapter1.aux)
 (chapters/chapter2.aux) (chapters/chapter3.aux) (chapters/chapter4.aux)
 (chapters/chapter5.aux) (chapters/chapter6.aux) (chapters/testy.aux)
 (chapters/chapter7.aux))
@@ -2952,42 +1964,29 @@ L3 programming layer <2020/03/25>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-<<<<<<< HEAD
-(rerunfilecheck)             Checksum: 343C0645CC7421EF1C545715CA5F436D;3980.
-=======
 (rerunfilecheck)             Checksum: 49018BACBC500495852F2D77DFF1505A;4120.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
 
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 28077 strings out of 408758
- 547080 string characters out of 5748069
- 1487409 words of memory out of 5000000
- 50519 multiletter control sequences out of 15000+600000
- 564436 words of font info for 81 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 79i,9n,117p,1509b,5153s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on main.pdf (90 pages).
-=======
- 27938 strings out of 409617
- 542530 string characters out of 5773200
+ 28070 strings out of 409617
+ 546656 string characters out of 5773200
  1931191 words of memory out of 5000000
- 49543 multiletter control sequences out of 15000+600000
+ 49661 multiletter control sequences out of 15000+600000
  564428 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,9n,117p,1487b,4981s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (84 pages).
->>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
+Output written on main.pdf (81 pages).
