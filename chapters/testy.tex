@@ -128,9 +128,24 @@ Po zatwierdzeniu wybranej trasy jest ona rysowana na mapie z pomocą koloru ró�
     \label{test:map5}
 \end{figure}
 
+Przedstawoiny powyżej test przebiegł pomyślnie i potwierdził poprawne działanie funkcjonalności pozwalającej na wyznaczenie trasy z wybranego punktu początkowego do punktu końcowego. Użytkownik w tym momencie może wybrać, czy woli kierować się trasą pokazaną na mapie w aplikacji, czy woli nawigację w aplikacji Google Maps po wyznaczonej trasie.
+
 
 \subsection*{Test manualny - zgłaszanie zagrożeń.}
-Projektując aplikację autorki pracy miały na uwadze omylność ludzką, dlatego starały się zabezpieczyć system na różnego rodzaju błędy ludzkie i niedopatrzenia. Poniższy test sprawdzi, czy na pewno wszystkie możliwe opcje błędów zostały uwzględnione i zabezpieczone.
+Projektując aplikację miano na uwadze omylność ludzką, dlatego starano się zabezpieczyć system na różnego rodzaju błędy ludzkie i niedopatrzenia. Poniższy test sprawdzi, czy na pewno wszystkie możliwe opcje błędów zostały uwzględnione i zabezpieczone. Test manualny zostanie przeprowadzony według poniższego scenariusza.
+\begin{enumerate}
+    \item Przejdź do ekranu z formularzem zgłoszeń.
+    \item Wybierz typ zagrożenia.
+    \item Podaj opis zagrożenia.
+    \begin{enumerate}
+        \item Nie podano opisu zagrożenia.
+    \end{enumerate}
+    \item Naciśnij “Dodaj zagrożenie”.
+    \begin{enumerate}
+        \item Internet nie został włączony.
+        \item Lokalizacja nie została włączona.
+    \end{enumerate}
+\end{enumerate}
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
     \centering

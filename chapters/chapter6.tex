@@ -77,15 +77,17 @@ Fragment kod, pokazany na rys. \ref{lst:danger} odpowiada za zapis zgłoszenia d
 \\
 
 \textbf{Implementacja akceptacji zgłoszeń} \\ 
+\\
 Funkcja, pokazana na rys. \ref{lst:accepted} odpowiada za aktualizację danych zgłoszenia, a dokładniej ustawienie wartości pola “accepted” na “true”. Na podstawie identyfikatora dokumentu, przekazanego w parametrze funkcji, wiadome jest, które zgłoszenie należy zaktualizować. Skutki działania tego fragmentu kodu są wykorzystane w innych funkcjach aplikacji, np. \verb|getAccpetDangersLocations()|, opisanej poniżej.
 
 \noindent
 \begin{minipage}{\linewidth}
-    \captionof{listing}{Funkcja odpowiedzialna za akceptacje zgłoszeń.}
+    \captionof{listing}{Funkcja odpowiedzialna za akceptację zgłoszeń.}
     \label{lst:accepted}
     \centering
     \includegraphics[width=0.8\linewidth]{img/kod/imp-acceptdanger.jpg}
 \end{minipage}
+\\
 
 Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokalizacji zgłoszeń zagrożeń, które zostały zaakceptowane. Na początku dane są filtrowane, tzn. sprawdzane jest czy dane zgłoszenie w polu dokumentu “accepted” ma wartość “true”. W przypadku niepowodzenia podczas pobierania danych z bazy, zostaje wyświetlony komunikat, informujący o takiej sytuacji. Jeśli pobieranie danych zakończy się powodzeniem i wyniki filtrowania nie są puste, następuje iteracja przez każdy dokument. W kolejnym kroku jest sprawdzane czy posiada on pole “location”, jeśli tak, dane zostają pobrane i zapisane do \verb|Map<String, Object>|. Kluczem stworzonej mapy jest “latitude” lub “longitude”, a wartością współrzędne. Następnie, dane te są łączone w jeden obiekt LatLng, reprezentujący miejsce, w którym zostało wykonane zgłoszenie. Na koniec, współrzędne są dodawane do listy, przechowującej lokalizacje zaakceptowanych zgłoszeń. Po sprawdzeniu czy nie jest ona pusta zostaje wywołana funkcja \verb|updateMapWithAcceptedDangers()|, przedstawiona na rys. \ref{lst:markeraccepted}. Odpowiada ona za ustawienie markerów na mapie w miejscu, wystąpienia zagrożenia. \\
 
@@ -96,6 +98,7 @@ Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokali
     \centering
     \includegraphics[width=0.8\linewidth]{img/kod/imp-getacceptedloc.jpg}
 \end{minipage}
+\\
 
 \noindent
 \begin{minipage}{\linewidth}
@@ -104,7 +107,7 @@ Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokali
     \centering
     \includegraphics[width=0.8\linewidth]{img/kod/imp-updatemap.jpg}
 \end{minipage}
-
+\\
 \subsection{Moduł logowania i rejestracji}
 Logowanie i rejestracja pozwala na łatwe zidentyfikowanie użytkownika aplikacji, a także pozwala na śledzenie jego aktywności celem stworzenia raportów czy wykresów. Pozwala też na ustalenie, który użytkownik wysłał zgłoszenie o zagrożeniu. Poniżej przedstawione są funkcje niezbędne do implementacji logowania oraz rejestracji nowych użytkowników w systemie.
 
@@ -117,6 +120,7 @@ Rejestracja w tej aplikacji opiera się na adresie email oraz haśle i wybraniu 
     \centering
     \includegraphics[width=0.8\linewidth]{img/kod/imp-reje.jpg}
 \end{minipage}
+\\
 
 Chcemy także, aby nowi użytkownicy byli zapisywani do bazy danych Firebase Firestore celem przypisania im ich aktywności na mapie. Odpowiedzialna jest za to funkcja addUserToFirestore(), która na podstawie przekazanego uid użytkownika z Firebase Authentication tworzy takiego samego użytkownika w bazie danych Firebase Firestore ze wszystkimi wprowadzonymi przez użytkownika danymi. Cała mapa z danymi zapisywana jest jako nowy dokument w bazie NoSQL, do którego można się odwołać za pomocą unikalnego uid użytkownika.\\
 \noindent

@@ -1,26 +1,26 @@
 \babel@toc {polish}{}\relax 
 \contentsline {section}{\numberline {1}Streszczenie}{4}{section.1}%
 \contentsline {section}{\numberline {2}Wstęp}{5}{section.2}%
-\contentsline {section}{\numberline {3}Cel i zakres pracy}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Podział pracy}{8}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Analiza porównawcza cech wybranych aplikacji mobilnych umożliwiających korzystanie z map}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Platforma Mapa Turystyczna}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Platforma Mapy.cz}{11}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Przegląd narzędzi implementacyjnych}{14}{section.5}%
-\contentsline {section}{\numberline {6}Projekt aplikacji}{16}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Wymagania funkcjonalne}{16}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Wymagania niefunkcjonalne}{17}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Diagramy przypadków użycia}{18}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Scenariusze}{22}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Diagram klas}{26}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Diagram ERD}{30}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Poglądowe interfejsy użytkownika}{33}{subsection.6.7}%
-\contentsline {section}{\numberline {7}Implementacja}{42}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Moduł map}{42}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Moduł logowania i rejestracji}{49}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Widoki - użytkownik}{51}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Widoki - administrator}{63}{subsection.7.4}%
-\contentsline {section}{\numberline {8}Testy}{68}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Testy jednostkowe}{68}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Testy manualne}{71}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Wnioski}{82}{section.9}%
+\contentsline {section}{\numberline {3}Cel i zakres pracy}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Podział pracy}{9}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Analiza porównawcza cech wybranych aplikacji mobilnych umożliwiających korzystanie z map}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Platforma Mapa Turystyczna}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Platforma Mapy.cz}{15}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Przegląd narzędzi implementacyjnych}{20}{section.5}%
+\contentsline {section}{\numberline {6}Projekt aplikacji}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Wymagania funkcjonalne}{22}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Wymagania niefunkcjonalne}{23}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Diagramy przypadków użycia}{24}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Scenariusze}{28}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Diagram klas}{33}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Diagram ERD}{37}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Projekt interfejsu użytkownika}{40}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Implementacja}{48}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Moduł map}{48}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Moduł logowania i rejestracji}{55}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Widoki - użytkownik}{57}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Widoki - administrator}{69}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Testy}{74}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Testy jednostkowe}{74}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Testy manualne}{77}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Wnioski}{88}{section.9}%

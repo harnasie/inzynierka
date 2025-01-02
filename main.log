@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  30 DEC 2024 14:19
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  2 JAN 2025 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,245 +464,14 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count306
 \enitdp@description=\count307
 )
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count308
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count309
-\c@listtotal=\count310
-\c@listcount=\count311
-\c@liststart=\count312
-\c@liststop=\count313
-\c@citecount=\count314
-\c@citetotal=\count315
-\c@multicitecount=\count316
-\c@multicitetotal=\count317
-\c@instcount=\count318
-\c@maxnames=\count319
-\c@minnames=\count320
-\c@maxitems=\count321
-\c@minitems=\count322
-\c@citecounter=\count323
-\c@maxcitecounter=\count324
-\c@savedcitecounter=\count325
-\c@uniquelist=\count326
-\c@uniquename=\count327
-\c@refsection=\count328
-\c@refsegment=\count329
-\c@maxextratitle=\count330
-\c@maxextratitleyear=\count331
-\c@maxextraname=\count332
-\c@maxextradate=\count333
-\c@maxextraalpha=\count334
-\c@abbrvpenalty=\count335
-\c@highnamepenalty=\count336
-\c@lownamepenalty=\count337
-\c@maxparens=\count338
-\c@parenlevel=\count339
-\blx@tempcnta=\count340
-\blx@tempcntb=\count341
-\blx@tempcntc=\count342
-\c@blx@maxsection=\count343
-\blx@maxsegment@0=\count344
-\blx@notetype=\count345
-\blx@parenlevel@text=\count346
-\blx@parenlevel@foot=\count347
-\blx@sectionciteorder@0=\count348
-\blx@sectionciteorderinternal@0=\count349
-\blx@entrysetcounter=\count350
-\blx@biblioinstance=\count351
-\labelnumberwidth=\skip55
-\labelalphawidth=\skip56
-\biblabelsep=\skip57
-\bibitemsep=\skip58
-\bibnamesep=\skip59
-\bibinitsep=\skip60
-\bibparsep=\skip61
-\bibhang=\skip62
-\blx@bcfin=\read3
-\blx@bcfout=\write3
-\blx@langwohyphens=\language80
-\c@mincomprange=\count352
-\c@maxcomprange=\count353
-\c@mincompwidth=\count354
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count355
-\c@savedafterword=\count356
-\c@annotator=\count357
-\c@savedannotator=\count358
-\c@author=\count359
-\c@savedauthor=\count360
-\c@bookauthor=\count361
-\c@savedbookauthor=\count362
-\c@commentator=\count363
-\c@savedcommentator=\count364
-\c@editor=\count365
-\c@savededitor=\count366
-\c@editora=\count367
-\c@savededitora=\count368
-\c@editorb=\count369
-\c@savededitorb=\count370
-\c@editorc=\count371
-\c@savededitorc=\count372
-\c@foreword=\count373
-\c@savedforeword=\count374
-\c@holder=\count375
-\c@savedholder=\count376
-\c@introduction=\count377
-\c@savedintroduction=\count378
-\c@namea=\count379
-\c@savednamea=\count380
-\c@nameb=\count381
-\c@savednameb=\count382
-\c@namec=\count383
-\c@savednamec=\count384
-\c@translator=\count385
-\c@savedtranslator=\count386
-\c@shortauthor=\count387
-\c@savedshortauthor=\count388
-\c@shorteditor=\count389
-\c@savedshorteditor=\count390
-\c@labelname=\count391
-\c@savedlabelname=\count392
-\c@institution=\count393
-\c@savedinstitution=\count394
-\c@lista=\count395
-\c@savedlista=\count396
-\c@listb=\count397
-\c@savedlistb=\count398
-\c@listc=\count399
-\c@savedlistc=\count400
-\c@listd=\count401
-\c@savedlistd=\count402
-\c@liste=\count403
-\c@savedliste=\count404
-\c@listf=\count405
-\c@savedlistf=\count406
-\c@location=\count407
-\c@savedlocation=\count408
-\c@organization=\count409
-\c@savedorganization=\count410
-\c@origlocation=\count411
-\c@savedoriglocation=\count412
-\c@origpublisher=\count413
-\c@savedorigpublisher=\count414
-\c@publisher=\count415
-\c@savedpublisher=\count416
-\c@language=\count417
-\c@savedlanguage=\count418
-\c@origlanguage=\count419
-\c@savedoriglanguage=\count420
-\c@pageref=\count421
-\c@savedpageref=\count422
-\shorthandwidth=\skip63
-\shortjournalwidth=\skip64
-\shortserieswidth=\skip65
-\shorttitlewidth=\skip66
-\shortauthorwidth=\skip67
-\shorteditorwidth=\skip68
-\locallabelnumberwidth=\skip69
-\locallabelalphawidth=\skip70
-\localshorthandwidth=\skip71
-\localshortjournalwidth=\skip72
-\localshortserieswidth=\skip73
-\localshorttitlewidth=\skip74
-\localshortauthorwidth=\skip75
-\localshorteditorwidth=\skip76
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.def)
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count423
-\c@textcitetotal=\count424
-\c@textcitemaxnames=\count425
-\c@biburlbigbreakpenalty=\count426
-\c@biburlbreakpenalty=\count427
-\c@biburlnumpenalty=\count428
-\c@biburlucpenalty=\count429
-\c@biburllcpenalty=\count430
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count431
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
-File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count432
-\c@bbx:relatedtotal=\count433
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
-File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2024-11-02 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-
-(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.s
-ty
-Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-)) (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen191
 \TX@old@table=\dimen192
 \TX@old@col=\dimen193
 \TX@target=\dimen194
 \TX@delta=\dimen195
-\TX@cols=\count434
+\TX@cols=\count308
 \TX@ftn=\toks25
 )
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
@@ -713,28 +482,28 @@ Package: ltablex 2014/08/13 v1.1 Modified tabularx
 
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip77
-\LTright=\skip78
-\LTpre=\skip79
-\LTpost=\skip80
-\LTchunksize=\count435
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count309
 \LTcapwidth=\dimen196
 \LT@head=\box59
 \LT@firsthead=\box60
 \LT@foot=\box61
 \LT@lastfoot=\box62
 \LT@gbox=\box63
-\LT@cols=\count436
-\LT@rows=\count437
-\c@LT@tables=\count438
-\c@LT@chunks=\count439
+\LT@cols=\count310
+\LT@rows=\count311
+\c@LT@tables=\count312
+\c@LT@chunks=\count313
 \LT@p@ftn=\toks26
 )))
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip81
-\multirow@cntb=\count440
-\multirow@dima=\skip82
+\multirow@colwidth=\skip59
+\multirow@cntb=\count314
+\multirow@dima=\skip60
 \bigstrutjot=\dimen197
 )
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stackengine.s
@@ -746,73 +515,73 @@ ways
 ty
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofitems
 .tex
-\loi_cnt_foreach_nest=\count441
-\loi_nestcnt=\count442
+\loi_cnt_foreach_nest=\count315
+\loi_nestcnt=\count316
 )
 Package: listofitems 2024/03/09 v1.65 Grab items in lists using user-specified 
 sep char (CT)
 ) (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count443
-\calc@Bcount=\count444
+\calc@Acount=\count317
+\calc@Bcount=\count318
 \calc@Adimen=\dimen198
 \calc@Bdimen=\dimen199
-\calc@Askip=\skip83
-\calc@Bskip=\skip84
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count445
-\calc@Cskip=\skip85
+\calc@Ccount=\count319
+\calc@Cskip=\skip63
 )
-\c@@stackindex=\count446
-\@boxshift=\skip86
-\stack@tmplength=\skip87
-\temp@stkl=\skip88
-\@stackedboxwidth=\skip89
+\c@@stackindex=\count320
+\@boxshift=\skip64
+\stack@tmplength=\skip65
+\temp@stkl=\skip66
+\@stackedboxwidth=\skip67
 \@addedbox=\box64
 \@anchorbox=\box65
 \@insetbox=\box66
 \se@backgroundbox=\box67
 \stackedbox=\box68
 \@centerbox=\box69
-\c@ROWcellindex@=\count447
+\c@ROWcellindex@=\count321
 )
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip90
-\cftbeforetoctitleskip=\skip91
-\cftaftertoctitleskip=\skip92
-\cftbeforepartskip=\skip93
-\cftpartnumwidth=\skip94
-\cftpartindent=\skip95
-\cftbeforesecskip=\skip96
-\cftsecindent=\skip97
-\cftsecnumwidth=\skip98
-\cftbeforesubsecskip=\skip99
-\cftsubsecindent=\skip100
-\cftsubsecnumwidth=\skip101
-\cftbeforesubsubsecskip=\skip102
-\cftsubsubsecindent=\skip103
-\cftsubsubsecnumwidth=\skip104
-\cftbeforeparaskip=\skip105
-\cftparaindent=\skip106
-\cftparanumwidth=\skip107
-\cftbeforesubparaskip=\skip108
-\cftsubparaindent=\skip109
-\cftsubparanumwidth=\skip110
-\cftbeforeloftitleskip=\skip111
-\cftafterloftitleskip=\skip112
-\cftbeforefigskip=\skip113
-\cftfigindent=\skip114
-\cftfignumwidth=\skip115
-\c@lofdepth=\count448
-\c@lotdepth=\count449
-\cftbeforelottitleskip=\skip116
-\cftafterlottitleskip=\skip117
-\cftbeforetabskip=\skip118
-\cfttabindent=\skip119
-\cfttabnumwidth=\skip120
+\cftparskip=\skip68
+\cftbeforetoctitleskip=\skip69
+\cftaftertoctitleskip=\skip70
+\cftbeforepartskip=\skip71
+\cftpartnumwidth=\skip72
+\cftpartindent=\skip73
+\cftbeforesecskip=\skip74
+\cftsecindent=\skip75
+\cftsecnumwidth=\skip76
+\cftbeforesubsecskip=\skip77
+\cftsubsecindent=\skip78
+\cftsubsecnumwidth=\skip79
+\cftbeforesubsubsecskip=\skip80
+\cftsubsubsecindent=\skip81
+\cftsubsubsecnumwidth=\skip82
+\cftbeforeparaskip=\skip83
+\cftparaindent=\skip84
+\cftparanumwidth=\skip85
+\cftbeforesubparaskip=\skip86
+\cftsubparaindent=\skip87
+\cftsubparanumwidth=\skip88
+\cftbeforeloftitleskip=\skip89
+\cftafterloftitleskip=\skip90
+\cftbeforefigskip=\skip91
+\cftfigindent=\skip92
+\cftfignumwidth=\skip93
+\c@lofdepth=\count322
+\c@lotdepth=\count323
+\cftbeforelottitleskip=\skip94
+\cftafterlottitleskip=\skip95
+\cftbeforetabskip=\skip96
+\cfttabindent=\skip97
+\cfttabnumwidth=\skip98
 )
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
@@ -847,8 +616,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen263
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count450
-\c@continuedfloat=\count451
+\c@caption@flags=\count324
+\c@continuedfloat=\count325
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -862,17 +631,17 @@ Package: boldline 2008/02/04 v0.2 Adjust line width in tables
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 )
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count452
+\lst@mode=\count326
 \lst@gtempboxa=\box70
 \lst@token=\toks27
-\lst@length=\count453
+\lst@length=\count327
 \lst@currlwidth=\dimen264
-\lst@column=\count454
-\lst@pos=\count455
+\lst@column=\count328
+\lst@pos=\count329
 \lst@lostspace=\dimen265
 \lst@width=\dimen266
-\lst@newlines=\count456
-\lst@lineno=\count457
+\lst@newlines=\count330
+\lst@lineno=\count331
 \lst@maxwidth=\dimen267
 
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
@@ -880,8 +649,8 @@ File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count458
-\lst@skipnumbers=\count459
+\c@lstnumber=\count332
+\lst@skipnumbers=\count333
 \lst@framebox=\box71
 )
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
@@ -891,12 +660,12 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
 
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count460
-\csq@gtype=\count461
-\csq@glevel=\count462
-\csq@qlevel=\count463
-\csq@maxlvl=\count464
-\csq@tshold=\count465
+\csq@reset=\count334
+\csq@gtype=\count335
+\csq@glevel=\count336
+\csq@qlevel=\count337
+\csq@maxlvl=\count338
+\csq@tshold=\count339
 \csq@ltx@everypar=\toks28
 
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
@@ -910,7 +679,7 @@ File: csquotes.cfg
 ))
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count466
+\c@float@type=\count340
 \float@exts=\toks29
 \float@box=\box72
 \@float@everytoks=\toks30
@@ -919,9 +688,243 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/capt-of\capt-of.sty
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 )
-Package newfloat Info: New float `graph' with options `' on input line 39.
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count341
+
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count342
+\c@listtotal=\count343
+\c@listcount=\count344
+\c@liststart=\count345
+\c@liststop=\count346
+\c@citecount=\count347
+\c@citetotal=\count348
+\c@multicitecount=\count349
+\c@multicitetotal=\count350
+\c@instcount=\count351
+\c@maxnames=\count352
+\c@minnames=\count353
+\c@maxitems=\count354
+\c@minitems=\count355
+\c@citecounter=\count356
+\c@maxcitecounter=\count357
+\c@savedcitecounter=\count358
+\c@uniquelist=\count359
+\c@uniquename=\count360
+\c@refsection=\count361
+\c@refsegment=\count362
+\c@maxextratitle=\count363
+\c@maxextratitleyear=\count364
+\c@maxextraname=\count365
+\c@maxextradate=\count366
+\c@maxextraalpha=\count367
+\c@abbrvpenalty=\count368
+\c@highnamepenalty=\count369
+\c@lownamepenalty=\count370
+\c@maxparens=\count371
+\c@parenlevel=\count372
+\blx@tempcnta=\count373
+\blx@tempcntb=\count374
+\blx@tempcntc=\count375
+\c@blx@maxsection=\count376
+\blx@maxsegment@0=\count377
+\blx@notetype=\count378
+\blx@parenlevel@text=\count379
+\blx@parenlevel@foot=\count380
+\blx@sectionciteorder@0=\count381
+\blx@sectionciteorderinternal@0=\count382
+\blx@entrysetcounter=\count383
+\blx@biblioinstance=\count384
+\labelnumberwidth=\skip99
+\labelalphawidth=\skip100
+\biblabelsep=\skip101
+\bibitemsep=\skip102
+\bibnamesep=\skip103
+\bibinitsep=\skip104
+\bibparsep=\skip105
+\bibhang=\skip106
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count385
+\c@maxcomprange=\count386
+\c@mincompwidth=\count387
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count388
+\c@savedafterword=\count389
+\c@annotator=\count390
+\c@savedannotator=\count391
+\c@author=\count392
+\c@savedauthor=\count393
+\c@bookauthor=\count394
+\c@savedbookauthor=\count395
+\c@commentator=\count396
+\c@savedcommentator=\count397
+\c@editor=\count398
+\c@savededitor=\count399
+\c@editora=\count400
+\c@savededitora=\count401
+\c@editorb=\count402
+\c@savededitorb=\count403
+\c@editorc=\count404
+\c@savededitorc=\count405
+\c@foreword=\count406
+\c@savedforeword=\count407
+\c@holder=\count408
+\c@savedholder=\count409
+\c@introduction=\count410
+\c@savedintroduction=\count411
+\c@namea=\count412
+\c@savednamea=\count413
+\c@nameb=\count414
+\c@savednameb=\count415
+\c@namec=\count416
+\c@savednamec=\count417
+\c@translator=\count418
+\c@savedtranslator=\count419
+\c@shortauthor=\count420
+\c@savedshortauthor=\count421
+\c@shorteditor=\count422
+\c@savedshorteditor=\count423
+\c@labelname=\count424
+\c@savedlabelname=\count425
+\c@institution=\count426
+\c@savedinstitution=\count427
+\c@lista=\count428
+\c@savedlista=\count429
+\c@listb=\count430
+\c@savedlistb=\count431
+\c@listc=\count432
+\c@savedlistc=\count433
+\c@listd=\count434
+\c@savedlistd=\count435
+\c@liste=\count436
+\c@savedliste=\count437
+\c@listf=\count438
+\c@savedlistf=\count439
+\c@location=\count440
+\c@savedlocation=\count441
+\c@organization=\count442
+\c@savedorganization=\count443
+\c@origlocation=\count444
+\c@savedoriglocation=\count445
+\c@origpublisher=\count446
+\c@savedorigpublisher=\count447
+\c@publisher=\count448
+\c@savedpublisher=\count449
+\c@language=\count450
+\c@savedlanguage=\count451
+\c@origlanguage=\count452
+\c@savedoriglanguage=\count453
+\c@pageref=\count454
+\c@savedpageref=\count455
+\shorthandwidth=\skip107
+\shortjournalwidth=\skip108
+\shortserieswidth=\skip109
+\shorttitlewidth=\skip110
+\shortauthorwidth=\skip111
+\shorteditorwidth=\skip112
+\locallabelnumberwidth=\skip113
+\locallabelalphawidth=\skip114
+\localshorthandwidth=\skip115
+\localshortjournalwidth=\skip116
+\localshortserieswidth=\skip117
+\localshorttitlewidth=\skip118
+\localshortauthorwidth=\skip119
+\localshorteditorwidth=\skip120
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count456
+\c@textcitetotal=\count457
+\c@textcitemaxnames=\count458
+\c@biburlbigbreakpenalty=\count459
+\c@biburlbreakpenalty=\count460
+\c@biburlnumpenalty=\count461
+\c@biburlucpenalty=\count462
+\c@biburllcpenalty=\count463
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count464
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count465
+\c@bbx:relatedtotal=\count466
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2024-11-02 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.s
+ty
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+Package newfloat Info: New float `graph' with options `' on input line 41.
 \c@graph=\count467
-Package newfloat Info: float type `graph'=4 on input line 39.
+Package newfloat Info: float type `graph'=4 on input line 41.
 \c@lographdepth=\count468
 \@float@every@listing=\toks31
 \c@listing=\count469
@@ -941,7 +944,7 @@ Package fontspec Info:
 (fontspec)             TeXGyreTermesX-Regular scale = 1.
 
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 10
-2.
+4.
  (C:\Users\oem\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1039,7 +1042,7 @@ language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 ;language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 102.
+(Font)              scaled to size 12.0pt on input line 104.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1054,26 +1057,26 @@ LaTeX Warning: Label `result:login' multiply defined.
 ) (chapters/chapter7.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1109,7 +1112,7 @@ LaTeX Font Info:    ... okay on input line 102.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 102.
+Package hyperref Info: Link coloring OFF on input line 104.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1121,65 +1124,72 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 102.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 102.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 102.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 102.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 102.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 102.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 102.
-LaTeX Font Info:    Redeclaring math accent \check on input line 102.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 102.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 102.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 102.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 102.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 104.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 104.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 104.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 104.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 104.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 104.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 104.
+LaTeX Font Info:    Redeclaring math accent \check on input line 104.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 104.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 104.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 104.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 104.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 102.
+(Font)              `operators' in the math version `normal' on input line 104.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TeXGyreTermesX(0)/m/n on input line 
-102.
+104.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 102.
+(Font)              `operators' in the math version `bold' on input line 104.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(0)/m/n on input line
- 102.
+ 104.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TeXGyreTermesX(0)/m/n --> TU/TeXGyreTermesX(0)/m/n o
-n input line 102.
+n input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TeXGyreTermesX(0)/m/it on input lin
-e 102.
+e 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(0)/b/n on input line
- 102.
+ 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 102.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 102.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 104.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TeXGyreTermesX(0)/m/n --> TU/TeXGyreTermesX(0)/b/n o
-n input line 102.
+n input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TeXGyreTermesX(0)/b/it on input li
-ne 102.
+ne 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 102.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 102.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 104.
+Package newfloat Info: Trying Plan B...
+Package newfloat Info: `float' package detected.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count470
 Package biblatex Info: Trying to load language 'polish'...
 Package biblatex Info: ... file 'polish.lbx' found.
 
@@ -1199,46 +1209,39 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 102.
-Package biblatex Info: Reference segment=0 on input line 102.
-Package newfloat Info: Trying Plan B...
-Package newfloat Info: `float' package detected.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count470
+Package biblatex Info: ... file 'main.bbl' found.
+(main.bbl)
+Package biblatex Info: Reference section=0 on input line 104.
+Package biblatex Info: Reference segment=0 on input line 104.
 File: img/title/weii-2.jpg Graphic file (type bmp)
 <img/title/weii-2.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--141
+Underfull \hbox (badness 10000) in paragraph at lines 113--144
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--141
+Underfull \hbox (badness 10000) in paragraph at lines 113--144
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--141
+Underfull \hbox (badness 10000) in paragraph at lines 113--144
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--141
+Underfull \hbox (badness 10000) in paragraph at lines 113--144
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--141
+Underfull \hbox (badness 10000) in paragraph at lines 113--144
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--141
+Underfull \hbox (badness 10000) in paragraph at lines 113--144
  
  []
 
@@ -1252,9 +1255,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--141
 
 ]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 147.
+(Font)              scaled to size 17.28pt on input line 150.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 147.
+(Font)              scaled to size 17.28pt on input line 150.
  (main.toc
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 2.
@@ -1287,15 +1290,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout2 = `chapters/chapter1.aux'.
 
  (chapters/chapter1.tex
-
-LaTeX Warning: Citation 'ptt' on page 5 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'tpn' on page 5 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'tpnstat' on page 5 undefined on input line 8.
-
+File: img/wykresy/sprzedaż 2023.jpg Graphic file (type bmp)
+<img/wykresy/sprzedaż 2023.jpg>
 
 
 [5
@@ -1303,8 +1299,13 @@ LaTeX Warning: Citation 'tpnstat' on page 5 undefined on input line 8.
 
 
 ]
+File: img/wykresy/sprzedaż ogółem.jpg Graphic file (type bmp)
+<img/wykresy/sprzedaż ogółem.jpg>
 
-[6])
+
+[6]
+
+[7])
 \openout2 = `chapters/chapter2.aux'.
 
  (chapters/chapter2.tex
@@ -1314,323 +1315,73 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 31.
 
 
-[7
+[8
 
 
 
 ]
 
-[8]
+[9]
 
-[9])
+[10])
 \openout2 = `chapters/chapter3.aux'.
 
  (chapters/chapter3.tex
+File: img/rynek/mamatu-mapa.jpg Graphic file (type bmp)
+<img/rynek/mamatu-mapa.jpg>
+File: img/rynek/mapatu-menu.jpg Graphic file (type bmp)
+<img/rynek/mapatu-menu.jpg>
 
-LaTeX Warning: Citation 'mapatu' on page 10 undefined on input line 6.
 
-
-
-[10
+[11
 
 
 
 ]
-
-LaTeX Warning: Citation 'mapycz' on page 11 undefined on input line 60.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.65 ...ale=0.15]{img/rynek/Mapycz_logowanie.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ....15]{img/rynek/Mapycz_logowanie.jpg}
-                                                  
-l.65 ...ale=0.15]{img/rynek/Mapycz_logowanie.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\fbox  ...x {\color@begingroup \kern \fboxsep {#1}
-                                                  \kern \fboxsep \color@endg...
-l.65 ...ale=0.15]{img/rynek/Mapycz_logowanie.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.65 ...ale=0.15]{img/rynek/Mapycz_logowanie.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.65 ...ale=0.15]{img/rynek/Mapycz_logowanie.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.65 ...ale=0.15]{img/rynek/Mapycz_logowanie.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.72 ...[scale=0.15]{img/rynek/Mapycz_glowna.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...e=0.15]{img/rynek/Mapycz_glowna.jpg}
-                                                  
-l.72 ...[scale=0.15]{img/rynek/Mapycz_glowna.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\fbox  ...x {\color@begingroup \kern \fboxsep {#1}
-                                                  \kern \fboxsep \color@endg...
-l.72 ...[scale=0.15]{img/rynek/Mapycz_glowna.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.72 ...[scale=0.15]{img/rynek/Mapycz_glowna.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.72 ...[scale=0.15]{img/rynek/Mapycz_glowna.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.72 ...[scale=0.15]{img/rynek/Mapycz_glowna.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+File: img/rynek/mapatu-warstwy.jpg Graphic file (type bmp)
+<img/rynek/mapatu-warstwy.jpg>
 
 
+[12]
+File: img/rynek/mapatu-premium.jpg Graphic file (type bmp)
+<img/rynek/mapatu-premium.jpg>
 
-[11]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...ale=0.15]{img/rynek/Mapycz_mapy.jpg}
-                                                  
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\fbox  ...x {\color@begingroup \kern \fboxsep {#1}
-                                                  \kern \fboxsep \color@endg...
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.79 ...cs[scale=0.15]{img/rynek/Mapycz_mapy.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...le=0.15]{img/rynek/Mapycz_pomoc.jpg}
-                                                  
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\fbox  ...x {\color@begingroup \kern \fboxsep {#1}
-                                                  \kern \fboxsep \color@endg...
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.86 ...s[scale=0.15]{img/rynek/Mapycz_pomoc.jpg}}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-
-[12])
 
 [13]
+
+[14]
+File: img/rynek/Mapycz_logowanie.jpg Graphic file (type bmp)
+<img/rynek/Mapycz_logowanie.jpg>
+File: img/rynek/Mapycz_glowna.jpg Graphic file (type bmp)
+<img/rynek/Mapycz_glowna.jpg>
+
+
+[15]
+File: img/rynek/Mapycz_mapy.jpg Graphic file (type bmp)
+<img/rynek/Mapycz_mapy.jpg>
+
+
+[16]
+File: img/rynek/Mapycz_pomoc.jpg Graphic file (type bmp)
+<img/rynek/Mapycz_pomoc.jpg>
+
+
+[17]
+
+[18])
+
+[19]
 \openout2 = `chapters/chapter4.aux'.
 
  (chapters/chapter4.tex
 
-LaTeX Warning: Citation 'firebase' on page 14 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'firebase-book' on page 14 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'fireauth' on page 14 undefined on input line 6.
-
-
-LaTeX Warning: Citation 'androidstudio' on page 14 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'android-studio-book' on page 14 undefined on input lin
-e 15.
+[20
 
 
 
-[14
+])
 
-
-
-]
-
-LaTeX Warning: Citation 'java' on page 15 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'firebase-book' on page 15 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'gmapsand' on page 15 undefined on input line 26.
-
-
-LaTeX Warning: Citation 'gmapsogol' on page 15 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'java-book' on page 15 undefined on input line 28.
-
-)
-
-[15]
+[21]
 \openout2 = `chapters/chapter5.aux'.
 
  (chapters/chapter5.tex
@@ -1641,7 +1392,7 @@ konkretnego regionu o miej-
 
 
 
-[16
+[22
 
 
 
@@ -1653,50 +1404,53 @@ ch lub z wybranego okresu.
 
 
 
-[17]
+[23]
 File: img/diagramy/UCD/UCDszlaki.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDszlaki.jpg>
 File: img/diagramy/UCD/UCDpowiadomieniaAdmin.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDpowiadomieniaAdmin.jpg>
 
 
-[18]
+[24]
 File: img/diagramy/UCD/UCDkonto.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDkonto.jpg>
 File: img/diagramy/UCD/UCDtrasa.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDtrasa.jpg>
+
+
+[25]
 File: img/diagramy/UCD/UCDnawigacja.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDnawigacja.jpg>
-
-
-[19]
 File: img/diagramy/UCD/UCDhistoria.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDhistoria.jpg>
+
+
+[26]
 File: img/diagramy/UCD/UCDpomoc.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDpomoc.jpg>
-
-
-[20]
 File: img/diagramy/UCD/UCDzagrozenia.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDzagrozenia.jpg>
+
+
+[27]
 File: img/diagramy/UCD/UCDkrokomierz.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDkrokomierz.jpg>
 
 
-[21]
+[28]
 
-[22]
+[29]
 
-[23]
+[30]
 
-[24]
+[31]
 
-[25]
+[32]
 File: img/diagramy/klasyyy.jpg Graphic file (type bmp)
 <img/diagramy/klasyyy.jpg>
 
 
-[26]
+[33]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 335.
 
@@ -1713,65 +1467,58 @@ Overfull \hbox (0.60226pt too wide) in paragraph at lines 347--348
 
 
 
-[27]
+[34]
 
-[28]
+[35]
 
-[29]
+[36]
 File: img/diagramy/erd.jpg Graphic file (type bmp)
 <img/diagramy/erd.jpg>
 
 
-[30]
+[37]
 
-[31]
+[38]
 
-[32]
+[39]
 File: img/interfejsy/if_rejestracja.jpg Graphic file (type bmp)
 <img/interfejsy/if_rejestracja.jpg>
-
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
-
- []
-
-
-
-[33]
-
-[34]
 File: img/interfejsy/if_loguj.jpg Graphic file (type bmp)
 <img/interfejsy/if_loguj.jpg>
+
+
+[40]
 File: img/interfejsy/if_główna.jpg Graphic file (type bmp)
 <img/interfejsy/if_główna.jpg>
 File: img/interfejsy/if_menu.jpg Graphic file (type bmp)
 <img/interfejsy/if_menu.jpg>
 
 
-[35]
+[41]
 File: img/interfejsy/if_konto.jpg Graphic file (type bmp)
 <img/interfejsy/if_konto.jpg>
 File: img/interfejsy/if_historia.jpg Graphic file (type bmp)
 <img/interfejsy/if_historia.jpg>
 
 
-[36]
+[42]
 File: img/interfejsy/if_wyznacz.jpg Graphic file (type bmp)
 <img/interfejsy/if_wyznacz.jpg>
 File: img/interfejsy/if_zgłoszenie.jpg Graphic file (type bmp)
 <img/interfejsy/if_zgłoszenie.jpg>
 
 
-[37]
+[43]
 File: img/interfejsy/if_alarmm.jpg Graphic file (type bmp)
 <img/interfejsy/if_alarmm.jpg>
 
 
-[38]
+[44]
 File: img/interfejsy/if_admin.jpg Graphic file (type bmp)
 <img/interfejsy/if_admin.jpg>
 
 
-[39]
+[45]
 File: img/interfejsy/if_zatwierdz.jpg Graphic file (type bmp)
 <img/interfejsy/if_zatwierdz.jpg>
 File: img/interfejsy/if_zarzadzaj_szlaki.jpg Graphic file (type bmp)
@@ -1780,9 +1527,9 @@ File: img/interfejsy/if_nowy_szlak.jpg Graphic file (type bmp)
 <img/interfejsy/if_nowy_szlak.jpg>
 
 
-[40])
+[46])
 
-[41]
+[47]
 \openout2 = `chapters/chapter6.aux'.
 
  (chapters/chapter6.tex
@@ -1802,7 +1549,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--16
 
 
 
-[42
+[48
 
 
 
@@ -1825,7 +1572,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--29
 
 
 
-[43]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
@@ -1846,7 +1593,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--41
 
 
 
-[44]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -1858,7 +1605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
 
 
-[45]
+[51]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 49.
@@ -1890,7 +1637,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--66
 
 
 
-[46]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
@@ -1909,8 +1656,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--78
 
 
 
-[47]
-Overfull \hbox (110.2423pt too wide) in paragraph at lines 79--81
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
+
+Overfull \hbox (110.2423pt too wide) in paragraph at lines 79--82
 \TU/TeXGyreTermesX(0)/m/n/12 działania tego fragmentu kodu są wykorzystane w in
 nych funkcjach aplikacji, np. [][]\TU/lmtt/m/n/12 getAccpetDangersLocations()[]
 \TU/TeXGyreTermesX(0)/m/n/12 ,
@@ -1918,61 +1670,81 @@ nych funkcjach aplikacji, np. [][]\TU/lmtt/m/n/12 getAccpetDangersLocations()[]
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 84.
+(caption)                particular \caption on input line 85.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-acceptdanger.jpg Graphic file (type bmp)
 <img/kod/imp-acceptdanger.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 83--91
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+
+[54]
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 94.
+(caption)                particular \caption on input line 96.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-getacceptedloc.jpg Graphic file (type bmp)
 <img/kod/imp-getacceptedloc.jpg>
 
+Underfull \hbox (badness 10000) in paragraph at lines 94--102
 
-[48]
+ []
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 102.
+(caption)                particular \caption on input line 105.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-updatemap.jpg Graphic file (type bmp)
 <img/kod/imp-updatemap.jpg>
 
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
+
+ []
+
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 115.
+(caption)                particular \caption on input line 118.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-reje.jpg Graphic file (type bmp)
 <img/kod/imp-reje.jpg>
 
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
 
-[49]
+ []
+
+
+
+[55]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 124.
+(caption)                particular \caption on input line 128.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-addtofs.jpg Graphic file (type bmp)
 <img/kod/imp-addtofs.jpg>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 133.
+(caption)                particular \caption on input line 137.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-login1.jpg Graphic file (type bmp)
 <img/kod/imp-login1.jpg>
 
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
@@ -1982,40 +1754,40 @@ File: img/imp/widok-reje.jpg Graphic file (type bmp)
 <img/imp/widok-reje.jpg>
 
 
-[51]
+[57]
 File: img/imp/widok-log.jpg Graphic file (type bmp)
 <img/imp/widok-log.jpg>
 
 
-[52]
+[58]
 
-[53]
+[59]
 File: img/imp/widok-user.png Graphic file (type bmp)
 <img/imp/widok-user.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--170
+Underfull \hbox (badness 10000) in paragraph at lines 167--174
 
  []
 
 
 
-[54]
+[60]
 File: img/imp/widok-mapa.png Graphic file (type bmp)
 <img/imp/widok-mapa.png>
 
 
-[55]
+[61]
 File: img/test/testmap2.jpg Graphic file (type bmp)
 <img/test/testmap2.jpg>
 
 
-[56]
+[62]
 File: img/test/testmap3.jpg Graphic file (type bmp)
 <img/test/testmap3.jpg>
 
 
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
@@ -2023,8 +1795,8 @@ File: img/test/testmap5.jpg Graphic file (type bmp)
 <img/test/testmap5.jpg>
 
 
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
 
  []
 
@@ -2032,44 +1804,44 @@ File: img/imp/lista-szlakow.jpg Graphic file (type bmp)
 <img/imp/lista-szlakow.jpg>
 
 
-[59]
+[65]
 File: img/imp/po-wyborze-z-listy.jpg Graphic file (type bmp)
 <img/imp/po-wyborze-z-listy.jpg>
 
 
-[60]
+[66]
 File: img/imp/widok-danger.png Graphic file (type bmp)
 <img/imp/widok-danger.png>
 
 
-[61]
+[67]
 File: img/imp/widok-telefony.png Graphic file (type bmp)
 <img/imp/widok-telefony.png>
 
 
-[62]
+[68]
 File: img/imp/widok-admin-home.jpg Graphic file (type bmp)
 <img/imp/widok-admin-home.jpg>
 
 
-[63]
+[69]
 File: img/imp/widok-admin-danger.jpg Graphic file (type bmp)
 <img/imp/widok-admin-danger.jpg>
 
 
-[64]
+[70]
 File: img/imp/widok-admin-accept.jpg Graphic file (type bmp)
 <img/imp/widok-admin-accept.jpg>
 
 
-[65]
+[71]
 File: img/imp/widok-dodajkml.jpg Graphic file (type bmp)
 <img/imp/widok-dodajkml.jpg>
 
 
-[66])
+[72])
 
-[67]
+[73]
 \openout2 = `chapters/testy.aux'.
 
  (chapters/testy.tex
@@ -2098,7 +1870,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--26
 
 
 
-[68
+[74
 
 
 
@@ -2123,7 +1895,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--40
 
 
 
-[69]
+[75]
 File: img/test/login-wynik.jpg Graphic file (type bmp)
 <img/test/login-wynik.jpg>
 
@@ -2133,7 +1905,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--48
 
 
 
-[70]
+[76]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 54.
@@ -2150,7 +1922,7 @@ File: img/test/maptest_wynik.jpg Graphic file (type bmp)
 <img/test/maptest_wynik.jpg>
 
 
-[71]
+[77]
 File: img/test/testmap1.jpg Graphic file (type bmp)
 <img/test/testmap1.jpg>
 
@@ -2163,71 +1935,90 @@ File: img/test/testmap2.jpg Graphic file (type bmp)
 <img/test/testmap2.jpg>
 
 
-[72]
+[78]
 File: img/test/testmap3.jpg Graphic file (type bmp)
 <img/test/testmap3.jpg>
 
 
-[73]
+[79]
 File: img/test/testmap4.jpg Graphic file (type bmp)
 <img/test/testmap4.jpg>
 
 
-[74]
+[80]
 File: img/test/testmap5.jpg Graphic file (type bmp)
 <img/test/testmap5.jpg>
 
 
-[75]
+[81]
+
+[82]
 File: img/test/testzglos1.jpg Graphic file (type bmp)
 <img/test/testzglos1.jpg>
-
-
-[76]
 File: img/test/testzglosopis.jpg Graphic file (type bmp)
 <img/test/testzglosopis.jpg>
 
 
-[77]
+[83]
 File: img/test/brakinternetu.jpg Graphic file (type bmp)
 <img/test/brakinternetu.jpg>
 
 
-[78]
+[84]
 File: img/test/braklok.jpg Graphic file (type bmp)
 <img/test/braklok.jpg>
 
 
-[79]
+[85]
 File: img/test/testzglosadmin.jpg Graphic file (type bmp)
 <img/test/testzglosadmin.jpg>
 
 
-[80])
+[86])
 
-[81]
+[87]
 \openout2 = `chapters/chapter7.aux'.
 
  (chapters/chapter7.tex)
 
-[82
+[88
 
 
 
 ]
 
-Package biblatex Warning: Type 'book' not found on input line 168.
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
 
-LaTeX Warning: Empty bibliography on input line 168.
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 172.
+
+Package biblatex Warning: 'sorting' option to '\printbibliography' is no longer
+ supported.
+(biblatex)                Please use 'sorting' option to '\newrefcontext'.
 
 
-Package biblatex Warning: Type 'online' not found on input line 169.
+
+[89
 
 
-LaTeX Warning: Empty bibliography on input line 169.
+]
 
-(main.aux (chapters/chapter0.aux) (chapters/chapter1.aux)
+[90] (main.aux (chapters/chapter0.aux) (chapters/chapter1.aux)
 (chapters/chapter2.aux) (chapters/chapter3.aux) (chapters/chapter4.aux)
 (chapters/chapter5.aux) (chapters/chapter6.aux) (chapters/testy.aux)
 (chapters/chapter7.aux))
@@ -2237,29 +2028,21 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AF80273A43AC906681DC09209A7C2B59;3993.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 343C0645CC7421EF1C545715CA5F436D;3980.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27902 strings out of 408758
- 541423 string characters out of 5748069
- 1480390 words of memory out of 5000000
- 50360 multiletter control sequences out of 15000+600000
- 564428 words of font info for 80 fonts, out of 8000000 for 9000
+ 28077 strings out of 408758
+ 547080 string characters out of 5748069
+ 1487409 words of memory out of 5000000
+ 50519 multiletter control sequences out of 15000+600000
+ 564436 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,9n,117p,1509b,4996s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,9n,117p,1509b,5153s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (82 pages).
+Output written on main.pdf (90 pages).
