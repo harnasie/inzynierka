@@ -7,6 +7,7 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 
 \textbf{Implementacja rysowania szlaków na mapie} \\
 Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z pliku KML i na ich podstawie rysuje szlaki na mapie. Za pomocą FileInputStream zostaje stworzony strumień wejściowy do odczytania pliku, który potrzebny jest do utworzenia warstwy KML. Następnie jest ona dodawana do mapy i rozpoczyna się iterowanie po kontenerach. Pętla odczytująca obiekty KmlPlacemark, pobiera ich nazwę i na jej podstawie określa kolor szlaku. W kolejnym kroku zostają zdefiniowane opcje linii, czyli wybrany kolor oraz szerokość. Jeżeli geometria danego znacznika jest linią (KmlLineString), tworzona jest lista, przechowująca współrzędne szlaku, które następnie dodane są do wcześniej zdefiniowanej linii. Na koniec, utworzona trasa zostanie narysowana na mapie, dzięki czemu użytkownik widzi wszystkie szlaki Tatr. Efekt ten widoczny jest na rys.\ref{widok:map}.\\
+\\
 \noindent
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za rysowanie szlaków na mapie}
@@ -19,6 +20,7 @@ Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z p
 
 \textbf{Implementacja lokalnego zapisu plików} \\ 
 Funkcja przedstawiona na rys. \ref{lst:pobierz} odpowiada za kontrolę pobierania plików z serwera (Firebase Storage) i jest wywołana po każdym uruchomieniu aplikacji. Pliki zawierają informacje o szlakach oraz punktach, w których znajdują się schroniska, szczyty oraz stawy. Na początku funkcja tworzy obiekt reprezentujący ścieżkę do katalogu w pamięci i sprawdza, czy istnieje on fizycznie, jeśli nie, tworzy go. Następnie ustala pełną ścieżkę do lokalnego pliku i również sprawdza czy istnieje. Dalszy fragment kodu porównuje jego rozmiar z rozmiarem wersji na serwerze, aby określić, czy pobranie nowej wersji jest konieczne. Jeśli lokalny plik różni się zostaje on pobierany ponownie. Działanie funkcji sprawia, iż użytkownik ma zawsze aktualne dane zapisane na swoim urządzeniu. 
+
 \\
 
 \noindent
@@ -155,6 +157,8 @@ Każdy użytkownik chce mieć dostęp do swoich danych, a także utworzonego kon
 
 
 \subsection{Widoki - użytkownik}
+Wygląd aplikacji został idealnie dobrany do potrzeb użytkowników, tak aby mogli bez większego problemu wykonać wszystkie akcje, które oferowane są przez system. Każdy ekran aplikacji zawiera zestaw funkcji, który umożliwia użytkownikom m.in. poruszanie się po mapie, wykonanie zgłoszenia, przejrzenie wykresu dystansów oraz wezwanie pomocy. Poniżej zostały opisane wszystkie funkcjonalności, jakie użytkownicy mogą wykonać na danym widoku aplikacji.
+
 \textbf{Widok główny}\\
 Po uruchomieniu aplikacji użytkownik ma do wyboru dwie opcje “Zaloguj” oraz “Zarejestruj”, co zostało przedstawione na rys. \ref{widok:home}. Po kliknięciu danej opcji, wyświetla się formularz, który pobiera od użytkownika potrzebne dane i zapisuje je w bazie. Rejestrację przestawia rys. \ref{widok:register}, natomiast logowanie rys. \ref{widok:login}. Jeżeli użytkownik logował się już wcześniej do aplikacji, widok początkowy jest pomijany i od razu przenosi użytkownika do następnego ekranu, pokazanego na rys. \ref{widok:user}. W sytuacji, gdy zalogowanym jest administrator, wyświetlony zostanie widok aplikacji, przedstawiony na rys. \ref{widok:adminhome}. Tło na początkowym ekranie reprezentuje dwie najważniejsze funkcjonalności aplikacji t.j. wędrówki po górach oraz ostrzeganie innych o zagrożeniu. Rejestracja jest ważna, gdyż dzięki niej wiadomo kto zgłosił dane zagrożenie oraz pozwala na zbieranie danych o aktywności użytkownika.\\
 
