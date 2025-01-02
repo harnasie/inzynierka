@@ -54,7 +54,7 @@ Test ma na celu sprawdzenie poprawności generowania URL z trasą o podanym jej 
     \captionof{listing}{Test jednostkowy - generowanie URL}
     \label{test:map}
     \centering
-    \includegraphics[width=0.8\linewidth]{img/test/maptest.jpg}
+    \includegraphics[width=0.8\linewidth]{img/test/maptest.png}
 \end{minipage}
 \\
 Zgodnie z założeniami test przebiegł pomyślnie, a więc funkcja działa poprawnie i generuje poprawne linki do wyznaczonej trasy na bazie jej punktu początkowego i końcowego. Poprawny przebieg testu potwierdza rys. \ref{result:map}. \\
@@ -106,7 +106,7 @@ Tryb wyznaczania trasy posiada pola wyświetlające początek i koniec trasy (ry
     \label{test:map3}
 \end{figure}
 
-Na rys. \ref{test:map4} ukazane są markery początkowe i końcowe wybranej przez użytkownika trasy oraz słowne określenie ich położenia w górnej części ekranu. Aby trasa została wyznaczona, użytkownik musi potwierdzić swój wybór klikając "Zatwierdź". Aplikacja wtedy wyznacza trasę i maluje ją na mapie.
+Na rys. \ref{test:map4} ukazane są markery początkowe i końcowe wybranej przez użytkownika trasy oraz słowne określenie ich położenia w górnej części ekranu. Aby trasa została wyznaczona, użytkownik musi potwierdzić swój wybór klikając "Zatwierdź". Aplikacja wtedy wyznacza trasę i rysuje ją na mapie.
 
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
@@ -118,7 +118,7 @@ Na rys. \ref{test:map4} ukazane są markery początkowe i końcowe wybranej prze
 
 
 
-Po zatwierdzeniu wybranej trasy jest ona rysowana na mapie z pomocą koloru różowego, aby była łatwo rozróżnialna od szlaków rysowanych na mapie. Aplikacja od razu nakierowuje kamerę na początek trasy (rys. \ref{test:map5}) i jest gotowa do pokazywania użytkownikowi jego lokalizacji względem wyznaczonej trasy.
+Po zatwierdzeniu wybranej trasy jest ona rysowana na mapie z pomocą koloru różowego, aby była łatwa do odróżnienia od szlaków rysowanych na mapie. Aplikacja od razu nakierowuje kamerę na początek trasy (rys. \ref{test:map5}) i jest gotowa do pokazywania użytkownikowi jego lokalizacji względem wyznaczonej trasy.
 
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
@@ -180,13 +180,13 @@ Jednak, aby zgłoszenie zostało wysłane, użytkownik musi mieć jeszcze włąc
     \label{test:zglos4}
 \end{figure}
 
-Po kliknięciu “Zgłoś zagrożenie” i spełnieniu wszystkich wymagań, formularz zostanie pomyślnie wysłany i wyświetlony na liście zgłoszeń do zaakceptowania na interfejsie administratora (rys. \ref{test:zglos5}) . 
+Po kliknięciu “Zgłoś zagrożenie” i spełnieniu wszystkich wymagań, formularz zostanie pomyślnie wysłany i wyświetlony na liście zgłoszeń do zaakceptowania w interfejsie administratora (rys. \ref{test:zglos5}) . 
 
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
     \centering
     \fbox{\includegraphics[scale=1.0]{img/test/testzglosadmin.jpg}}
-    \caption{Pomyślnie wysłane zgłoszenie i wyswietlenie go na interfejsie administratora.}
+    \caption{Pomyślnie wysłane zgłoszenie i wyswietlenie go w interfejsie administratora.}
     \label{test:zglos5}
 \end{figure}
 Opisany test dowiódł, iż zgłoszenie zostanie wysłane tylko wtedy, gdy użytkownik poda wszystkie wymagane informacje dotyczące zagrożenia oraz będzie miał włączony internet, a także udostępnioną lokalizację.

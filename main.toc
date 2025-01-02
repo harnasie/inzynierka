@@ -1,6 +1,7 @@
 \babel@toc {polish}{}\relax 
 \contentsline {section}{\numberline {1}Streszczenie}{4}{section.1}%
 \contentsline {section}{\numberline {2}Wstęp}{5}{section.2}%
+<<<<<<< HEAD
 \contentsline {section}{\numberline {3}Cel i zakres pracy}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Podział pracy}{9}{subsection.3.1}%
 \contentsline {section}{\numberline {4}Analiza porównawcza cech wybranych aplikacji mobilnych umożliwiających korzystanie z map}{11}{section.4}%
@@ -24,3 +25,29 @@
 \contentsline {subsection}{\numberline {8.1}Testy jednostkowe}{74}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Testy manualne}{77}{subsection.8.2}%
 \contentsline {section}{\numberline {9}Wnioski}{88}{section.9}%
+=======
+\contentsline {section}{\numberline {3}Cel i zakres pracy}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Podział pracy}{8}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Analiza porównawcza cech wybranych aplikacji mobilnych umożliwiających korzystanie z map}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Platforma Mapa Turystyczna}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Platforma Mapy.cz}{11}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Przegląd narzędzi implementacyjnych}{14}{section.5}%
+\contentsline {section}{\numberline {6}Projekt aplikacji}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Wymagania funkcjonalne}{16}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Wymagania niefunkcjonalne}{17}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Diagramy przypadków użycia}{18}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Scenariusze}{22}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Diagram klas}{27}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Diagram ERD}{31}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Projekt interfejsu użytkownika}{34}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Implementacja}{42}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Moduł map}{42}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Moduł zgłoszeń}{48}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Moduł logowania i rejestracji}{50}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Widoki - użytkownik}{52}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Widoki - administrator}{65}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Testy}{70}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Testy jednostkowe}{70}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Testy manualne}{73}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Wnioski}{84}{section.9}%
+>>>>>>> fa00dda909fb7ce349affa51cdd239c46f9b6999
