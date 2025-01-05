@@ -1,7 +1,6 @@
 \section{Implementacja}
-Implementacją projektu autorki podzieliły się według ich możliwości oraz mocnych stron. Moduł map, dopracowany i doszlifowany z wieloma funkcjami personalizującymi wygląd map, moduł powiadomień odpowiedzialny za komunikowanie użytkowników o czyhających na szlakach niebezpieczeństwach oraz moduł zgłaszania zagrożeń usprawniający przesył informacji pomiędzy wędrowcami.
-W tym rozdziale opisane zostały najistotniejsze elementy aplikacji: listingi wybranych funkcji, ich opisy oraz wszystkie dostępne widoki. 
-
+W tym rozdziale opisane zostały najistotniejsze elementy aplikacji: wybrane funkcje, ich opisy oraz wszystkie dostępne widoki z podziałem na użytkownika i administratora. 
+Przedstawione zostały 3 moduły: moduł map, moduł zgłaszania zagrożeń oraz moduł powiadomień. Pierwszy z nich prezentuje metody odpowiedzialne za wygląd mapy oraz nawigację po niej. Moduł zgłaszania zagrożeń zawiera funkcje, które zapisują informacje o niebezpieczeństwach na szlakach, natomiast moduł powiadomień odpowiedzialny jest za ostrzeganie użytkowników o czyhających zagrożeniach.
 \subsection{Moduł map}
 Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób działają funkcje, które umożliwiają poruszanie się po górach oraz wpływają na wygląd mapy. Każda z nich sprawia, iż użytkownik ma możliwość pokonania wybranej trasy, a naniesione na mapę szlaki pozwalają mu zaplanować wędrówkę w każdym momencie. Poniżej przedstawione zostały wybrane funkcje składające się na implementację rysowania szlaków, wyznaczenia trasy, zapisu lokalnego plików oraz obsługi ikon ze schroniskami, szczytami i stawami.
 \\ 
@@ -16,7 +15,7 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
     \label{lst:rysowanie}
     \centering
     \fbox{\includegraphics[width=0.6\linewidth]{img/kod/rysowanie-szlakow.png}}
-\end{minipage}
+\end{minipage}\\
 
 \\
 \noindent \textbf{Implementacja lokalnego zapisu plików} \\ 
@@ -33,6 +32,7 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 \end{minipage}\\
 
 \\
+
 \noindent
 \textbf{Implementacja ikon ze schroniskami, szczytami oraz stawami} \\ 
 \indent Fragment kodu przestawiony na listingu \ref{lst:schron} odpowiada za odczyt danych z pliku i utworzenie listy markerów. Użycie XmlPullParser umożliwia analizę pliku i pobranie danych potrzebnych do stworzenia markera. Po jego konfiguracji, następuje iterowanie po pliku, aż do osiągnięcia końca dokumentu. Podczas iteracji funkcja odczytuje dane z konkretnych tagów, kolejno nazwę z \verb|<name>|, opis \verb|<description>| oraz współrzędne \verb|<coordinates>|. Po napotkaniu na tag zamykający \verb|<Placemark>| i sprawdzeniu czy lokalizacja jest poprawna, zostaje utworzony marker z ikoną pokazaną jako parametr funkcji. Następnie jest on dodany do listy, która umożliwia kontrolę widoczności markerów. \\
@@ -113,7 +113,7 @@ Przy procesie obsługi zgłoszeń uczestniczy zarówno użytkownik jak i adminis
 \end{minipage}
 \\
 
-Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokalizacji zgłoszeń zagrożeń, które zostały zaakceptowane. Na początku dane są filtrowane, tzn. sprawdzane jest czy dane zgłoszenie w polu dokumentu “accepted” ma wartość “true”. W przypadku niepowodzenia podczas pobierania danych z bazy, zostaje wyświetlony komunikat, informujący o takiej sytuacji. Jeśli pobieranie danych zakończy się powodzeniem i wyniki filtrowania nie są puste, następuje iteracja przez każdy dokument. W kolejnym kroku jest sprawdzane czy posiada on pole “location”, jeśli tak, dane zostają pobrane i zapisane do \verb|Map<String, Object>|. Kluczem stworzonej mapy jest “latitude” lub “longitude”, a wartością współrzędne. Następnie, dane te są łączone w jeden obiekt LatLng, reprezentujący miejsce, w którym zostało wykonane zgłoszenie. Na koniec, współrzędne są dodawane do listy, przechowującej lokalizacje zaakceptowanych zgłoszeń. Po sprawdzeniu czy nie jest ona pusta zostaje wywołana funkcja \verb|updateMapWithAcceptedDangers()|, przedstawiona na rys. \ref{lst:markeraccepted}. Odpowiada ona za ustawienie markerów na mapie w miejscu, wystąpienia zagrożenia. Mapa po akuktualizacji została przedstawiona na rys XX.\\
+Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokalizacji zgłoszeń zagrożeń, które zostały zaakceptowane. Na początku dane są filtrowane, tzn. sprawdzane jest czy dane zgłoszenie w polu dokumentu “accepted” ma wartość “true”. W przypadku niepowodzenia podczas pobierania danych z bazy, zostaje wyświetlony komunikat, informujący o takiej sytuacji. Jeśli pobieranie danych zakończy się powodzeniem i wyniki filtrowania nie są puste, następuje iteracja przez każdy dokument. W kolejnym kroku jest sprawdzane czy posiada on pole “location”, jeśli tak, dane zostają pobrane i zapisane do \verb|Map<String, Object>|. Kluczem stworzonej mapy jest “latitude” lub “longitude”, a wartością współrzędne. Następnie, dane te są łączone w jeden obiekt LatLng, reprezentujący miejsce, w którym zostało wykonane zgłoszenie. Na koniec, współrzędne są dodawane do listy, przechowującej lokalizacje zaakceptowanych zgłoszeń. Po sprawdzeniu czy nie jest ona pusta zostaje wywołana funkcja \verb|updateMapWithAcceptedDangers()|, przedstawiona na rys. \ref{lst:markeraccepted}. Odpowiada ona za ustawienie markerów na mapie w miejscu, wystąpienia zagrożenia. Mapa po akuktualizacji została przedstawiona na rys. \ref{widok:markeraccepted1}.\\
 
 \noindent
 \setlength{\fboxrule}{0.5pt}
@@ -124,7 +124,8 @@ Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokali
     \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-getacceptedloc.png}}
 \end{minipage}
 \\
-
+\\
+\\
 \noindent
 \setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
@@ -133,9 +134,20 @@ Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokali
     \centering
     \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-updatemap.png}}
 \end{minipage}
+
+
+\noindent
+\setlength{\fboxrule}{0.5pt}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{img/imp/test-accpeted.png}
+    \caption{zaktualizowana mapa po akceptacji zgłoszeń przez administratora.}
+    \label{widok:markeraccepted1}
+\end{figure}
 \\
 \subsection{Moduł logowania i rejestracji}
 Logowanie i rejestracja pozwala na łatwe zidentyfikowanie użytkownika aplikacji, a także pozwala na śledzenie jego aktywności celem stworzenia raportów czy wykresów. Pozwala też na ustalenie, który użytkownik wysłał zgłoszenie o zagrożeniu. Poniżej przedstawione są funkcje niezbędne do implementacji logowania oraz rejestracji nowych użytkowników w systemie.
+\\
 
 \noindent
 \textbf{Implementacja rejestracji}\\
@@ -183,29 +195,29 @@ Wygląd aplikacji został idealnie dobrany do potrzeb użytkowników, tak aby mo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/welcome.png}
+    \includegraphics[scale=0.6]{img/imp/welcome.png}
     \caption{Widok początkowy po uruchomieniu aplikacji.}
     \label{widok:home}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-reje.png}
+    \includegraphics[scale=0.6]{img/imp/widok-reje.png}
     \caption{Widok formularza rejestracji do aplikacji.}
     \label{widok:register}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-log.png}
+    \includegraphics[scale=0.6]{img/imp/widok-log.png}
     \caption{Widok formularza logowania do aplikacji.}
     \label{widok:login}
 \end{figure}
-
+\newpage
 \noindent
 \textbf{Konto użytkownika} \\
 \indent Na ekranie zaprezentowanym na rys.\ref{widok:user} użytkownik może zobaczyć swoją nazwę oraz wykaz pokonanych dystansów, przedstawionych w formie wykresu słupkowego. Pod nim znajduje się przycisk, dzięki któremu użytkownik może się wylogować z aplikacji. Na samym dole ekranu widoczne jest menu z czterema ikonami. Po naciśnięciu na wybrany przycisk, użytkownik zostanie przeniesiony do odpowiedniej aktywności. Pasek menu znajduje się na każdym ekranie aplikacji i umożliwia szybką nawigację między jej widokami.\\
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-user.png}
+    \includegraphics[scale=0.6]{img/imp/widok-user.png}
     \caption{Widok danych użytkownika z wykresem.}
     \label{widok:user}
 \end{figure}
@@ -215,7 +227,7 @@ Wygląd aplikacji został idealnie dobrany do potrzeb użytkowników, tak aby mo
 \indent Ekran mapy. przedstawiony na rys.\ref{widok:map} wyświetla szlaki Tatr oraz pozwala użytkownikowi wykonać wiele operacji m.in. zaplanować trasę oraz przejrzeć same szlaki. Wszystkie funkcjonalności będą opisane poniżej.
 Ekran mapy zawiera następujące elementy:
 \begin{enumerate}
-    \item Ikonki ze schroniskami, szczytami oraz stawami - odpowiadają za widoczność  danych markerów na mapie
+    \item Ikonki ze schroniskami, szczytami oraz stawami - odpowiadają za widoczność danych markerów na mapie
     \item Ikona z warstwą - zmienia wygląd mapy z podstawowego na widoki z satelity
     \item Ikona z lokalizacją - nakierowuje mapę na obecną lokalizację użytkownika
     \item Wybierz szlak - pokazuje listę szlaków do wyboru
@@ -226,13 +238,25 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-mapa.png}
+    \includegraphics[scale=0.6]{img/imp/widok-mapa.png}
     \caption{Widoku mapy z narysowanymi szlakami.}
     \label{widok:map}
 \end{figure}
 
 \noindent
-\textbf{Wyznaczanie trasę} \\
+\textbf{Pokazywanie ikonek na mapie} \\
+\indent Naciśnięcie przycisku z wybraną ikonką spododuje pojawienie się na mapie markerów w miejscu ich wystąpienia (rys. \ref{widok:ikony}). Użytkownik może kliknąć na dany znacznik w celu poznania jego nazwy oraz szczegółów w postaci informacji o wysokości n.p.m.
+\noindent
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{img/imp/widok-ikony.png}
+    \caption{Mapa z widocznymi ikonami schronisk.}
+    \label{widok:ikony}
+\end{figure}
+
+
+\noindent
+\textbf{Wyznaczanie trasy} \\
 \indent Wybranie opcji “wyznacz trasę” z widoku mapy (rys. \ref{widok:wyznacztrase}) spowoduje wyświetlenie okna, które umożliwia użytkownikowi podanie szczegółów trasy. Po kliknięciu pola z punktem trasy, na środku mapy pokazuje się marker oraz przycisk do zatwierdzenia lokalizacji, co zostało przedstawione na rys.\ref{widok:ustawlokalizacje} Potwierdzenie wybranej lokalizacji spowoduje, iż w miejscu pola z punktem trasy pojawia się jej nazwa (rys. \ref{widok:ustawlokalizacjewynik}). Użytkownik w każdej chwili może zmienić ustawione punkty trasy, ponownie klikając w wybrane pole. W przypadku włączonej lokalizacji, pole z początkiem trasy jest uzupełnione już o współrzędne wędrówkowicza. Po ustawieniu wszystkich pól z punktami trasy, użytkownik może wybrać następujące opcje:
 \begin{itemize}
     \item Dodaj przystanek - pokazuje pole do podania jego lokalizacji,
@@ -242,14 +266,14 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-loka.png}
+    \includegraphics[scale=0.6]{img/imp/widok-loka.png}
     \caption{Opcje widoczne po kliknięciu przycisku "Wyznacz trasę".}
     \label{widok:wyznacztrase}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-marker.png}
+    \includegraphics[scale=0.6]{img/imp/widok-marker.png}
     \caption{Wybór punktów trasy za pomocą markera.}
     \label{widok:ustawlokalizacje}
 \end{figure}
@@ -257,7 +281,7 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-pkt.png}
+    \includegraphics[scale=0.6]{img/imp/widok-pkt.png}
     \caption{Rezultat wyboru lokalizacji punktu trasy.}
     \label{widok:ustawlokalizacjewynik}
 \end{figure}
@@ -272,7 +296,7 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-trasa.png}
+    \includegraphics[scale=0.6]{img/imp/widok-trasa.png}
     \caption{Widok aplikacji po zatwierdzeniu wybranej przez użytkownika trasy.}
     \label{widok:zatwierdztrase}
 \end{figure}
@@ -294,7 +318,7 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
     \caption{Widok z początkiem wybranego z listy szlaku.}
     \label{widok:szlak}
 \end{figure}
-
+\newpage
 \noindent
 \textbf{Widok formularza zgłoszeń zagrożeń} \\
 \indent Ekran zgłoszenia pokazany na rys. \ref{widok:zgłoszenie} spełnia jedno z podstawowych funkcjonalności aplikacji. To tutaj użytkownik, mając włączoną lokalizację i internet, może wygenerować powiadomienie dla innych użytkowników o danym zagrożeniu na szlaku, wybierając jego typ z listy i opisując szczegóły. Po naciśnięciu “Zgłoś zagrożenie”, zgłoszenie zostaje od razu wysłane lub w przypadku problemów z internetem, zapisane i wysłane natychmiast po ponownym nawiązaniu połączenia.
@@ -346,7 +370,7 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
 \indent Poniższy widok (rys. \ref{widok:adminaccept}) przedstawia listę zgłoszonych przez użytkowników zagrożeń na trasie, które czekają na akceptację po stronie administratora. Każde zgłoszenie musi mieć swój typ oraz krótki opis, a aplikacja zbiera dodatkowo informacje o aktualnym miejscu użytkownika w momencie wysłania zgłoszenia (nawet offline) oraz jego identyfikator.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/test/testzglosadmin.jpg}
+    \includegraphics[scale=0.6]{img/test/testzglosadmin.jpg}
     \caption{Widok administratora z listą zagrożeń do zaakceptowania.}
     \label{widok:adminaccept}
 \end{figure}
