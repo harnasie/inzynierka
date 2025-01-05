@@ -75,12 +75,12 @@ W naszej aplikacji głównymi funkcjonalnościami jest możliwość wyznaczenia 
 \subsection*{Test manualny - wyznaczanie trasy.}
 Główną funkcjonalnością opisywanej aplikacji są mapy i usługi z nimi związane. Najważniejszą dostępną opcją jest wyznaczanie trasy z jednego punktu do drugiego i rysowanie jej na mapie tak, aby użytkownik widział dokładnie, gdzie się znajduje. Dlatego niniejszy test sprawdzi poprawność wykonywania tej funkcji według poniższego scenariusza:
 \begin{enumerate}
-    \item Przejdź do ekranu z mapą.
-    \item Wybierz funkcję wyznaczania trasy.
-    \item Wybierz punkt początkowy trasy.
+    \item Przejdź do ekranu z mapą (rys. \ref{test:map1}).
+    \item Wybierz funkcję wyznaczania trasy (rys. \ref{test:map2}).
+    \item Wybierz punkt początkowy trasy (rys. \ref{test:map3}).
     \item Wybierz punkt końcowy trasy.
-    \item Zatwierdź wybór.
-    \item Przeprowadź nawigację w aplikacji Google Maps lub idź po trasie wyświetlonej w aplikacji.
+    \item Zatwierdź wybór (rys. \ref{test:map4}).
+    \item Przeprowadź nawigację w aplikacji Google Maps lub idź po trasie wyświetlonej w aplikacji (rys. \ref{test:map5}).
 \end{enumerate}
 
 \setlength{\fboxrule}{0.5pt}
@@ -137,18 +137,19 @@ Przedstawoiny powyżej test przebiegł pomyślnie i potwierdził poprawne dział
 \subsection*{Test manualny - zgłaszanie zagrożeń.}
 Projektując aplikację miano na uwadze omylność ludzką, dlatego starano się zabezpieczyć system na różnego rodzaju błędy ludzkie i niedopatrzenia. Poniższy test sprawdzi, czy na pewno wszystkie możliwe opcje błędów zostały uwzględnione i zabezpieczone. Test manualny zostanie przeprowadzony według poniższego scenariusza.
 \begin{enumerate}
-    \item Przejdź do ekranu z formularzem zgłoszeń.
+    \item Przejdź do ekranu z formularzem zgłoszeń (rys. \ref{test:zglos1}).
     \item Wybierz typ zagrożenia.
     \item Podaj opis zagrożenia.
     \begin{enumerate}
-        \item Nie podano opisu zagrożenia.
+        \item Nie podano opisu zagrożenia (rys. \ref{test:zglos2}).
     \end{enumerate}
     \item Naciśnij “Dodaj zagrożenie”.
     \begin{enumerate}
-        \item Internet nie został włączony.
-        \item Lokalizacja nie została włączona.
+        \item Internet nie został włączony (rys. \ref{test:zglos3}).
+        \item Lokalizacja nie została włączona (rys. \ref{test:zglos4}).
     \end{enumerate}
 \end{enumerate}
+
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
     \centering
@@ -156,6 +157,7 @@ Projektując aplikację miano na uwadze omylność ludzką, dlatego starano się
     \caption{Formularz zgłaszania zagrożenia na trasie.}
     \label{test:zglos1}
 \end{figure}
+
 Formularz przedstawiony na rys. \ref{test:zglos1} wymaga od użytkownika podania typu oraz opisu zagrożenia występującego na szlaku. W przypadku braku opisu, na ekranie pojawia się komunikat, widoczny na rys. \ref{test:zglos2}, informormujący o konieczności jego uzupełnienia.
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
