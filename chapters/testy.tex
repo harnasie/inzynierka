@@ -1,15 +1,15 @@
 \section{Testy}
-Przeprowadzenie testów aplikacji zapewnia programistom pewność, że użytkownicy ich systemu nie napotkają żadnych błędów lub niedociągnięć podczas codziennego korzystania z usługi. Testy systemów informatycznych dzielimy na manualne i automatyczne, a te drugie na kolejne podtypy: jednostkowe, integracyjne, wydajnościowe, systemowe, bezpieczeństwa itp. Zdecydowałyśmy przeprowadzić testy jednostkowe wybranych funkcji oraz testy manualne najdłuższych sekwencji, jakie użytkownik jest w stanie wykonać w naszej aplikacji.
+Przeprowadzenie testów aplikacji zapewnia programistom pewność, że użytkownicy ich systemu nie napotkają żadnych błędów lub niedociągnięć podczas codziennego korzystania z usługi. Testy systemów informatycznych dzieli się na manualne i automatyczne, a te drugie na kolejne podtypy: jednostkowe, integracyjne, wydajnościowe, systemowe, bezpieczeństwa itp. Zdecydowano się na przeprowadzenie testów jednostkowe wybranych funkcji oraz testów manualnych najdłuższych sekwencji, jakie użytkownik jest w stanie wykonać w aplikacji.
 \subsection{Testy jednostkowe}
 Testy jednostkowe pozwalają na sprawdzenie działania poszczególnych, pojedynczych funkcji systemu celem weryfikacji wyniku ich użycia. \par
-Ze względu na to, że funkcje w naszej aplikacji skupione są głównie na wyświetlaniu poszczególnych elementów i pobieraniu danych z innych klas, funkcji czy widoków, niewiele testów jednostkowych było możliwych do zrealizowania. Przetestowane zostały jednak funkcje logowania, rejestracji oraz tworzenia linku używanego do wyznaczania trasy w Mapach Google. 
+Ze względu na to, że funkcje w opisywanej aplikacji skupione są głównie na wyświetlaniu poszczególnych elementów i pobieraniu danych z innych klas, funkcji czy widoków, niewiele testów jednostkowych było możliwych do zrealizowania. Przetestowane zostały jednak funkcje logowania, rejestracji oraz tworzenia linku używanego do wyznaczania trasy w Mapach Google. 
 
 \subsection*{Test jednostkowy - logowanie użytkownika}
 Test ma na celu sprawdzenie poprawności działania funkcji logowania. Do tego przygotowano próbną instancję Firebase Authentication oraz przykładowego użytkownika o danych logowania: user@example.com z hasłem password123. Taki użytkownik nie istnieje w prawdziwej bazie danych systemu, został stworzony w klasie testowej na potrzeby  przeprowadzenia tego testu. Treść testu sprawdzającego poprawność logowania przedstawiona jest na listingu \ref{test:login}. \\
 
 \noindent
 \begin{minipage}{\linewidth}
-    \captionof{listing}{Test jednostkowy - logowanie}
+    \captionof{listing}{Test jednostkowy - logowanie.}
     \label{test:login}
     \centering
     \includegraphics[width=0.8\linewidth]{img/test/test-login.jpg}
@@ -30,7 +30,7 @@ Test ma na celu sprawdzenie poprawności działania funkcji rejestracji nowego u
 
 \noindent
 \begin{minipage}{\linewidth}
-    \captionof{listing}{Test jednostkowy - rejestracja}
+    \captionof{listing}{Test jednostkowy - rejestracja.}
     \label{test:signup}
     \centering
     \includegraphics[width=0.8\linewidth]{img/test/test-signup1.jpg}
@@ -51,10 +51,10 @@ Zgodnie z założeniami test przebiegł pomyślnie, a więc funkcja działa popr
 Test ma na celu sprawdzenie poprawności generowania URL z trasą o podanym jej początku i końcu. Sprawdzono to za pomocą asercji.\\
 \noindent
 \begin{minipage}{\linewidth}
-    \captionof{listing}{Test jednostkowy - generowanie URL}
+    \captionof{listing}{Test jednostkowy - generowanie URL.}
     \label{test:map}
     \centering
-    \includegraphics[width=0.8\linewidth]{img/test/maptest.png}
+    \includegraphics[width=0.8\linewidth]{img/test/testmap.jpg}
 \end{minipage}
 \\
 Zgodnie z założeniami test przebiegł pomyślnie, a więc funkcja działa poprawnie i generuje poprawne linki do wyznaczonej trasy na bazie jej punktu początkowego i końcowego. Poprawny przebieg testu potwierdza rys. \ref{result:map}. \\
@@ -67,16 +67,21 @@ Zgodnie z założeniami test przebiegł pomyślnie, a więc funkcja działa popr
     \label{result:map}
 \end{figure}
 
-
-
-
 Powyższe testy przebiegły pomyślnie, funkcje zwróciły oczekiwane wartości i spełniły nasze wymagania.
 
 \subsection{Testy manualne}
 Testy manualne są ręcznym sposobem na sprawdzenie zachowania aplikacji. Tester sprawdza wtedy wszystkie możliwe dla użytkownika opcje i kombinacje kroków, które klient może wykonać choćby przez przypadek. Stosowanie testów manualnych pozwala na wykrycie luk w kodzie i funkcjonalnościach, których programista mógł nie przewidzieć lub przeoczyć. Niewykrycie niektórych niedopatrzeń może nieść za sobą fatalne skutki, jak na przykład usunięcie całej bazy danych systemu informatycznego, jeśli programista nie zabezpieczy wystarczająco dostępu do treści nieupoważnionym użytkownikom.\par
 W naszej aplikacji głównymi funkcjonalnościami jest możliwość wyznaczenia trasy na mapie oraz zgłaszanie zagrożeń występujących na trasie.
 \subsection*{Test manualny - wyznaczanie trasy.}
-Główną funkcjonalnością opisywanej aplikacji są mapy i usługi z nimi związane. Najważniejszą dostępną opcją jest wyznaczanie trasy z jednego punktu do drugiego i rysowanie jej na mapie tak, aby użytkownik widział dokładnie, gdzie się znajduje. Dlatego niniejszy test sprawdzi poprawność wykonywania tej funkcji.
+Główną funkcjonalnością opisywanej aplikacji są mapy i usługi z nimi związane. Najważniejszą dostępną opcją jest wyznaczanie trasy z jednego punktu do drugiego i rysowanie jej na mapie tak, aby użytkownik widział dokładnie, gdzie się znajduje. Dlatego niniejszy test sprawdzi poprawność wykonywania tej funkcji według poniższego scenariusza:
+\begin{enumerate}
+    \item Przejdź do ekranu z mapą.
+    \item Wybierz funkcję wyznaczania trasy.
+    \item Wybierz punkt początkowy trasy.
+    \item Wybierz punkt końcowy trasy.
+    \item Zatwierdź wybór.
+    \item Przeprowadź nawigację w aplikacji Google Maps lub idź po trasie wyświetlonej w aplikacji.
+\end{enumerate}
 
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
@@ -115,8 +120,6 @@ Na rys. \ref{test:map4} ukazane są markery początkowe i końcowe wybranej prze
     \caption{Widoczne markery na początku i końcu trasy.}
     \label{test:map4}
 \end{figure}
-
-
 
 Po zatwierdzeniu wybranej trasy jest ona rysowana na mapie z pomocą koloru różowego, aby była łatwa do odróżnienia od szlaków rysowanych na mapie. Aplikacja od razu nakierowuje kamerę na początek trasy (rys. \ref{test:map5}) i jest gotowa do pokazywania użytkownikowi jego lokalizacji względem wyznaczonej trasy.
 
