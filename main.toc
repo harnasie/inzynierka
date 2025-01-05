@@ -20,8 +20,8 @@
 \contentsline {subsection}{\numberline {6.2}Moduł zgłoszeń}{52}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Moduł logowania i rejestracji}{53}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Widoki - użytkownik}{55}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Widoki - administrator}{64}{subsection.6.5}%
-\contentsline {section}{\numberline {7}Testy}{68}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Testy jednostkowe}{68}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Testy manualne}{71}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Wnioski}{78}{section.8}%
+\contentsline {subsection}{\numberline {6.5}Widoki - administrator}{65}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Testy}{69}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Testy jednostkowe}{69}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Testy manualne}{72}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Wnioski}{79}{section.8}%
