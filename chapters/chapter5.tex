@@ -1,6 +1,5 @@
 \section{Projekt aplikacji} 
-Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszystkich funkcji. Programiści powinni zastanowić się nad najważniejszymi wymaganiami funkcjonalnymi i niefunkcjonalnymi, przypadkami użycia aplikacji, a także zaprojektować model danych. Przydatne jest także rozpisanie przykładowych scenariuszy, które mogą wystąpić przy korzystaniu z aplikacji przez użytkownika. Dobrze jest również zaprojektować przykładowy interfejs użytkownika dostosowany do potrzeb grupy docelowej. Poniższy rozdział skupia się na przedstawieniu projektu aplikacji zawierający wszystkie wcześniej wymienione elementy.
-
+Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszystkich funkcji. Przed stworzeniem aplikacji należy dokładnie zastanowić się nad najważniejszymi wymaganiami funkcjonalnymi i niefunkcjonalnymi, przypadkami użycia aplikacji, a także zaprojektować model da nych. Przydatne jest także rozpisanie przykładowych scenariuszy, które mogą wystąpić przy korzystaniu z aplikacji przez użytkownika. Wcześniejsze zaprojektowanie przykładowych interfejsów użytkownika pomaga dostosować wygląd systemu do potrzeb grupy docelowej. Poniższy rozdział skupia się na przedstawieniu projektu aplikacji zawierający wszystkie wcześniej wymienione elementy.
     \subsection{Wymagania funkcjonalne}
     \textbf{Administrator}
     \begin{enumerate}
@@ -19,7 +18,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
             \item Akceptacja powiadomień przesyłanych przez użytkowników o zgłoszonych incydentach na danej trasie.
         \end{enumerate}
     \end{enumerate}
-    \textbf{Wędrówkowicz}
+    \textbf{Użytkownik}
     \begin{enumerate}
         \item Planowanie trasy
         \begin{enumerate}
@@ -351,6 +350,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
     \end{itemize}
     \textbf{Klasa Użytkownik} \par
     Klasa ta dziedziczy po klasie Osoba przyjmując wszystkie jej atrybuty.
+    \newpage
     \begin{itemize}
         \item []Funkcje:
         \begin{itemize}
@@ -531,6 +531,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
     
     \subsection*{Użytkownik}
     Użytkownik aplikacji ma dostęp do takich widoków jak: logowanie, rejestracja, widok główny zawierający mapę, profil użytkownika, historię przebytych tras, wybór trasy, telefony alarmowe oraz zgłoszenie zagrożenia. \\
+    \\
     \textbf{Rejestracja} 
      \begin{figure}[H]
         \centering
@@ -539,6 +540,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
         \label{interfejs:rejestracja}
     \end{figure}
     Widok na rys.\ref{interfejs:rejestracja} zawiera formularz rejestracyjny, który pobiera od użytkownika następujące dane: imię, nazwisko, adres e-mail używany później jako login, hasło oraz datę urodzenia. Poniżej formularza znajduje się przycisk "Zarejestruj się", który dodaje użytkownika do bazy danych. Kliknięcie przycisku powoduje wyświetlenie powiadomienia o utworzeniu konta oraz przejście na ekran główny aplikacji(rys. \ref{interfejs:glowny}). \\
+    \\
     \textbf{Logowanie} 
      \begin{figure}[H]
         \centering
@@ -547,6 +549,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
         \label{interfejs:logowanie}
     \end{figure}
     Widok na rys.\ref{interfejs:logowanie} zawiera formularz logowania, który pobiera od użytkownika jego login oraz hasło. Poniżej pól do pobierania danych znajduje się przycisk "Zaloguj się", który przenosi użytkownika na ekran główny (rys. \ref{interfejs:glowny}). Oprócz tego widoczny jest odnośnik do formularza rejestracji (rys. \ref{interfejs:rejestracja}), jeśli użytkownik nie założył jeszcze konta w aplikacji. \\
+    \newpage
     \textbf{Widok główny} 
      \begin{figure}[H]
         \centering
@@ -555,6 +558,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
         \label{interfejs:glowny}
     \end{figure}
     Widok na rys.\ref{interfejs:glowny} zawiera interaktywną mapę, którą możemy przesuwać, przybliżać, oddalać. Na dole ekranu widoczny jest przycisk "Wyznacz trasę", przenoszący użytkownika do widoku z rys. \ref{interfejs:wyznacz}. W lewym górnym rogu widoczne jest zwijane menu aplikacji, które pozwala użytkownikowi przejście na wybrany widok aplikacji. \\
+    \\
     \textbf{Menu rozwijane} 
      \begin{figure}[H]
         \centering
@@ -563,6 +567,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
         \label{interfejs:menu}
     \end{figure}
     Widok na rys.\ref{interfejs:menu} zawiera przyciski prowadzące do poszczególnych widoków aplikacji. Przycisk "Moje konto" przenosi użytkownika do widoku z rys. \ref{interfejs:konto}, przycisk "Telefony alarmowe" - do widoku z rys. \ref{interfejs:alarm}, "Zgłoś zagrożenie" - do widoku z rys. \ref{interfejs:zglos}, a "Wyloguj się" - do ekranu logowania (rys. \ref{interfejs:logowanie}). Menu rozwijane widoczne jest we wszystkich widokach aplikacji z wyłączeniem ekranu logowania (rys. \ref{interfejs:logowanie}) oraz rejestracji (rys. \ref{interfejs:rejestracja}). \\
+    \\
     \textbf{Moje konto} 
     \begin{figure}[H]
         \centering
@@ -571,6 +576,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
         \label{interfejs:konto}
     \end{figure}
     Widok na rys \ref{interfejs:konto} zawiera wypisane dane użytkownika, jego zdjęcie profilowe oraz przyciski pozwalające na przejrzenie historii wędrówek, edycję danych oraz usunięcie konta. W przypadku wybrania przycisku "Historia tras" użytkownik przenoszony jest do kolejnego, osobnego widoku (rys. \ref{interfejs:historia}). \\
+    \\
     \textbf{Historia tras}
     \begin{figure}[H]
         \centering
@@ -579,6 +585,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
         \label{interfejs:historia}
     \end{figure}
    Widok na rys. \ref{interfejs:historia} zawiera historię przebytych przez użytkownika tras. Szczegóły każdej trasy użytkownik może zobaczyć klikając przycisk z trzema kropkami obok wybranej trasy. Poniżej wypisanych tras znajduje się także wykres, na którym użytkownik może zobaczyć wstępne, graficzne podsumowanie ostatnich wycieczek. \\
+   \\
    \textbf{Wyznaczanie trasy}
     \begin{figure}[H]
         \centering
@@ -587,6 +594,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
         \label{interfejs:wyznacz}
     \end{figure}
    Widok na rys. \ref{interfejs:wyznacz} zawiera pola do wpisania początku i końca trasy, jaką użytkownik chce przejść. Pod nimi znajduje się przycisk "+", który pozwala na dodanie punktu postojowego i doprecyzowanie najbardziej pożądanej trasy. Wprowadzone dane po kliknięciu "Szukaj" wprowadzane są na mapę jako punkty i na ich podstawie wyznaczana jest najlepsza trasa, którą widać pod wyżej wymienionymi kontrolkami. \\
+   \\
    \textbf{Zgłaszanie zagrożenia}
     \begin{figure}[H]
         \centering
@@ -595,6 +603,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
         \label{interfejs:zglos}
     \end{figure}
    Widok na rys. \ref{interfejs:zglos} zawiera listę rozwijaną typów zagrożeń, w tym możliwą opcją "inne", jeżeli dane zagrożenie nie zdarzyło się do tej pory. Każde zagrożenie można opisać w polu tekstowym poniżej. Po kliknięciu przycisku "Potwierdź" pojawia się powiadomienie o potwierdzeniu przesłania zgłoszenia do administratora, który zgłoszenie musi zatwierdzić (widok na rys. \ref{interfejs:zatwierdz}) \\
+   \\
    \textbf{Telefony alarmowe}
     \begin{figure}[H]
         \centering
@@ -606,6 +615,7 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
 
     \subsection*{Administrator}
     Administrator aplikacji jest jednostką bardzo istotną dla poprawnego działania całej aplikacji. Po zalogowaniu na konto administratora (rys. \ref{interfejs:logowanie}) dostępne są następujące widoki: ekran główny, zatwierdzanie zgłoszeń przesłanych przez użytkowników, zarządzanie szlakami, zarządzanie atrakcjami, wysyłanie powiadomień oraz sekcja poświęcona GOPR.\\
+    \\
     \textbf{Ekran główny}
      \begin{figure}[H]
         \centering
@@ -614,7 +624,6 @@ Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszy
         \label{interfejs:admin}
     \end{figure}
    Widok na rys. \ref{interfejs:admin} zawiera kilka przycisków wspomagających nawigację po aplikacji. Dzięki tym przyciskom może przenieść się do ekranów: wyślij powiadomienie, zgłoszenia do zatwierdzenia, zarządzaj szlakami, zarządzaj atrakcjami oraz GOPR. Przyciski są odpowiednio nazwane, aby nie było wątpliwości, na jaki ekran użytkownik za chwilę zostanie przeniesiony. 
-   \newpage
    \textbf{Zatwierdź zgłoszenia}
      \begin{figure}[H]
         \centering

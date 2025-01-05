@@ -9,6 +9,7 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z pliku KML i na ich podstawie rysuje szlaki na mapie. Za pomocą FileInputStream zostaje stworzony strumień wejściowy do odczytania pliku, który potrzebny jest do utworzenia warstwy KML. Następnie jest ona dodawana do mapy i rozpoczyna się iterowanie po kontenerach. Pętla odczytująca obiekty KmlPlacemark, pobiera ich nazwę i na jej podstawie określa kolor szlaku. W kolejnym kroku zostają zdefiniowane opcje linii, czyli wybrany kolor oraz szerokość. Jeżeli geometria danego znacznika jest linią (KmlLineString), tworzona jest lista, przechowująca współrzędne szlaku, które następnie dodane są do wcześniej zdefiniowanej linii. Na koniec, utworzona trasa zostanie narysowana na mapie, dzięki czemu użytkownik widzi wszystkie szlaki Tatr. Efekt ten widoczny jest na rys.\ref{widok:map}.\\
 
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za rysowanie szlaków na mapie}
     \label{lst:rysowanie}
@@ -24,6 +25,7 @@ Funkcja przedstawiona na rys. \ref{lst:pobierz} odpowiada za kontrolę pobierani
 \\
 
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za lokalny zapis plików.}
     \label{lst:pobierz}
@@ -35,6 +37,7 @@ Funkcja przedstawiona na rys. \ref{lst:pobierz} odpowiada za kontrolę pobierani
 Fragment kodu przestawiony na listingu \ref{lst:schron} odpowiada za odczyt danych z pliku i utworzenie listy markerów. Użycie XmlPullParser umożliwia analizę pliku i pobranie danych potrzebnych do stworzenia markera. Po jego konfiguracji, następuje iterowanie po pliku, aż do osiągnięcia końca dokumentu. Podczas iteracji funkcja odczytuje dane z konkretnych tagów, kolejno nazwę z \verb|<name>|, opis \verb|<description>| oraz współrzędne \verb|<coordinates>|. Po napotkaniu na tag zamykający \verb|<Placemark>| i sprawdzeniu czy lokalizacja jest poprawna, zostaje utworzony marker z ikoną pokazaną jako parametr funkcji. Następnie jest on dodany do listy, która umożliwia kontrolę widoczności markerów. \\
 
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za wyświetlanie na mapie ikon schronisk, szczytów oraz stawów.}
     \label{lst:schron}
@@ -92,7 +95,6 @@ Fragment kod, pokazany na rys. \ref{lst:danger} odpowiada za zapis zgłoszenia d
 \\
 
 \textbf{Implementacja akceptacji zgłoszeń} \\ 
-\\
 Funkcja, pokazana na rys. \ref{lst:accepted} odpowiada za aktualizację danych zgłoszenia, a dokładniej ustawienie wartości pola “accepted” na “true”. Na podstawie identyfikatora dokumentu, przekazanego w parametrze funkcji, wiadome jest, które zgłoszenie należy zaktualizować. Skutki działania tego fragmentu kodu są wykorzystane w innych funkcjach aplikacji, np. \verb|getAccpetDangersLocations()|, opisanej poniżej.
 
 \noindent
@@ -145,7 +147,7 @@ Chcemy także, aby nowi użytkownicy byli zapisywani do bazy danych Firebase Fir
     \centering
     \includegraphics[width=0.6\linewidth]{img/kod/imp-addtofs.jpg}
 \end{minipage}
-\textbf{Implementacja logowania.}\\
+\textbf{Implementacja logowania}\\
 \indent Każdy użytkownik chce mieć dostęp do swoich danych, a także utworzonego konta. Logowanie pomaga nam zidentyfikować konkretnego użytkownika oraz przypisać mu jego aktywność. W tym module aplikacja również posiłkuje się Firebase Authentication. Pozwala to na szybkie logowanie użytkownika i udostępnienie mu wszystkich funkcjonalności aplikacji zgodnych z jego rolą.\\
 \noindent
 \begin{minipage}{\linewidth}
@@ -158,6 +160,7 @@ Chcemy także, aby nowi użytkownicy byli zapisywani do bazy danych Firebase Fir
 
 \subsection{Widoki - użytkownik}
 Wygląd aplikacji został idealnie dobrany do potrzeb użytkowników, tak aby mogli bez większego problemu wykonać wszystkie akcje, które oferowane są przez system. Każdy ekran aplikacji zawiera zestaw funkcji, który umożliwia użytkownikom m.in. poruszanie się po mapie, wykonanie zgłoszenia, przejrzenie wykresu dystansów oraz wezwanie pomocy. Poniżej zostały opisane wszystkie funkcjonalności, jakie użytkownicy mogą wykonać na danym widoku aplikacji.
+\\
 
 \textbf{Widok główny}\\
 \indent Po uruchomieniu aplikacji użytkownik ma do wyboru dwie opcje “Zaloguj” oraz “Zarejestruj”, co zostało przedstawione na rys. \ref{widok:home}. Po kliknięciu danej opcji, wyświetla się formularz, który pobiera od użytkownika potrzebne dane i zapisuje je w bazie. Rejestrację przestawia rys. \ref{widok:register}, natomiast logowanie rys. \ref{widok:login}. Jeżeli użytkownik logował się już wcześniej do aplikacji, widok początkowy jest pomijany i od razu przenosi użytkownika do następnego ekranu, pokazanego na rys. \ref{widok:user}. W sytuacji, gdy zalogowanym jest administrator, wyświetlony zostanie widok aplikacji, przedstawiony na rys. \ref{widok:adminhome}. Tło na początkowym ekranie reprezentuje dwie najważniejsze funkcjonalności aplikacji t.j. wędrówki po górach oraz ostrzeganie innych o zagrożeniu. Rejestracja jest ważna, gdyż dzięki niej wiadomo kto zgłosił dane zagrożenie oraz pozwala na zbieranie danych o aktywności użytkownika.\\
@@ -318,7 +321,7 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
 \indent Poniższy widok (rys. \ref{widok:adminaccept}) przedstawia listę zgłoszonych przez użytkowników zagrożeń na trasie, które czekają na akceptację po stronie administratora. Każde zgłoszenie musi mieć swój typ oraz krótki opis, a aplikacja zbiera dodatkowo informacje o aktualnym miejscu użytkownika w momencie wysłania zgłoszenia (nawet offline) oraz jego identyfikator.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.15]{img/imp/widok-admin-accept.jpg}
+    \includegraphics[scale=0.15]{img/test/testzglosadmin.jpg}
     \caption{Widok administratora z listą zagrożeń do zaakceptowania.}
     \label{widok:adminaccept}
 \end{figure}
