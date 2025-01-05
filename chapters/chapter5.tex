@@ -1,4 +1,5 @@
 \section{Projekt aplikacji} 
+Rozplanowanie działania aplikacji pozawala na przemyślaną implementację wszystkich funkcji. Programiści powinni zastanowić się nad najważniejszymi wymaganiami funkcjonalnymi i niefunkcjonalnymi, przypadkami użycia aplikacji, a także zaprojektować model danych. Przydatne jest także rozpisanie przykładowych scenariuszy, które mogą wystąpić przy korzystaniu z aplikacji przez użytkownika. Dobrze jest również zaprojektować przykładowy interfejs użytkownika dostosowany do potrzeb grupy docelowej. Poniższy rozdział skupia się na przedstawieniu projektu aplikacji zawierający wszystkie wcześniej wymienione elementy.
 
     \subsection{Wymagania funkcjonalne}
     \textbf{Administrator}
@@ -80,74 +81,83 @@
 
     Poniższe diagramy prezentują poszczególne funkcje aplikacji oferowane poszczególnym rolom użytkowników opracowane na podstawie określonych wcześniej wymagań funkcjonalnych.
 
+    \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\linewidth]{img/diagramy/UCD/UCDszlaki.jpg}
+        \fbox{\includegraphics[width=\linewidth]{img/diagramy/UCD/UCDszlaki.jpg}}
         \caption{Diagram przypadku użycia: zarządzanie szlakami przez administratora.}
         \label{ucd:szlaki}
     \end{figure}
     Funkcja zarządzania szlakami przez administratora (rys. \ref{ucd:szlaki}) składa się z kilku pomocniczych funkcji. Są to między innymi: tymczasowe wyłączanie z użytku (np. na potrzebę modernizacji szlaku bądź usunięcia z niego powalonych drzew), ponowne jego włączenie do użytku, dodawanie nowych szlaków, usuwanie szlaków, aktualizacja przebiegu istniejących szlaków oraz rozbudowanie bazy tras o nowe regiony i kolejne pasma górskie.
 
+    \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\linewidth]{img/diagramy/UCD/UCDpowiadomieniaAdmin.jpg}
+        \fbox{\includegraphics[width=\linewidth]{img/diagramy/UCD/UCDpowiadomieniaAdmin.jpg}}
         \caption{Diagram przypadku użycia: obsługa powiadomień po stronie administratora.}
         \label{ucd:powiadomienia}
     \end{figure}
     
     Funkcja obsługi powiadomień (rys. \ref{ucd:powiadomienia}) dostępna dla administratora pozwala na wysyłanie powiadomień od użytkowników w obrębie konkretnego regionu, wysyłanie powiadomień ogólnosystemowych do wszystkich użytkowników, przekazywanie komunikatów wychodzących od GOPR oraz akceptowanie zgłoszonych zagrożeń przesłanych przez użytkowników.
 
+    \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\linewidth]{img/diagramy/UCD/UCDkonto.jpg}
+        \fbox{\includegraphics[width=\linewidth]{img/diagramy/UC/UCkonto.jpg}}
         \caption{Diagram przypadku użycia: zarządzanie kontem.}
         \label{ucd:konto}
     \end{figure}
     Zarządzanie kontem (rys. \ref{ucd:konto}) leży w całości po stronie użytkownika - wędrówkowicza. Powierzamy mu takie funkcje jak: rejestracja, edytowanie danych przypisanych do konta oraz usunięcie konta.
 
+    \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\linewidth]{img/diagramy/UCD/UCDtrasa.jpg}
-        \caption{Diagram przypadku użycia: planowanie trasy przez użytkownika - wędrówkowicza}
+        \fbox{\includegraphics[width=\linewidth]{img/diagramy/UC/UCplan.jpg}}
+        \caption{Diagram przypadku użycia: planowanie trasy przez użytkownika.}
         \label{ucd:planowanie}
     \end{figure}
     Planowanie trasy (rys. \ref{ucd:planowanie}) jest procesem umożliwiającym podróżującemu na wybranie proponowanych mu szlaków, aby przejść z jednego miejsca w drugie. Na ten proces składają się funkcje takie jak: zaznaczanie na mapie wybranego szlaku, dodawanie z listy przylegających szlaków do głównej trasy, dodawanie punktów postojowych,
 
+    \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\linewidth]{img/diagramy/UCD/UCDnawigacja.jpg}
+        \fbox{\includegraphics[width=\linewidth]{img/diagramy/UC/UCnawigacja.jpg}}
         \caption{Diagram przypadku użycia: nawigacja}
         \label{ucd:nawigacja}
     \end{figure}
     Nawigacja po szlakach górskich (rys. \ref{ucd:nawigacja}) jest głównym zadaniem aplikacji. Poprawne jej funkcjonowanie gwarantują takie elementy, jak: korzystanie z map w trybie online, otrzymywanie powiadomień o zagrożeniach bądź utrudnieniach na trasie, pobieranie map i korzystanie z nich w trybie offline oraz naprowadzanie na szlak po zejściu z niego.
 
+    \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\linewidth]{img/diagramy/UCD/UCDhistoria.jpg}
+        \fbox{\includegraphics[width=\linewidth]{img/diagramy/UCD/UCDhistoria.jpg}}
         \caption{Diagram przypadku użycia: historia przebytych tras.}
         \label{ucd:historia}
     \end{figure}
     Przeglądanie historii przebytych tras przez danego użytkownika (rys. \ref{ucd:historia}) pozwala na kontrolowanie przebiegu swoich wędrówek. Dodatkową opcją tej funkcji jest generowanie raportów za ustalony okres, co ułatwia szybki powrót do swoich wypraw.
 
+    \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\linewidth]{img/diagramy/UCD/UCDpomoc.jpg}
+        \fbox{\includegraphics[width=\linewidth]{img/diagramy/UC/UCpomoc.jpg}}
         \caption{Diagram przypadku użycia: wzywanie pomocy.}
         \label{ucd:pomoc}
     \end{figure}
     Wzywanie pomocy na szlaku (rys. \ref{ucd:pomoc}) jest niezwykle istotną funkcją. Nie wszyscy turyści znają numery alarmowe, w tym numer GOPRu, często przed wyjściem na szlak zapominają ich zapisać. W związku z tym udostępniamy im opcję skopiowania numerów oraz bezpośredniego wybierania ich z poziomu aplikacji.
 
+    \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\linewidth]{img/diagramy/UCD/UCDzagrozenia.jpg}
+        \fbox{\includegraphics[width=\linewidth]{img/diagramy/UC/UCzagrozenie.jpg}}
         \caption{Diagram przypadku użycia: zgłaszanie zagrożeń.}
         \label{ucd:zagrozenia}
     \end{figure}
     Zgłaszanie zagrożeń oraz utrudnień występujących na szlaku (rys. \ref{ucd:zagrozenia}) pomaga wszystkim turystom bezpiecznie przejść całą zaplanowaną przez nich trasę. Występujące zagrożenie może zgłosić każdy z dostępem do internetu, lecz formularz zgłoszeniowy można wypełnić również w trybie offline. Zapisany i wypełniony formularz zostanie wysłany do zatwierdzenia, gdy urządzenie użytkownika uzyska dostęp do internetu. Zgłoszone zagrożenie posiada także przypisany region obowiązywania, tj. okolice lokalizacji użytkownika w momencie wypełnienia zgłoszenia. Użytkownik może wybrać typ zagrożenia z gotowej listy lub własnoręcznie opisać zdarzenie.
 
+    \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\linewidth]{img/diagramy/UCD/UCDkrokomierz.jpg}
+        \fbox{\includegraphics[width=\linewidth]{img/diagramy/UC/UCkrokomierz.jpg}}
         \caption{Diagram przypadku użycia: użycie krokomierza}
         \label{ucd:krokomierz}
     \end{figure}
@@ -514,7 +524,7 @@
         \item Lokalizacja - Atrakcja: w jednej lokalizacji może występować tylko jedna atrakcja, a jedna atrakcja ma jedną lokalizację.
     \end{itemize}
 
-    \subsection{Projekt interfejsu użytkownika}
+    \subsection{Projekt interfejsu graficznego}
     Interfejs użytkownika jest kluczowym elementem doświadczenia użytkownika, wpływającym na to, jak użytkownicy postrzegają i korzystają z aplikacji. Dobrze zaprojektowany interfejs sprawia, że aplikacja jest intuicyjna, łatwa w użyciu i atrakcyjna wizualnie, co zwiększa satysfakcję użytkowników i ich efektywność.
 
     Poniżej ukazane są poglądowe interfejsy użytkownika zarówno dla zwykłego podróżnika, jak i administratora.
@@ -536,7 +546,7 @@
         \caption{Interfejs użytkownika: logowanie.}
         \label{interfejs:logowanie}
     \end{figure}
-    Widok na rys.\ref{interfejs:logowanie} zawiera formularz logowania, który pobiera od użytkownika jego login oraz hasło. Poniżej pól do pobierania danych znajduje się przycisk "Zaloguj się", który przenosi użytkownika na ekran główny (rys. \ref{interfejs:glowny}. Oprócz tego widoczny jest odnośnik do formularza rejestracji (rys. \ref{interfejs:rejestracja}), jeśli użytkownik nie założył jeszcze konta w aplikacji. \\
+    Widok na rys.\ref{interfejs:logowanie} zawiera formularz logowania, który pobiera od użytkownika jego login oraz hasło. Poniżej pól do pobierania danych znajduje się przycisk "Zaloguj się", który przenosi użytkownika na ekran główny (rys. \ref{interfejs:glowny}). Oprócz tego widoczny jest odnośnik do formularza rejestracji (rys. \ref{interfejs:rejestracja}), jeśli użytkownik nie założył jeszcze konta w aplikacji. \\
     \textbf{Widok główny} 
      \begin{figure}[H]
         \centering
@@ -629,5 +639,33 @@
         \label{interfejs:dodaj}
     \end{figure}
    Widok na rys. \ref{interfejs:dodaj} zawiera kontrolki wspomagające wprowadzenie wszystkich niezbędnych informacji na temat nowego szlaku, który administrator chce utworzyć. Aby dodać nowy szlak należy podać jego nazwę, zaznaczyć jego przebieg na mapie oraz utworzyć krótki opis szlaku. Po kliknięciu przycisku "Potwierdź" wyświetla się powiadomienie informujące administratora o pomyślnym dodaniu szlaku do bazy.
+
+   \subsection{Przegląd narzędzi implementacyjnych}
+Dla prawidłowej i jak najskuteczniejszej pracy przygotowywanej aplikacji najważniejsze jest w procesie jej projektowania, aby dobrać optymalne narzędzia i technologie. W tym rozdziale skupiono się na krótkim omówieniu popularnych technologii programistycznych, które posiadają najbardziej potrzebne funkcje do prawidłowego działania systemu.
+
+\subsection*{Usługi Firebase}
+Dla prostej skalowalności całego projektu, a także usprawnienie połączeń między bazą danych a aplikacją oraz względne pozbycie się serwera aplikacji wielu programistów decyduje się na korzystanie z usług oferowanych przez Firebase \cite{firebase}. Do obsługi bazy danych najczęściej wybieraną usługą jest Firebase Firestore \cite{firebase-book}. Jest to szybka i elastyczna baza danych NoSQL, która działa w infrastrukturze Google Cloud i synchronizuje dane pomiędzy różnymi platformami.\par
+Do usprawnienia logowania i autoryzacji w aplikacji często wykorzystuje się usługę Firebase Authentication \cite{fireauth} pozwalającą na sprawdzanie tożsamości użytkowników i personalizowanie treści wyświetlanych na urządzeniach klientów. Authentication obsługuje uwierzytelnianie przy użyciu haseł, numerów telefonów, a także kont na platformach mediów społecznościowych, takich jak Google, Facebook, Twitter i innych kanałów.\par
+Przechowywanie plików w chmurze często jest potrzebne do sprawnej synchronizacji danych pomiędzy urządzeniami, kontami, jak i platformami. Firebase również tym razem wychodzi programistom na przeciw, udostępniając usługę Storage. Jest to wydajna, prosta w obsłudze i niedroga usługa pamięci masowej opracowana z myślą o skali Google.
+
+\subsection*{Google Maps Platform}
+Po dogłębnym przeszukaniu rynku oferującego wiele API obsługujących mapy na platformę Android, Google Maps Platform \cite{gmapsand} okazała się najbardziej odpowiednia. Jest to jedno z wielu usprawnień oferowanych przez Google przez dostęp do ich Google Clouds Platform. Dzięki temu wszelkie inne API z kategorii takich jak: obliczenia, przechowywanie i bazy danych, analiza danych, sztuczna inteligencja, sieci itp. są ze sobą zsynchronizowane, a do obsługiwania ich wszystkich wystarczy jedno konto, które przez pierwsze 90 dni jest darmowe i posiada 300USD przypisanych do portfela usługi. Po tym czasie użytkownik może zmienić typ swojego konta na płatne, wtedy środki pobierane są bezpośrednio z karty użytkownika za każde ponadplanowe użycie zasobów.
+Aspekt płatności, choć może się wydawać odstraszający dla wielu, nie jest skomplikowany i pozwala na w pełni darmowy rozwój aplikacji, jednak przy komercjalizacji projektu darmowe zasoby mogą okazać się niewystarczające. \cite{gmapsogol}
+
+
+\subsection*{Android Studio}
+Najpopularniejsze IDE pozwalające na tworzenie aplikacji mobilnych na urządzenia z systemem Android \cite{androidstudio} \cite{android-studio-book}. Obsługuje język Java oraz Kotlin i zawiera wiele wbudowanych narzędzi ułatwiających tworzenie aplikacji na urządzenia mobilne. Posiada m.in. emulatory urządzeń, integrację z systemem kontroli wersji Git oraz narzędzia do profilowania wydajności aplikacji.
+
+\subsection*{Język Java}
+Java \cite{java} jest to wysokopoziomowy, obiektowy język programowania. Jego szeroki zakres użytku pozwala na tworzenie różnych aplikacji w zależności od potrzeby, m.in. aplikacji webowych, systemów biznesowych, aplikacji mobilnych (Android), a także można go wykorzystać w systemach wbudowanych i przetwarzaniu danych \cite{java-book}.
+Dlaczego Java?
+\begin{itemize}
+    \item Obiektowość. Napisany kod można wykorzystywać wielokrotnie i dzielić go na moduły.
+    \item Ogromny zasób gotowych bibliotek, które obsługują wszelakie funkcje.
+    \item Aplikacje tworzone w Javie można uruchamiać na wszelkiego typu urządzeniach dzięki maszynie wirtualnej (JVM).
+\end{itemize}
+
+Aplikacja Harnasie umożliwia nam bezpieczne wędrówki po górach w rejonie Tatr Polskich. Dzięki opcji zgłaszaniu zagrożeń, które administrator akceptuje, poprawia się bezpieczeństwo wszystkich użytkowników. Wszyscy turyści korzystający z aplikacji zostaną powiadomieni o zagrożeniach miejscowych oraz otrzymają powiadomienie ogólne o komunikatach przekazywanych przez Tatrzańskie Ochotnicze Pogotowie Ratunkowe i Tatrzański Park Narodowy. Aplikacja śledzi również aktywność użytkownika oraz tworzy z niej przejrzysty wykres w interfejsie profilu. Zalogowany użytkownik może dzięki temu w prosty sposób zobaczyć swoje osiągnięcia oraz rozpowszechnić je znajomym, gdyż wszytskie dane zawierają się na jednym widoku. Harnasie posiada także funkcję wyznaczania trasy na mapie oraz możliwość wyboru sposobu nawigacji po niej. Użytkownik z dobrą orientacją w terenie może korzystać z trasy wyznaczonej w aplikacji, a dla osób, które wolą nawigację dostępną w Google Maps istnieje opcja otworzenia wyznaczonej trasy właśnie w tej aplikacji. Pozwala to wtedy na dokładne naprowadzanie po szlaku i zmniejsza ryzyko zagubienia się. Aplikacja zawiera także naniesione kolorami szlaki turystyczne na mapę, aby zapwenić przejrzystość i rozwiać wątpliwości o rodzaju szlaku. Często zdarza się, że idąc po wyznaczonym w górach szlaku, nawet na rozdrożu, ciężko zobaczyć oznaczenia kolorystyczne oznaczające długość szlaku. 
+
 
   
