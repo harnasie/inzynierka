@@ -1,12 +1,12 @@
 \section{Implementacja}
-Implementacją projektu autorki podzieliły się według ich możliwości oraz mocnych stron. Moduł map, dopracowany i doszlifowany z wieloma funkcjami personalizującymi wygląd map, moduł powiadomień odpowiedzialny za komunikowanie użytkowników o czyhających na szlakach niebezpieczeństwach oraz moduł zgłaszania zagrożeń usprawniający przesył informacji pomiędzy wędrowcami.
-W tym rozdziale opisane zostały najistotniejsze elementy aplikacji: listingi wybranych funkcji, ich opisy oraz wszystkie dostępne widoki. 
-
+W tym rozdziale opisane zostały najistotniejsze elementy aplikacji: wybrane funkcje, ich opisy oraz wszystkie dostępne widoki z podziałem na użytkownika i administratora. 
+Przedstawione zostały 3 moduły: moduł map, moduł zgłaszania zagrożeń oraz moduł powiadomień. Pierwszy z nich prezentuje metody odpowiedzialne za wygląd mapy oraz nawigację po niej. Moduł zgłaszania zagrożeń zawiera funkcje, które zapisują informacje o niebezpieczeństwach na szlakach, natomiast moduł powiadomień odpowiedzialny jest za ostrzeganie użytkowników o czyhających zagrożeniach.
 \subsection{Moduł map}
 Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób działają funkcje, które umożliwiają poruszanie się po górach oraz wpływają na wygląd mapy. Każda z nich sprawia, iż użytkownik ma możliwość pokonania wybranej trasy, a naniesione na mapę szlaki pozwalają mu zaplanować wędrówkę w każdym momencie. Poniżej przedstawione zostały wybrane funkcje składające się na implementację rysowania szlaków, wyznaczenia trasy, zapisu lokalnego plików oraz obsługi ikon ze schroniskami, szczytami i stawami.
-
+\\ 
+\\
 \textbf{Implementacja rysowania szlaków na mapie} \\
-Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z pliku KML i na ich podstawie rysuje szlaki na mapie. Za pomocą FileInputStream zostaje stworzony strumień wejściowy do odczytania pliku, który potrzebny jest do utworzenia warstwy KML. Następnie jest ona dodawana do mapy i rozpoczyna się iterowanie po kontenerach. Pętla odczytująca obiekty KmlPlacemark, pobiera ich nazwę i na jej podstawie określa kolor szlaku. W kolejnym kroku zostają zdefiniowane opcje linii, czyli wybrany kolor oraz szerokość. Jeżeli geometria danego znacznika jest linią (KmlLineString), tworzona jest lista, przechowująca współrzędne szlaku, które następnie dodane są do wcześniej zdefiniowanej linii. Na koniec, utworzona trasa zostanie narysowana na mapie, dzięki czemu użytkownik widzi wszystkie szlaki Tatr. Efekt ten widoczny jest na rys.\ref{widok:map}.\\
+\indent Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z pliku KML i na ich podstawie rysuje szlaki na mapie. Za pomocą FileInputStream zostaje stworzony strumień wejściowy do odczytania pliku, który potrzebny jest do utworzenia warstwy KML. Następnie jest ona dodawana do mapy i rozpoczyna się iterowanie po kontenerach. Pętla odczytująca obiekty KmlPlacemark, pobiera ich nazwę i na jej podstawie określa kolor szlaku. W kolejnym kroku zostają zdefiniowane opcje linii, czyli wybrany kolor oraz szerokość. Jeżeli geometria danego znacznika jest linią (KmlLineString), tworzona jest lista, przechowująca współrzędne szlaku, które następnie dodane są do wcześniej zdefiniowanej linii. Na koniec, utworzona trasa zostanie narysowana na mapie, dzięki czemu użytkownik widzi wszystkie szlaki Tatr. Efekt ten widoczny jest na rys.\ref{widok:map}.\\
 
 \noindent
 \setlength{\fboxrule}{0.5pt}
@@ -15,13 +15,11 @@ Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z p
     \label{lst:rysowanie}
     \centering
     \fbox{\includegraphics[width=0.6\linewidth]{img/kod/rysowanie-szlakow.png}}
-\end{minipage}
+\end{minipage}\\
 
-
-
-\textbf{Implementacja lokalnego zapisu plików} \\ 
-Funkcja przedstawiona na rys. \ref{lst:pobierz} odpowiada za kontrolę pobierania plików z serwera (Firebase Storage) i jest wywołana po każdym uruchomieniu aplikacji. Pliki zawierają informacje o szlakach oraz punktach, w których znajdują się schroniska, szczyty oraz stawy. Na początku funkcja tworzy obiekt reprezentujący ścieżkę do katalogu w pamięci i sprawdza, czy istnieje on fizycznie, jeśli nie, tworzy go. Następnie ustala pełną ścieżkę do lokalnego pliku i również sprawdza czy istnieje. Dalszy fragment kodu porównuje jego rozmiar z rozmiarem wersji na serwerze, aby określić, czy pobranie nowej wersji jest konieczne. Jeśli lokalny plik różni się zostaje on pobierany ponownie. Działanie funkcji sprawia, iż użytkownik ma zawsze aktualne dane zapisane na swoim urządzeniu. 
-
+\\
+\noindent \textbf{Implementacja lokalnego zapisu plików} \\ 
+\indent Funkcja przedstawiona na rys. \ref{lst:pobierz} odpowiada za kontrolę pobierania plików z serwera (Firebase Storage) i jest wywołana po każdym uruchomieniu aplikacji. Pliki zawierają informacje o szlakach oraz punktach, w których znajdują się schroniska, szczyty oraz stawy. Na początku funkcja tworzy obiekt reprezentujący ścieżkę do katalogu w pamięci i sprawdza, czy istnieje on fizycznie, jeśli nie, tworzy go. Następnie ustala pełną ścieżkę do lokalnego pliku i również sprawdza czy istnieje. Dalszy fragment kodu porównuje jego rozmiar z rozmiarem wersji na serwerze, aby określić, czy pobranie nowej wersji jest konieczne. Jeśli lokalny plik różni się zostaje on pobierany ponownie. Działanie funkcji sprawia, iż użytkownik ma zawsze aktualne dane zapisane na swoim urządzeniu. 
 \\
 
 \noindent
@@ -30,11 +28,14 @@ Funkcja przedstawiona na rys. \ref{lst:pobierz} odpowiada za kontrolę pobierani
     \captionof{listing}{Funkcja odpowiedzialna za lokalny zapis plików.}
     \label{lst:pobierz}
     \centering
-    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-ckeckandadd.jpg}}
+    \includegraphics[width=0.6\linewidth]{img/kod/imp-ckeckandadd.jpg}
 \end{minipage}\\
 
+\\
+
+\noindent
 \textbf{Implementacja ikon ze schroniskami, szczytami oraz stawami} \\ 
-Fragment kodu przestawiony na listingu \ref{lst:schron} odpowiada za odczyt danych z pliku i utworzenie listy markerów. Użycie XmlPullParser umożliwia analizę pliku i pobranie danych potrzebnych do stworzenia markera. Po jego konfiguracji, następuje iterowanie po pliku, aż do osiągnięcia końca dokumentu. Podczas iteracji funkcja odczytuje dane z konkretnych tagów, kolejno nazwę z \verb|<name>|, opis \verb|<description>| oraz współrzędne \verb|<coordinates>|. Po napotkaniu na tag zamykający \verb|<Placemark>| i sprawdzeniu czy lokalizacja jest poprawna, zostaje utworzony marker z ikoną pokazaną jako parametr funkcji. Następnie jest on dodany do listy, która umożliwia kontrolę widoczności markerów. \\
+\indent Fragment kodu przestawiony na listingu \ref{lst:schron} odpowiada za odczyt danych z pliku i utworzenie listy markerów. Użycie XmlPullParser umożliwia analizę pliku i pobranie danych potrzebnych do stworzenia markera. Po jego konfiguracji, następuje iterowanie po pliku, aż do osiągnięcia końca dokumentu. Podczas iteracji funkcja odczytuje dane z konkretnych tagów, kolejno nazwę z \verb|<name>|, opis \verb|<description>| oraz współrzędne \verb|<coordinates>|. Po napotkaniu na tag zamykający \verb|<Placemark>| i sprawdzeniu czy lokalizacja jest poprawna, zostaje utworzony marker z ikoną pokazaną jako parametr funkcji. Następnie jest on dodany do listy, która umożliwia kontrolę widoczności markerów. \\
 
 \noindent
 \setlength{\fboxrule}{0.5pt}
@@ -45,10 +46,9 @@ Fragment kodu przestawiony na listingu \ref{lst:schron} odpowiada za odczyt dany
     \fbox{\includegraphics[width=0.6\linewidth]{img/kod/schroniska.png}}
 \end{minipage}\\
 
-\newpage
-\textbf{Implementacja wyznaczenia trasy}\\
 
-Za wyznaczanie trasy odpowiedzialnych jest kilka funkcji. Jedna z nich została przedstawiona na listingu \ref{lst:trasa} i służy do utworzenia adresu URL, który definiuje trasę. Początek kodu sprawdza, czy dane trasy są puste, jeśli tak, zostanie rzucony wyjątek z informacją o tym, jeśli nie, zostaje wykonany dalszy kod. Określone zostają informacje o wyznaczonej trasie, t.j. początek i koniec oraz tryb pieszy, a także klucz API Google Maps, potrzebny do poprawnego stworzenia adresu URL. Funkcja \verb|encodeLatLng()| konwertuje współrzędne, tak aby pasowały do jego formatu. Kolejnym krokiem jest sprawdzenie, czy trasa posiada przystanki, jeśli tak, ich współrzędne są pobieranie i dodane do ciągu znaków. Na koniec, wszystkie parametry połączone zostają w jeden ciąg tekstowy, którym jest gotowy adres URL. Link zawiera wynik trasy w formacie JSON, który jest odbierany i przetwarzany przez kolejne funkcje, które nie zostały opisane ze względu na ich ilość. Po wykonaniu ich wszystkich, można z odczytać szczegółowe dane drogi, wybranej przez użytkownika. \\
+\textbf{Implementacja wyznaczenia trasy}\\
+\indent Za wyznaczanie trasy odpowiedzialnych jest kilka funkcji. Jedna z nich została przedstawiona na listingu \ref{lst:trasa} i służy do utworzenia adresu URL, który definiuje trasę. Początek kodu sprawdza, czy dane trasy są puste, jeśli tak, zostanie rzucony wyjątek z informacją o tym, jeśli nie, zostaje wykonany dalszy kod. Określone zostają informacje o wyznaczonej trasie, t.j. początek i koniec oraz tryb pieszy, a także klucz API Google Maps, potrzebny do poprawnego stworzenia adresu URL. Funkcja \verb|encodeLatLng()| konwertuje współrzędne, tak aby pasowały do jego formatu. Kolejnym krokiem jest sprawdzenie, czy trasa posiada przystanki, jeśli tak, ich współrzędne są pobieranie i dodane do ciągu znaków. Na koniec, wszystkie parametry połączone zostają w jeden ciąg tekstowy, którym jest gotowy adres URL. Link zawiera wynik trasy w formacie JSON, który jest odbierany i przetwarzany przez kolejne funkcje, które nie zostały opisane ze względu na ich ilość. Po wykonaniu ich wszystkich, można z odczytać szczegółowe dane drogi, wybranej przez użytkownika. \\
 
 \noindent
 \setlength{\fboxrule}{0.5pt}
@@ -84,9 +84,11 @@ Funkcja, przedstawiona na listingu \ref{lst:rystras} rysuje wyznaczoną trasę z
 
 \subsection{Moduł zgłoszeń}
 Przy procesie obsługi zgłoszeń uczestniczy zarówno użytkownik jak i administrator. Pierwszy z nich zgłasza zagrożenie, podając wszystkie niezbędne informacje o niebezpieczeństwie. Drugi natomiast decyduje, czy dane zgłoszenie jest pomocne dla innych użytkowników.  Poniżej zostały przedstawione najważniejsze funkcje składające się na implementację zapisu zgłoszeń do bazy Firebase oraz akceptację zgłoszeń.
+\\
 
+\noindent
 \textbf{Implementacja zapisu zgłoszeń do bazy (Firebase)} \\ 
-Fragment kod, pokazany na rys. \ref{lst:danger} odpowiada za zapis zgłoszenia do bazy. Na początku sprawdzone zostaje połączenie z internetem, jeśli go nie ma, dane zostają zapisane lokalnie na urządzeniu, za co odpowiedzialna jest funkcja \verb|saveDangerLocally()|. W przypadku, gdy użytkownik ma włączony internet i GPS, zostaje zapisana jego lokalizacja oraz możliwe jest pobranie jego nazwy oraz email. Na podstawie danych o zalogowanym zostaje utworzony obiekt  \verb|Map<String, Object>|, który jest potrzebny do poprawnego zapisu zgłoszenia. Następnie dane przekazane w parametrze funkcji zostają dodane do obiektu “danger”, który zawiera informacje o zagrożeniu. W kolejnym kroku zostają one zapisane do bazy. W przypadku niepowodzenia zostaje wyświetlony komunikat o błędzie. \\
+\indent Fragment kod, pokazany na rys. \ref{lst:danger} odpowiada za zapis zgłoszenia do bazy. Na początku sprawdzone zostaje połączenie z internetem, jeśli go nie ma, dane zostają zapisane lokalnie na urządzeniu, za co odpowiedzialna jest funkcja \verb|saveDangerLocally()|. W przypadku, gdy użytkownik ma włączony internet i GPS, zostaje zapisana jego lokalizacja oraz możliwe jest pobranie jego nazwy oraz email. Na podstawie danych o zalogowanym zostaje utworzony obiekt  \verb|Map<String, Object>|, który jest potrzebny do poprawnego zapisu zgłoszenia. Następnie dane przekazane w parametrze funkcji zostają dodane do obiektu “danger”, który zawiera informacje o zagrożeniu. W kolejnym kroku zostają one zapisane do bazy. W przypadku niepowodzenia zostaje wyświetlony komunikat o błędzie. \\
 
 \noindent
 \setlength{\fboxrule}{0.5pt}
@@ -98,8 +100,9 @@ Fragment kod, pokazany na rys. \ref{lst:danger} odpowiada za zapis zgłoszenia d
 \end{minipage}
 \\
 
+\noindent
 \textbf{Implementacja akceptacji zgłoszeń} \\ 
-Funkcja, pokazana na rys. \ref{lst:accepted} odpowiada za aktualizację danych zgłoszenia, a dokładniej ustawienie wartości pola “accepted” na “true”. Na podstawie identyfikatora dokumentu, przekazanego w parametrze funkcji, wiadome jest, które zgłoszenie należy zaktualizować. Skutki działania tego fragmentu kodu są wykorzystane w innych funkcjach aplikacji, np. \verb|getAccpetDangersLocations()|, opisanej poniżej.
+\indent Funkcja, pokazana na rys. \ref{lst:accepted} odpowiada za aktualizację danych zgłoszenia, a dokładniej ustawienie wartości pola “accepted” na “true”. Na podstawie identyfikatora dokumentu, przekazanego w parametrze funkcji, wiadome jest, które zgłoszenie należy zaktualizować. Skutki działania tego fragmentu kodu są wykorzystane w innych funkcjach aplikacji, np. \verb|getAccpetDangersLocations()|, opisanej poniżej.
 
 \noindent
 \setlength{\fboxrule}{0.5pt}
@@ -122,7 +125,8 @@ Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokali
     \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-getacceptedloc.png}}
 \end{minipage}
 \\
-
+\\
+\\
 \noindent
 \setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
@@ -131,10 +135,22 @@ Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokali
     \centering
     \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-updatemap.png}}
 \end{minipage}
+
+
+\noindent
+\setlength{\fboxrule}{0.5pt}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{img/imp/test-accpeted.png}
+    \caption{Zaktualizowana mapa po akceptacji zgłoszeń przez administratora.}
+    \label{widok:markeraccepted1}
+\end{figure}
 \\
 \subsection{Moduł logowania i rejestracji}
 Logowanie i rejestracja pozwala na łatwe zidentyfikowanie użytkownika aplikacji, a także pozwala na śledzenie jego aktywności celem stworzenia raportów czy wykresów. Pozwala też na ustalenie, który użytkownik wysłał zgłoszenie o zagrożeniu. Poniżej przedstawione są funkcje niezbędne do implementacji logowania oraz rejestracji nowych użytkowników w systemie.
+\\
 
+\noindent
 \textbf{Implementacja rejestracji}\\
 \indent Rejestracja w tej aplikacji opiera się na adresie email oraz haśle i wybraniu nazwy użytkownika, Wszystkie te dane muszą być podane, aby rejestracja przebiegła pomyślnie. Do zabiegu rejestracji wykorzystywany jest moduł Firebase Authentication ułatwiający autoryzację użytkowników. Cała rejestracja kryje się pod przyciskiem "Zarejestruj" na widoku rejestracji użytkownika.\\
 \noindent
@@ -156,6 +172,8 @@ Chcemy także, aby nowi użytkownicy byli zapisywani do bazy danych Firebase Fir
     \centering
     \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-addtofs.jpg}}
 \end{minipage}
+
+\noindent
 \textbf{Implementacja logowania}\\
 \indent Każdy użytkownik chce mieć dostęp do swoich danych, a także utworzonego konta. Logowanie pomaga nam zidentyfikować konkretnego użytkownika oraz przypisać mu jego aktywność. W tym module aplikacja również posiłkuje się Firebase Authentication. Pozwala to na szybkie logowanie użytkownika i udostępnienie mu wszystkich funkcjonalności aplikacji zgodnych z jego rolą.\\
 \noindent
@@ -172,42 +190,45 @@ Chcemy także, aby nowi użytkownicy byli zapisywani do bazy danych Firebase Fir
 Wygląd aplikacji został idealnie dobrany do potrzeb użytkowników, tak aby mogli bez większego problemu wykonać wszystkie akcje, które oferowane są przez system. Każdy ekran aplikacji zawiera zestaw funkcji, który umożliwia użytkownikom m.in. poruszanie się po mapie, wykonanie zgłoszenia, przejrzenie wykresu dystansów oraz wezwanie pomocy. Poniżej zostały opisane wszystkie funkcjonalności, jakie użytkownicy mogą wykonać na danym widoku aplikacji.
 \\
 
+\noindent
 \textbf{Widok główny}\\
 \indent Po uruchomieniu aplikacji użytkownik ma do wyboru dwie opcje “Zaloguj” oraz “Zarejestruj”, co zostało przedstawione na rys. \ref{widok:home}. Po kliknięciu danej opcji, wyświetla się formularz, który pobiera od użytkownika potrzebne dane i zapisuje je w bazie. Rejestrację przestawia rys. \ref{widok:register}, natomiast logowanie rys. \ref{widok:login}. Jeżeli użytkownik logował się już wcześniej do aplikacji, widok początkowy jest pomijany i od razu przenosi użytkownika do następnego ekranu, pokazanego na rys. \ref{widok:user}. W sytuacji, gdy zalogowanym jest administrator, wyświetlony zostanie widok aplikacji, przedstawiony na rys. \ref{widok:adminhome}. Tło na początkowym ekranie reprezentuje dwie najważniejsze funkcjonalności aplikacji t.j. wędrówki po górach oraz ostrzeganie innych o zagrożeniu. Rejestracja jest ważna, gdyż dzięki niej wiadomo kto zgłosił dane zagrożenie oraz pozwala na zbieranie danych o aktywności użytkownika.\\
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/welcome.png}
+    \includegraphics[scale=0.6]{img/imp/welcome.png}
     \caption{Widok początkowy po uruchomieniu aplikacji.}
     \label{widok:home}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-reje.png}
+    \includegraphics[scale=0.6]{img/imp/widok-reje.png}
     \caption{Widok formularza rejestracji do aplikacji.}
     \label{widok:register}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-log.png}
+    \includegraphics[scale=0.6]{img/imp/widok-log.png}
     \caption{Widok formularza logowania do aplikacji.}
     \label{widok:login}
 \end{figure}
-
+\newpage
+\noindent
 \textbf{Konto użytkownika} \\
 \indent Na ekranie zaprezentowanym na rys.\ref{widok:user} użytkownik może zobaczyć swoją nazwę oraz wykaz pokonanych dystansów, przedstawionych w formie wykresu słupkowego. Pod nim znajduje się przycisk, dzięki któremu użytkownik może się wylogować z aplikacji. Na samym dole ekranu widoczne jest menu z czterema ikonami. Po naciśnięciu na wybrany przycisk, użytkownik zostanie przeniesiony do odpowiedniej aktywności. Pasek menu znajduje się na każdym ekranie aplikacji i umożliwia szybką nawigację między jej widokami.\\
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-user.png}
+    \includegraphics[scale=0.6]{img/imp/widok-user.png}
     \caption{Widok danych użytkownika z wykresem.}
     \label{widok:user}
 \end{figure}
 
+\noindent
 \textbf{Widok mapy} \\
 \indent Ekran mapy. przedstawiony na rys.\ref{widok:map} wyświetla szlaki Tatr oraz pozwala użytkownikowi wykonać wiele operacji m.in. zaplanować trasę oraz przejrzeć same szlaki. Wszystkie funkcjonalności będą opisane poniżej.
 Ekran mapy zawiera następujące elementy:
 \begin{enumerate}
-    \item Ikonki ze schroniskami, szczytami oraz stawami - odpowiadają za widoczność  danych markerów na mapie
+    \item Ikonki ze schroniskami, szczytami oraz stawami - odpowiadają za widoczność danych markerów na mapie
     \item Ikona z warstwą - zmienia wygląd mapy z podstawowego na widoki z satelity
     \item Ikona z lokalizacją - nakierowuje mapę na obecną lokalizację użytkownika
     \item Wybierz szlak - pokazuje listę szlaków do wyboru
@@ -218,12 +239,25 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-mapa.png}
+    \includegraphics[scale=0.6]{img/imp/widok-mapa.png}
     \caption{Widoku mapy z narysowanymi szlakami.}
     \label{widok:map}
 \end{figure}
 
-\textbf{Wyznaczanie trasę} \\
+\noindent
+\textbf{Pokazywanie ikonek na mapie} \\
+\indent Naciśnięcie przycisku z wybraną ikonką spododuje pojawienie się na mapie markerów w miejscu ich wystąpienia (rys. \ref{widok:ikony}). Użytkownik może kliknąć na dany znacznik w celu poznania jego nazwy oraz szczegółów w postaci informacji o wysokości n.p.m.
+\noindent
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{img/imp/widok-ikony.png}
+    \caption{Mapa z widocznymi ikonami schronisk.}
+    \label{widok:ikony}
+\end{figure}
+
+
+\noindent
+\textbf{Wyznaczanie trasy} \\
 \indent Wybranie opcji “wyznacz trasę” z widoku mapy (rys. \ref{widok:wyznacztrase}) spowoduje wyświetlenie okna, które umożliwia użytkownikowi podanie szczegółów trasy. Po kliknięciu pola z punktem trasy, na środku mapy pokazuje się marker oraz przycisk do zatwierdzenia lokalizacji, co zostało przedstawione na rys.\ref{widok:ustawlokalizacje} Potwierdzenie wybranej lokalizacji spowoduje, iż w miejscu pola z punktem trasy pojawia się jej nazwa (rys. \ref{widok:ustawlokalizacjewynik}). Użytkownik w każdej chwili może zmienić ustawione punkty trasy, ponownie klikając w wybrane pole. W przypadku włączonej lokalizacji, pole z początkiem trasy jest uzupełnione już o współrzędne wędrówkowicza. Po ustawieniu wszystkich pól z punktami trasy, użytkownik może wybrać następujące opcje:
 \begin{itemize}
     \item Dodaj przystanek - pokazuje pole do podania jego lokalizacji,
@@ -233,14 +267,14 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-loka.png}
+    \includegraphics[scale=0.6]{img/imp/widok-loka.png}
     \caption{Opcje widoczne po kliknięciu przycisku "Wyznacz trasę".}
     \label{widok:wyznacztrase}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-marker.png}
+    \includegraphics[scale=0.6]{img/imp/widok-marker.png}
     \caption{Wybór punktów trasy za pomocą markera.}
     \label{widok:ustawlokalizacje}
 \end{figure}
@@ -248,12 +282,12 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-pkt.png}
+    \includegraphics[scale=0.6]{img/imp/widok-pkt.png}
     \caption{Rezultat wyboru lokalizacji punktu trasy.}
     \label{widok:ustawlokalizacjewynik}
 \end{figure}
 
-
+\noindent
 \textbf{Zatwierdzanie trasy} \\
 \indent Po zatwierdzeniu trasy, pokazuje się ona na mapie wraz z kolejnych opcjami, które zostały przedstawione na rys. \ref{widok:zatwierdztrase}:
 \begin{itemize}
@@ -263,11 +297,12 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/imp/widok-trasa.png}
+    \includegraphics[scale=0.6]{img/imp/widok-trasa.png}
     \caption{Widok aplikacji po zatwierdzeniu wybranej przez użytkownika trasy.}
     \label{widok:zatwierdztrase}
 \end{figure}
 
+\noindent
 \textbf{Wybieranie szlaku} \\
 \indent Po wybraniu opcji “Wybierz szlak” z widoku mapy (rys. \ref{widok:map}) pokaże się lista szlaków z oznaczeniem koloru, widoczna na rys. \ref{widok:wyborszlaku}. Użytkownik może przeszukać wszystkie szlaki górskie Tatr, a po kliknięciu przycisku “wybierz”, zostaje nakierowany na początek wybranej trasy, jak zostało przedstawione na rys. \ref{widok:szlak}. Na ekranie widoczna jest także kolejna opcja, która umożliwia użytkownikowi nawigację po trasie za pomocą aplikacji Mapy Google.\\
 
@@ -284,7 +319,8 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
     \caption{Widok z początkiem wybranego z listy szlaku.}
     \label{widok:szlak}
 \end{figure}
-
+\newpage
+\noindent
 \textbf{Widok formularza zgłoszeń zagrożeń} \\
 \indent Ekran zgłoszenia pokazany na rys. \ref{widok:zgłoszenie} spełnia jedno z podstawowych funkcjonalności aplikacji. To tutaj użytkownik, mając włączoną lokalizację i internet, może wygenerować powiadomienie dla innych użytkowników o danym zagrożeniu na szlaku, wybierając jego typ z listy i opisując szczegóły. Po naciśnięciu “Zgłoś zagrożenie”, zgłoszenie zostaje od razu wysłane lub w przypadku problemów z internetem, zapisane i wysłane natychmiast po ponownym nawiązaniu połączenia.
 
@@ -295,7 +331,7 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
     \label{widok:zgłoszenie}
 \end{figure}
 
-
+\noindent
 \textbf{Widok ekranu z numerami alarmowymi} \\
 \indent Ekran aplikacji, pokazany na rys. \ref{widok:telefony} umożliwia użytkownikowi wezwanie pomocy w razie wypadku. Kliknięcie przycisków po lewej stronie spowoduje zadzwonienie na dany numer, natomiast przyciski po prawej pozwalają na skopiowanie numeru telefonu. Jest to bardzo wygodna opcja, która oszczędza użytkownikowi dużo czasu, gdyż nie musi go szukać i ma zawsze pod ręką.
 
@@ -308,7 +344,9 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \subsection{Widoki - administrator}
 Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni się zupełnie wygląd jego aplikacji po zalogowaniu. Administrator ma dostęp do kompletnie innych funkcjonalności niż zwykły użytkownik. Należą do nich: dodawanie nowych szlaków do Firebase Storage w formacie .kml oraz akceptowanie zgłoszeń o zagrożeniach przesłanych przez użytkowników. Poniżej znajduje się pełny opis wyglądu i funkcjonalności aplikacji użytkownika z rolą "administrator".
+\\
 
+\noindent
 \textbf{Widok główny administratora}\\
 \indent Administrator posiada swoją własną wersję aplikacji. Jego ekran główny \ref{widok:adminhome} posiada zestaw przycisków odpowiedzialnych za główne elementy, którymi zarządza. Kolejno od góry widoczne są przyciski "Wyślij powiadomienie ogólne", przenoszący go do widoku krótkiego formularza (rys. \ref{widok:admindanger}), gdzie może wkleić treść komunikatu od służb tatrzańskich lub napisać własną treść powiadomienia wysyłanego do wszystkich użytkowników, "Pokaż wszystkie zgłoszenia" przenoszący do widoku listy wszystkich zgłoszonych zagrożeń (rys. \ref{widok:adminaccept}) czekających na akceptację, "Dodaj trasę" przenoszący do widoku umożliwiającego dodanie nowego szlaku do bazy (rys. \ref{widok:kml}) oraz "Wyloguj" zamykający bieżącą sesję użytkownika.
 \begin{figure}[H]
@@ -318,6 +356,7 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
     \label{widok:adminhome}
 \end{figure}
 
+\noindent
 \textbf{Widok formularza komunikatów}\\
 \indent Formularz przedstawiony na poniższym widoku (rys. \ref{widok:admindanger}) umożliwia administratorowi wysłanie powiadomień do wszystkich użytkowników jednocześnie z komunikatami bezpieczeństwa wydawanymi przez TOPR, GOPR lub TPN najczęściej dotyczących stanu meteorologicznego panującego w Tatrach.
 \begin{figure}[H]
@@ -327,15 +366,17 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
     \label{widok:admindanger}
 \end{figure}
 
+\noindent
 \textbf{Widok listy zgłoszeń}\\
 \indent Poniższy widok (rys. \ref{widok:adminaccept}) przedstawia listę zgłoszonych przez użytkowników zagrożeń na trasie, które czekają na akceptację po stronie administratora. Każde zgłoszenie musi mieć swój typ oraz krótki opis, a aplikacja zbiera dodatkowo informacje o aktualnym miejscu użytkownika w momencie wysłania zgłoszenia (nawet offline) oraz jego identyfikator.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/test/testzglosadmin.jpg}
+    \includegraphics[scale=0.6]{img/test/testzglosadmin.jpg}
     \caption{Widok administratora z listą zagrożeń do zaakceptowania.}
     \label{widok:adminaccept}
 \end{figure}
 
+\noindent
 \textbf{Widok wspomagający dodawanie szlaków do bazy} \\ 
 \indent Poniższy widok (rys. \ref{widok:kml}) przedstawia prosty proces dodawania plików .kml z nowymi szlakami. Najpierw administrator wyznacza przebieg szlaku za pomocą strony Google My Maps, gdzie ma możliwość eksportowania pliku z nowo utworzonym szlakiem do formatu .kml. Następnie może wybrać świeżo przygotowany plik i spróbować wysłać go do usługi Firebase Storage. Pojawia się jednak jeden problem - w procesie implementacji tej funkcji oraz testowania jej poprawnego działania okazało się, że urządzenia mobilne mogą zapisywać pliki .kml jako pliki .xml. Dlatego zdecydowano się na dodanie kolejnego przycisku "Otwórz konwerter xml na kml", który przenosi administratora na przeglądarkowy konwerter plików. Wyeksportowany, przekonwertowany plik administrator wysyła na serwer za pomocą przycisku "Prześlij plik".
 \begin{figure}[H]
