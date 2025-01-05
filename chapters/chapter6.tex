@@ -14,7 +14,7 @@ Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z p
     \captionof{listing}{Funkcja odpowiedzialna za rysowanie szlaków na mapie}
     \label{lst:rysowanie}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/rysowanie-szlakow.png}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/rysowanie-szlakow.png}}
 \end{minipage}
 
 
@@ -30,7 +30,7 @@ Funkcja przedstawiona na rys. \ref{lst:pobierz} odpowiada za kontrolę pobierani
     \captionof{listing}{Funkcja odpowiedzialna za lokalny zapis plików.}
     \label{lst:pobierz}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/imp-ckeckandadd.jpg}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-ckeckandadd.jpg}}
 \end{minipage}\\
 
 \textbf{Implementacja ikon ze schroniskami, szczytami oraz stawami} \\ 
@@ -42,20 +42,21 @@ Fragment kodu przestawiony na listingu \ref{lst:schron} odpowiada za odczyt dany
     \captionof{listing}{Funkcja odpowiedzialna za wyświetlanie na mapie ikon schronisk, szczytów oraz stawów.}
     \label{lst:schron}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/schroniska.png}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/schroniska.png}}
 \end{minipage}\\
 
-
+\newpage
 \textbf{Implementacja wyznaczenia trasy}\\
 
 Za wyznaczanie trasy odpowiedzialnych jest kilka funkcji. Jedna z nich została przedstawiona na listingu \ref{lst:trasa} i służy do utworzenia adresu URL, który definiuje trasę. Początek kodu sprawdza, czy dane trasy są puste, jeśli tak, zostanie rzucony wyjątek z informacją o tym, jeśli nie, zostaje wykonany dalszy kod. Określone zostają informacje o wyznaczonej trasie, t.j. początek i koniec oraz tryb pieszy, a także klucz API Google Maps, potrzebny do poprawnego stworzenia adresu URL. Funkcja \verb|encodeLatLng()| konwertuje współrzędne, tak aby pasowały do jego formatu. Kolejnym krokiem jest sprawdzenie, czy trasa posiada przystanki, jeśli tak, ich współrzędne są pobieranie i dodane do ciągu znaków. Na koniec, wszystkie parametry połączone zostają w jeden ciąg tekstowy, którym jest gotowy adres URL. Link zawiera wynik trasy w formacie JSON, który jest odbierany i przetwarzany przez kolejne funkcje, które nie zostały opisane ze względu na ich ilość. Po wykonaniu ich wszystkich, można z odczytać szczegółowe dane drogi, wybranej przez użytkownika. \\
 
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za wyznaczanie trasy}
     \label{lst:trasa}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/trasa.png}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/trasa.png}}
 \end{minipage}
 \\
 
@@ -71,11 +72,12 @@ Funkcja, przedstawiona na listingu \ref{lst:rystras} rysuje wyznaczoną trasę z
 \\
 
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za rysowanie szlaków na mapie}
     \label{lst:rystras}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/rys-tras.png}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/rys-tras.png}}
 \end{minipage}
 \\
 
@@ -86,11 +88,12 @@ Przy procesie obsługi zgłoszeń uczestniczy zarówno użytkownik jak i adminis
 Fragment kod, pokazany na rys. \ref{lst:danger} odpowiada za zapis zgłoszenia do bazy. Na początku sprawdzone zostaje połączenie z internetem, jeśli go nie ma, dane zostają zapisane lokalnie na urządzeniu, za co odpowiedzialna jest funkcja \verb|saveDangerLocally()|. W przypadku, gdy użytkownik ma włączony internet i GPS, zostaje zapisana jego lokalizacja oraz możliwe jest pobranie jego nazwy oraz email. Na podstawie danych o zalogowanym zostaje utworzony obiekt  \verb|Map<String, Object>|, który jest potrzebny do poprawnego zapisu zgłoszenia. Następnie dane przekazane w parametrze funkcji zostają dodane do obiektu “danger”, który zawiera informacje o zagrożeniu. W kolejnym kroku zostają one zapisane do bazy. W przypadku niepowodzenia zostaje wyświetlony komunikat o błędzie. \\
 
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za zapis zgłoszeń do bazy.}
     \label{lst:danger}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/imp-adddanger.png}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-adddanger.png}}
 \end{minipage}
 \\
 
@@ -98,31 +101,34 @@ Fragment kod, pokazany na rys. \ref{lst:danger} odpowiada za zapis zgłoszenia d
 Funkcja, pokazana na rys. \ref{lst:accepted} odpowiada za aktualizację danych zgłoszenia, a dokładniej ustawienie wartości pola “accepted” na “true”. Na podstawie identyfikatora dokumentu, przekazanego w parametrze funkcji, wiadome jest, które zgłoszenie należy zaktualizować. Skutki działania tego fragmentu kodu są wykorzystane w innych funkcjach aplikacji, np. \verb|getAccpetDangersLocations()|, opisanej poniżej.
 
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za akceptację zgłoszeń.}
     \label{lst:accepted}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/imp-acceptdanger.png}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-acceptdanger.png}}
 \end{minipage}
 \\
 
 Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokalizacji zgłoszeń zagrożeń, które zostały zaakceptowane. Na początku dane są filtrowane, tzn. sprawdzane jest czy dane zgłoszenie w polu dokumentu “accepted” ma wartość “true”. W przypadku niepowodzenia podczas pobierania danych z bazy, zostaje wyświetlony komunikat, informujący o takiej sytuacji. Jeśli pobieranie danych zakończy się powodzeniem i wyniki filtrowania nie są puste, następuje iteracja przez każdy dokument. W kolejnym kroku jest sprawdzane czy posiada on pole “location”, jeśli tak, dane zostają pobrane i zapisane do \verb|Map<String, Object>|. Kluczem stworzonej mapy jest “latitude” lub “longitude”, a wartością współrzędne. Następnie, dane te są łączone w jeden obiekt LatLng, reprezentujący miejsce, w którym zostało wykonane zgłoszenie. Na koniec, współrzędne są dodawane do listy, przechowującej lokalizacje zaakceptowanych zgłoszeń. Po sprawdzeniu czy nie jest ona pusta zostaje wywołana funkcja \verb|updateMapWithAcceptedDangers()|, przedstawiona na rys. \ref{lst:markeraccepted}. Odpowiada ona za ustawienie markerów na mapie w miejscu, wystąpienia zagrożenia. Mapa po akuktualizacji została przedstawiona na rys XX.\\
 
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za pobranie lokalizacji zgłoszeń.}
     \label{lst:getaccepted}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/imp-getacceptedloc.png}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-getacceptedloc.png}}
 \end{minipage}
 \\
 
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za ustawienie markerów z zagrożeniami na mapie.}
     \label{lst:markeraccepted}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/imp-updatemap.png}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-updatemap.png}}
 \end{minipage}
 \\
 \subsection{Moduł logowania i rejestracji}
@@ -131,30 +137,33 @@ Logowanie i rejestracja pozwala na łatwe zidentyfikowanie użytkownika aplikacj
 \textbf{Implementacja rejestracji}\\
 \indent Rejestracja w tej aplikacji opiera się na adresie email oraz haśle i wybraniu nazwy użytkownika, Wszystkie te dane muszą być podane, aby rejestracja przebiegła pomyślnie. Do zabiegu rejestracji wykorzystywany jest moduł Firebase Authentication ułatwiający autoryzację użytkowników. Cała rejestracja kryje się pod przyciskiem "Zarejestruj" na widoku rejestracji użytkownika.\\
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Rejestracja użytkownika w "słuchaczu" przycisku "Zarejestruj".}
     \label{lst:register}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/imp-reje.jpg}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-reje.jpg}}
 \end{minipage}
 \\
 
 Chcemy także, aby nowi użytkownicy byli zapisywani do bazy danych Firebase Firestore celem przypisania im ich aktywności na mapie. Odpowiedzialna jest za to funkcja addUserToFirestore(), która na podstawie przekazanego uid użytkownika z Firebase Authentication tworzy takiego samego użytkownika w bazie danych Firebase Firestore ze wszystkimi wprowadzonymi przez użytkownika danymi. Cała mapa z danymi zapisywana jest jako nowy dokument w bazie NoSQL, do którego można się odwołać za pomocą unikalnego uid użytkownika.\\
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Dodawanie użytkownika do Firebase Firestore.}
     \label{lst:addtofirestore}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/imp-addtofs.jpg}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-addtofs.jpg}}
 \end{minipage}
 \textbf{Implementacja logowania}\\
 \indent Każdy użytkownik chce mieć dostęp do swoich danych, a także utworzonego konta. Logowanie pomaga nam zidentyfikować konkretnego użytkownika oraz przypisać mu jego aktywność. W tym module aplikacja również posiłkuje się Firebase Authentication. Pozwala to na szybkie logowanie użytkownika i udostępnienie mu wszystkich funkcjonalności aplikacji zgodnych z jego rolą.\\
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Logowanie użytkownika w "słuchaczu" przycisku "Zaloguj".}
     \label{lst:login}
     \centering
-    \includegraphics[width=0.6\linewidth]{img/kod/imp-login1.jpg}
+    \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-login1.jpg}}
 \end{minipage}
 
 
@@ -321,7 +330,7 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
 \indent Poniższy widok (rys. \ref{widok:adminaccept}) przedstawia listę zgłoszonych przez użytkowników zagrożeń na trasie, które czekają na akceptację po stronie administratora. Każde zgłoszenie musi mieć swój typ oraz krótki opis, a aplikacja zbiera dodatkowo informacje o aktualnym miejscu użytkownika w momencie wysłania zgłoszenia (nawet offline) oraz jego identyfikator.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.15]{img/test/testzglosadmin.jpg}
+    \includegraphics[scale=0.5]{img/test/testzglosadmin.jpg}
     \caption{Widok administratora z listą zagrożeń do zaakceptowania.}
     \label{widok:adminaccept}
 \end{figure}
