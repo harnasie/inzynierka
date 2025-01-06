@@ -1,5 +1,5 @@
 \section{Projekt aplikacji} 
-Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszystkich funkcji. Przed stworzeniem aplikacji należy dokładnie zastanowić się nad najważniejszymi wymaganiami funkcjonalnymi i niefunkcjonalnymi, przypadkami użycia aplikacji, a także zaprojektować model da nych. Przydatne jest także rozpisanie przykładowych scenariuszy, które mogą wystąpić przy korzystaniu z aplikacji przez użytkownika. Wcześniejsze zaprojektowanie przykładowych interfejsów użytkownika pomaga dostosować wygląd systemu do potrzeb grupy docelowej. Poniższy rozdział skupia się na przedstawieniu projektu aplikacji zawierający wszystkie wcześniej wymienione elementy.
+Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszystkich funkcji. Przed stworzeniem aplikacji należy dokładnie zastanowić się nad najważniejszymi wymaganiami funkcjonalnymi i niefunkcjonalnymi, przypadkami użycia aplikacji, a także zaprojektować model danych. Przydatne jest także rozpisanie przykładowych scenariuszy, które mogą wystąpić przy korzystaniu z aplikacji przez użytkownika. Wcześniejsze zaprojektowanie przykładowych interfejsów użytkownika pomaga dostosować wygląd systemu do potrzeb grupy docelowej. Poniższy rozdział skupia się na przedstawieniu projektu aplikacji zawierający wszystkie wcześniej wymienione elementy.
     \subsection{Wymagania funkcjonalne}
     \textbf{Administrator}
     \begin{enumerate}
@@ -78,7 +78,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     \subsection{Diagramy przypadków użycia}
     Diagramy przypadków użycia pozwalają w prosty sposób zwizualizować dostępne dla poszczególnych ról funkcje oraz ich przebiegi. Pozwalają także na uwzględnienie wyjątków i ewentualnych problemów, jakie użytkownik może napotkać podczas korzystania z systemu.
 
-    Poniższe diagramy prezentują poszczególne funkcje aplikacji oferowane poszczególnym rolom użytkowników opracowane na podstawie określonych wcześniej wymagań funkcjonalnych. Zestaw funkcji jest inny dla każdego aktora. Użytkownik ma możliwość zarządzania swoim kontem, przejrzenia wędrówek, wezwanie pomocy, a oraz zaplanowania trasy z opcją punktów postojowych. Administrator posiada mniej funkcji, w ich skład wchodzą obsługa powiadomień oraz zarządzanie bazą szlaków.
+    Poniższe diagramy prezentują poszczególne funkcje aplikacji oferowane poszczególnym rolom użytkowników opracowane na podstawie określonych wcześniej wymagań funkcjonalnych. Zestaw funkcji jest inny dla każdego aktora. Użytkownik ma możliwość zarządzania swoim kontem, przejrzenia wędrówek, wezwanie pomocy oraz zaplanowania trasy z opcją punktów postojowych. Administrator posiada mniej funkcji, w ich skład wchodzą obsługa powiadomień oraz zarządzanie bazą szlaków.
     \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
         \centering
@@ -96,7 +96,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \label{ucd:powiadomienia}
     \end{figure}
     
-    Funkcja obsługi powiadomień (rys. \ref{ucd:powiadomienia}) dostępna dla administratora pozwala na wysyłanie powiadomień od użytkowników w obrębie konkretnego regionu, wysyłanie powiadomień ogólnosystemowych do wszystkich użytkowników, przekazywanie komunikatów wychodzących od GOPR oraz akceptowanie zgłoszonych zagrożeń przesłanych przez użytkowników.
+    Funkcja obsługi powiadomień (rys. \ref{ucd:powiadomienia}) dostępna dla administratora pozwala na wysyłanie powiadomień do użytkowników w obrębie konkretnego regionu, wysyłanie powiadomień ogólnosystemowych do wszystkich użytkowników, przekazywanie komunikatów wychodzących od GOPR oraz akceptowanie zgłoszonych zagrożeń przesłanych przez użytkowników.
 
     \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
@@ -105,7 +105,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \caption{Diagram przypadku użycia: zarządzanie kontem.}
         \label{ucd:konto}
     \end{figure}
-    Zarządzanie kontem (rys. \ref{ucd:konto}) leży w całości po stronie użytkownika - wędrówkowicza. Powierzamy mu takie funkcje jak: rejestracja, edytowanie danych przypisanych do konta oraz usunięcie konta.
+    Zarządzanie kontem (rys. \ref{ucd:konto}) leży w całości po stronie użytkownika - wędrówkowicza. Powierzono mu takie funkcje jak: rejestracja, edytowanie danych przypisanych do konta oraz usunięcie konta.
 
     \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]
@@ -141,7 +141,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \caption{Diagram przypadku użycia: wzywanie pomocy.}
         \label{ucd:pomoc}
     \end{figure}
-    Wzywanie pomocy na szlaku (rys. \ref{ucd:pomoc}) jest niezwykle istotną funkcją. Nie wszyscy turyści znają numery alarmowe, w tym numer GOPRu, często przed wyjściem na szlak zapominają ich zapisać. W związku z tym udostępniamy im opcję skopiowania numerów oraz bezpośredniego wybierania ich z poziomu aplikacji.
+    Wzywanie pomocy na szlaku (rys. \ref{ucd:pomoc}) jest niezwykle istotną funkcją. Nie wszyscy turyści znają numery alarmowe, w tym numer GOPRu, często przed wyjściem na szlak zapominają ich zapisać. W związku z tym aplikacja udostępnia im opcję skopiowania numerów oraz bezpośredniego wybierania ich z poziomu aplikacji.
 
     \setlength{\fboxrule}{0.5pt}
     \begin{figure}[H]

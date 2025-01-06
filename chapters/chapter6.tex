@@ -63,9 +63,10 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 Funkcja, przedstawiona na listingu \ref{lst:rystras} rysuje wyznaczoną trasę z przetworzonego wyniku, uzyskanego z adresu URL. Przed pobraniem współrzędnych linii, mapa jest czyszczona z innych tras. Następnie tworzonych jest kilka obiektów: lista punktów nowej ścieżki, zbiór z unikalnymi punktami, który zapobiega powielaniu takich samych współrzędnych oraz linia, reprezentująca nową trasę. Podczas iteracji, pobierane są współrzędne każdego punktu na ścieżce i na ich podstawie utworzony zostaje obiekt LatLng. Jeśli dodanie jego do zbioru \verb|uniquePoints| przejdzie pomyślnie, zostanie on dodany do listy z punktami trasy. W kolejnym kroku wyznaczona droga, zostanie zdefiniowana o te współrzędne, kolor oraz szerokość. Następnie funkcja rysuje ją na mapie i aktualizuje listę jej punktów. Na koniec, kamera zostanie ustawiona na pierwszy punkt trasy z określonym przybliżeniem, dzięki czemu użytkownik może rozpocząć wędrówkę po swojej ścieżce.\\
 
 \noindent
+\setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/imp/widok-trasa.png}
+    \fbox{\includegraphics[scale=0.6]{img/imp/widok-trasa.png}}
     \caption{Pokazanie efektu po zatwierdzeniu wybranej przez użytkownika trasy.}
     \label{widok:zatwierdztrase}
 \end{figure}
@@ -113,7 +114,7 @@ Przy procesie obsługi zgłoszeń uczestniczy zarówno użytkownik jak i adminis
 \end{minipage}
 \\
 
-Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokalizacji zgłoszeń zagrożeń, które zostały zaakceptowane. Na początku dane są filtrowane, tzn. sprawdzane jest czy dane zgłoszenie w polu dokumentu “accepted” ma wartość “true”. W przypadku niepowodzenia podczas pobierania danych z bazy, zostaje wyświetlony komunikat, informujący o takiej sytuacji. Jeśli pobieranie danych zakończy się powodzeniem i wyniki filtrowania nie są puste, następuje iteracja przez każdy dokument. W kolejnym kroku jest sprawdzane czy posiada on pole “location”, jeśli tak, dane zostają pobrane i zapisane do \verb|Map<String, Object>|. Kluczem stworzonej mapy jest “latitude” lub “longitude”, a wartością współrzędne. Następnie, dane te są łączone w jeden obiekt LatLng, reprezentujący miejsce, w którym zostało wykonane zgłoszenie. Na koniec, współrzędne są dodawane do listy, przechowującej lokalizacje zaakceptowanych zgłoszeń. Po sprawdzeniu czy nie jest ona pusta zostaje wywołana funkcja \verb|updateMapWithAcceptedDangers()|, przedstawiona na rys. \ref{lst:markeraccepted}. Odpowiada ona za ustawienie markerów na mapie w miejscu, wystąpienia zagrożenia. Mapa po akuktualizacji została przedstawiona na rys. \ref{widok:markeraccepted1}.\\
+Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokalizacji zgłoszeń zagrożeń, które zostały zaakceptowane. Na początku dane są filtrowane, tzn. sprawdzane jest czy dane zgłoszenie w polu dokumentu “accepted” ma wartość “true”. W przypadku niepowodzenia podczas pobierania danych z bazy, zostaje wyświetlony komunikat, informujący o takiej sytuacji. Jeśli pobieranie danych zakończy się powodzeniem i wyniki filtrowania nie są puste, następuje iteracja przez każdy dokument. W kolejnym kroku jest sprawdzane czy posiada on pole “location”, jeśli tak, dane zostają pobrane i zapisane do \verb|Map<String, Object>|. Kluczem stworzonej mapy jest “latitude” lub “longitude”, a wartością współrzędne. Następnie, dane te są łączone w jeden obiekt LatLng, reprezentujący miejsce, w którym zostało wykonane zgłoszenie. Na koniec, współrzędne są dodawane do listy, przechowującej lokalizacje zaakceptowanych zgłoszeń. Po sprawdzeniu czy nie jest ona pusta zostaje wywołana funkcja \verb|updateMapWithAcceptedDangers()|, przedstawiona na rys. \ref{lst:markeraccepted}. Odpowiada ona za ustawienie markerów na mapie w miejscu, wystąpienia zagrożenia. \\
 
 \noindent
 \setlength{\fboxrule}{0.5pt}
