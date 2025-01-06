@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.30)  5 JAN 2025 18:52
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.30)  6 JAN 2025 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2050,13 +2050,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--26
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
+File: img/test/login-wynik.jpg Graphic file (type bmp)
+<img/test/login-wynik.jpg>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 33.
+(caption)                particular \caption on input line 43.
 See the caption package documentation for explanation.
 
 File: img/test/test-signup1.jpg Graphic file (type bmp)
@@ -2064,38 +2066,31 @@ File: img/test/test-signup1.jpg Graphic file (type bmp)
 File: img/test/test-signup2.jpg Graphic file (type bmp)
 <img/test/test-signup2.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--50
 
  []
 
 [72]
-File: img/test/login-wynik.jpg Graphic file (type bmp)
-<img/test/login-wynik.jpg>
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--48
-
- []
-
-[73]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 54.
+(caption)                particular \caption on input line 57.
 See the caption package documentation for explanation.
 
 File: img/test/testmap.jpg Graphic file (type bmp)
 <img/test/testmap.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--61
+Underfull \hbox (badness 10000) in paragraph at lines 54--64
 
  []
 
+[73]
 File: img/test/maptest_wynik.jpg Graphic file (type bmp)
 <img/test/maptest_wynik.jpg>
-[74]
+ [74]
 File: img/test/testmap1.jpg Graphic file (type bmp)
 <img/test/testmap1.jpg>
 
-Overfull \hbox (4.49031pt too wide) in paragraph at lines 94--95
+Overfull \hbox (4.49031pt too wide) in paragraph at lines 97--98
 []\TU/TeXGyreTermesX(0)/m/n/12 Aby przejść do trybu wyznaczania trasy należy kl
 iknąć przycisk ”Wyznacz trasę”widoczny
  []

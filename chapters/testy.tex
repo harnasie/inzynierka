@@ -27,6 +27,16 @@ Zgodnie z założeniami test przebiegł pomyślnie, a więc funkcja działa popr
 
 \subsection*{Test jednostkowy - rejestracja użytkownika}
 Test ma na celu sprawdzenie poprawności działania funkcji rejestracji nowego użytkownika w systemie. Do tego przygotowano próbną instancję Firebase Authentication oraz przykładowego użytkownika o danych logowania: test@example.com o nazwie użytkownika TestUser z hasłem password123. Taki użytkownik nie istnieje w prawdziwej bazie danych systemu, został stworzony w klasie testowej na potrzeby  przeprowadzenia tego testu. Treść testu sprawdzającego poprawność rejestracji przedstawiona jest na listingu \ref{test:signup}. \\
+\indent Zgodnie z założeniami test przebiegł pomyślnie, a więc funkcja działa poprawnie i pozwala użytkownikom na zakładanie konta w aplikacji i zapis ich danych. Poprawny przebieg testu potwierdza rys. \ref{result:login}. \\
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{img/test/login-wynik.jpg}
+    \caption{Wynik testu jednostkowego sprawdzającego poprawność rejestracji nowego użytkownika.}
+    \label{result:login}
+\end{figure}
+
 
 \noindent
 \begin{minipage}{\linewidth}
@@ -39,13 +49,6 @@ Test ma na celu sprawdzenie poprawności działania funkcji rejestracji nowego u
 \\
 
 
-Zgodnie z założeniami test przebiegł pomyślnie, a więc funkcja działa poprawnie i pozwala użytkownikom na zakładanie konta w aplikacji i zapis ich danych. Poprawny przebieg testu potwierdza rys. \ref{result:login}. \\
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.5]{img/test/login-wynik.jpg}
-    \caption{Wynik testu jednostkowego sprawdzającego poprawność rejestracji nowego użytkownika.}
-    \label{result:login}
-\end{figure}
 
 \subsection*{Test jednostkowy - generowanie URL trasy}
 Test ma na celu sprawdzenie poprawności generowania URL z trasą o podanym jej początku i końcu. Sprawdzono to za pomocą asercji.\\
@@ -72,7 +75,7 @@ Powyższe testy przebiegły pomyślnie, funkcje zwróciły oczekiwane wartości 
 \subsection{Testy manualne}
 Testy manualne są ręcznym sposobem na sprawdzenie zachowania aplikacji. Tester sprawdza wtedy wszystkie możliwe dla użytkownika opcje i kombinacje kroków, które klient może wykonać choćby przez przypadek. Stosowanie testów manualnych pozwala na wykrycie luk w kodzie i funkcjonalnościach, których programista mógł nie przewidzieć lub przeoczyć. Niewykrycie niektórych niedopatrzeń może nieść za sobą fatalne skutki, jak na przykład usunięcie całej bazy danych systemu informatycznego, jeśli programista nie zabezpieczy wystarczająco dostępu do treści nieupoważnionym użytkownikom.\par
 W naszej aplikacji głównymi funkcjonalnościami jest możliwość wyznaczenia trasy na mapie oraz zgłaszanie zagrożeń występujących na trasie.
-\subsection*{Test manualny - wyznaczanie trasy.}
+\subsection*{Test manualny - wyznaczanie trasy}
 Główną funkcjonalnością opisywanej aplikacji są mapy i usługi z nimi związane. Najważniejszą dostępną opcją jest wyznaczanie trasy z jednego punktu do drugiego i rysowanie jej na mapie tak, aby użytkownik widział dokładnie, gdzie się znajduje. Dlatego niniejszy test sprawdzi poprawność wykonywania tej funkcji według poniższego scenariusza:
 \begin{enumerate}
     \item Przejdź do ekranu z mapą.
@@ -134,7 +137,7 @@ Po zatwierdzeniu wybranej trasy jest ona rysowana na mapie z pomocą koloru ró�
 Przedstawoiny powyżej test przebiegł pomyślnie i potwierdził poprawne działanie funkcjonalności pozwalającej na wyznaczenie trasy z wybranego punktu początkowego do punktu końcowego. Użytkownik w tym momencie może wybrać, czy woli kierować się trasą pokazaną na mapie w aplikacji, czy woli nawigację w aplikacji Google Maps po wyznaczonej trasie.
 
 
-\subsection*{Test manualny - zgłaszanie zagrożeń.}
+\subsection*{Test manualny - wysyłanie zagrożeń}
 Projektując aplikację miano na uwadze omylność ludzką, dlatego starano się zabezpieczyć system na różnego rodzaju błędy ludzkie i niedopatrzenia. Poniższy test sprawdzi, czy na pewno wszystkie możliwe opcje błędów zostały uwzględnione i zabezpieczone. Test manualny zostanie przeprowadzony według poniższego scenariusza.
 \begin{enumerate}
     \item Przejdź do ekranu z formularzem zgłoszeń.
