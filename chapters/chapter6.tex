@@ -9,7 +9,6 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 \indent Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z pliku KML i na ich podstawie rysuje szlaki na mapie. Za pomocą FileInputStream zostaje stworzony strumień wejściowy do odczytania pliku, który potrzebny jest do utworzenia warstwy KML. Następnie jest ona dodawana do mapy i rozpoczyna się iterowanie po kontenerach. Pętla odczytująca obiekty KmlPlacemark, pobiera ich nazwę i na jej podstawie określa kolor szlaku. W kolejnym kroku zostają zdefiniowane opcje linii, czyli wybrany kolor oraz szerokość. Jeżeli geometria danego znacznika jest linią (KmlLineString), tworzona jest lista, przechowująca współrzędne szlaku, które następnie dodane są do wcześniej zdefiniowanej linii. Na koniec, utworzona trasa zostanie narysowana na mapie, dzięki czemu użytkownik widzi wszystkie szlaki Tatr. Efekt ten widoczny jest na rys.\ref{widok:map}.\\
 
 \noindent
-\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za rysowanie szlaków na mapie}
     \label{lst:rysowanie}
@@ -23,7 +22,6 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 \\
 
 \noindent
-\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za lokalny zapis plików.}
     \label{lst:pobierz}
@@ -38,7 +36,6 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 \indent Fragment kodu przestawiony na listingu \ref{lst:schron} odpowiada za odczyt danych z pliku i utworzenie listy markerów. Użycie XmlPullParser umożliwia analizę pliku i pobranie danych potrzebnych do stworzenia markera. Po jego konfiguracji, następuje iterowanie po pliku, aż do osiągnięcia końca dokumentu. Podczas iteracji funkcja odczytuje dane z konkretnych tagów, kolejno nazwę z \verb|<name>|, opis \verb|<description>| oraz współrzędne \verb|<coordinates>|. Po napotkaniu na tag zamykający \verb|<Placemark>| i sprawdzeniu czy lokalizacja jest poprawna, zostaje utworzony marker z ikoną pokazaną jako parametr funkcji. Następnie jest on dodany do listy, która umożliwia kontrolę widoczności markerów. \\
 
 \noindent
-\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za wyświetlanie na mapie ikon schronisk, szczytów oraz stawów.}
     \label{lst:schron}
@@ -51,7 +48,6 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 \indent Za wyznaczanie trasy odpowiedzialnych jest kilka funkcji. Jedna z nich została przedstawiona na listingu \ref{lst:trasa} i służy do utworzenia adresu URL, który definiuje trasę. Początek kodu sprawdza, czy dane trasy są puste, jeśli tak, zostanie rzucony wyjątek z informacją o tym, jeśli nie, zostaje wykonany dalszy kod. Określone zostają informacje o wyznaczonej trasie, t.j. początek i koniec oraz tryb pieszy, a także klucz API Google Maps, potrzebny do poprawnego stworzenia adresu URL. Funkcja \verb|encodeLatLng()| konwertuje współrzędne, tak aby pasowały do jego formatu. Kolejnym krokiem jest sprawdzenie, czy trasa posiada przystanki, jeśli tak, ich współrzędne są pobieranie i dodane do ciągu znaków. Na koniec, wszystkie parametry połączone zostają w jeden ciąg tekstowy, którym jest gotowy adres URL. Link zawiera wynik trasy w formacie JSON, który jest odbierany i przetwarzany przez kolejne funkcje, które nie zostały opisane ze względu na ich ilość. Po wykonaniu ich wszystkich, można z odczytać szczegółowe dane drogi, wybranej przez użytkownika. \\
 
 \noindent
-\setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
     \captionof{listing}{Funkcja odpowiedzialna za wyznaczanie trasy}
     \label{lst:trasa}
@@ -200,6 +196,13 @@ Wygląd aplikacji został idealnie dobrany do potrzeb użytkowników, tak aby mo
     \caption{Widok początkowy po uruchomieniu aplikacji.}
     \label{widok:home}
 \end{figure}
+
+\begin{tabular}{|c|c|}
+    \hline
+    \includegraphics[width=0.4\textwidth]{img/imp/widok-reje.png} & \includegraphics[width=0.4\textwidth]{img/imp/widok-log.png} \\ \hline
+    \hline
+    \end{tabular}
+
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.6]{img/imp/widok-reje.png}
@@ -371,7 +374,7 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
 \indent Poniższy widok (rys. \ref{widok:adminaccept}) przedstawia listę zgłoszonych przez użytkowników zagrożeń na trasie, które czekają na akceptację po stronie administratora. Każde zgłoszenie musi mieć swój typ oraz krótki opis, a aplikacja zbiera dodatkowo informacje o aktualnym miejscu użytkownika w momencie wysłania zgłoszenia (nawet offline) oraz jego identyfikator.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/test/testzglosadmin.jpg}
+    \includegraphics[scale=0.6]{img/test/testdanger.png}
     \caption{Widok administratora z listą zagrożeń do zaakceptowania.}
     \label{widok:adminaccept}
 \end{figure}
