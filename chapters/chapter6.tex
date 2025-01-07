@@ -6,7 +6,7 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 \\ 
 \\
 \textbf{Implementacja rysowania szlaków na mapie} \\
-\indent Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z pliku KML i na ich podstawie rysuje szlaki na mapie. Za pomocą FileInputStream zostaje stworzony strumień wejściowy do odczytania pliku, który potrzebny jest do utworzenia warstwy KML. Następnie jest ona dodawana do mapy i rozpoczyna się iterowanie po kontenerach. Pętla odczytująca obiekty KmlPlacemark, pobiera ich nazwę i na jej podstawie określa kolor szlaku. W kolejnym kroku zostają zdefiniowane opcje linii, czyli wybrany kolor oraz szerokość. Jeżeli geometria danego znacznika jest linią (KmlLineString), tworzona jest lista, przechowująca współrzędne szlaku, które następnie dodane są do wcześniej zdefiniowanej linii. Na koniec, utworzona trasa zostanie narysowana na mapie, dzięki czemu użytkownik widzi wszystkie szlaki Tatr. Efekt ten widoczny jest na rys.\ref{widok:map}.\\
+\indent Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z pliku KML i na ich podstawie rysuje szlaki na mapie. Za pomocą FileInputStream zostaje stworzony strumień wejściowy do odczytania pliku, który potrzebny jest do utworzenia warstwy KML. Następnie jest ona dodawana do mapy i rozpoczyna się iterowanie po kontenerach. Pętla odczytująca obiekty KmlPlacemark, pobiera ich nazwę i na jej podstawie określa kolor szlaku. \\W kolejnym kroku zostają zdefiniowane opcje linii, czyli wybrany kolor oraz szerokość. Jeżeli geometria danego znacznika jest linią (KmlLineString), tworzona jest lista, przechowująca współrzędne szlaku, które następnie dodane są do wcześniej zdefiniowanej linii. Na koniec, utworzona trasa zostanie narysowana na mapie, dzięki czemu użytkownik widzi wszystkie szlaki Tatr. Efekt ten widoczny jest na rys.\ref{widok:map}.\\
 
 \noindent
 \begin{minipage}{\linewidth}
@@ -18,7 +18,7 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 
 \\
 \noindent \textbf{Implementacja lokalnego zapisu plików} \\ 
-\indent Funkcja przedstawiona na rys. \ref{lst:pobierz} odpowiada za kontrolę pobierania plików z serwera (Firebase Storage) i jest wywołana po każdym uruchomieniu aplikacji. Pliki zawierają informacje o szlakach oraz punktach, w których znajdują się schroniska, szczyty oraz stawy. Na początku funkcja tworzy obiekt reprezentujący ścieżkę do katalogu w pamięci i sprawdza, czy istnieje on fizycznie, jeśli nie, tworzy go. Następnie ustala pełną ścieżkę do lokalnego pliku i również sprawdza czy istnieje. Dalszy fragment kodu porównuje jego rozmiar z rozmiarem wersji na serwerze, aby określić, czy pobranie nowej wersji jest konieczne. Jeśli lokalny plik różni się zostaje on pobierany ponownie. Działanie funkcji sprawia, iż użytkownik ma zawsze aktualne dane zapisane na swoim urządzeniu. 
+\indent Funkcja przedstawiona na rys. \ref{lst:pobierz} odpowiada za kontrolę pobierania plików z serwera (Firebase Storage) i jest wywołana po każdym uruchomieniu aplikacji. Pliki zawierają informacje o szlakach oraz punktach, w których znajdują się schroniska, szczyty oraz stawy. Na początku funkcja tworzy obiekt reprezentujący ścieżkę do katalogu w pamięci i sprawdza, czy istnieje on fizycznie, jeśli nie, tworzy go. Następnie ustala pełną ścieżkę do lokalnego pliku \\i również sprawdza czy istnieje. Dalszy fragment kodu porównuje jego rozmiar z rozmiarem wersji na serwerze, aby określić, czy pobranie nowej wersji jest konieczne. Jeśli lokalny plik różni się zostaje on pobierany ponownie. Działanie funkcji sprawia, iż użytkownik ma zawsze aktualne dane zapisane na swoim urządzeniu. 
 \\
 
 \noindent
@@ -45,7 +45,7 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
 
 
 \textbf{Implementacja wyznaczenia trasy}\\
-\indent Za wyznaczanie trasy odpowiedzialnych jest kilka funkcji. Jedna z nich została przedstawiona na listingu \ref{lst:trasa} i służy do utworzenia adresu URL, który definiuje trasę. Początek kodu sprawdza, czy dane trasy są puste, jeśli tak, zostanie rzucony wyjątek z informacją o tym, jeśli nie, zostaje wykonany dalszy kod. Określone zostają informacje o wyznaczonej trasie, t.j. początek i koniec oraz tryb pieszy, a także klucz API Google Maps, potrzebny do poprawnego stworzenia adresu URL. Funkcja \verb|encodeLatLng()| konwertuje współrzędne, tak aby pasowały do jego formatu. Kolejnym krokiem jest sprawdzenie, czy trasa posiada przystanki, jeśli tak, ich współrzędne są pobieranie i dodane do ciągu znaków. Na koniec, wszystkie parametry połączone zostają w jeden ciąg tekstowy, którym jest gotowy adres URL. Link zawiera wynik trasy w formacie JSON, który jest odbierany i przetwarzany przez kolejne funkcje, które nie zostały opisane ze względu na ich ilość. Po wykonaniu ich wszystkich, można z odczytać szczegółowe dane drogi, wybranej przez użytkownika. \\
+\indent Za wyznaczanie trasy odpowiedzialnych jest kilka funkcji. Jedna z nich została przedstawiona na listingu \ref{lst:trasa} i służy do utworzenia adresu URL, który definiuje trasę. Początek kodu sprawdza, czy dane trasy są puste, jeśli tak, zostanie rzucony wyjątek z informacją o tym, jeśli nie, zostaje wykonany dalszy kod. Określone zostają informacje o wyznaczonej trasie, t.j. początek i koniec oraz tryb pieszy, a także klucz API Google Maps, potrzebny do poprawnego stworzenia adresu URL. Funkcja \verb|encodeLatLng()| konwertuje współrzędne, tak aby pasowały do jego formatu. Kolejnym krokiem jest sprawdzenie, czy trasa posiada przystanki, jeśli tak, ich współrzędne są pobieranie i dodane do ciągu znaków. Na koniec, wszystkie parametry połączone zostają w jeden ciąg tekstowy, którym jest gotowy adres URL. Link zawiera wynik trasy w formacie JSON, który jest odbierany i przetwarzany przez kolejne funkcje, które nie zostały opisane ze względu na ich ilość. Po wykonaniu ich wszystkich, można \\z odczytać szczegółowe dane drogi, wybranej przez użytkownika. \\
 
 \noindent
 \begin{minipage}{\linewidth}
@@ -84,7 +84,7 @@ Przy procesie obsługi zgłoszeń uczestniczy zarówno użytkownik jak i adminis
 
 \noindent
 \textbf{Implementacja zapisu zgłoszeń do bazy (Firebase)} \\ 
-\indent Fragment kod, pokazany na rys. \ref{lst:danger} odpowiada za zapis zgłoszenia do bazy. Na początku sprawdzone zostaje połączenie z internetem, jeśli go nie ma, dane zostają zapisane lokalnie na urządzeniu, za co odpowiedzialna jest funkcja \verb|saveDangerLocally()|. W przypadku, gdy użytkownik ma włączony internet i GPS, zostaje zapisana jego lokalizacja oraz możliwe jest pobranie jego nazwy oraz email. Na podstawie danych o zalogowanym zostaje utworzony obiekt  \verb|Map<String, Object>|, który jest potrzebny do poprawnego zapisu zgłoszenia. Następnie dane przekazane w parametrze funkcji zostają dodane do obiektu “danger”, który zawiera informacje o zagrożeniu. W kolejnym kroku zostają one zapisane do bazy. W przypadku niepowodzenia zostaje wyświetlony komunikat o błędzie. \\
+\indent Fragment kod, pokazany na rys. \ref{lst:danger} odpowiada za zapis zgłoszenia do bazy. Na początku sprawdzone zostaje połączenie z internetem, jeśli go nie ma, dane zostają zapisane lokalnie na urządzeniu, za co odpowiedzialna jest funkcja \verb|saveDangerLocally()|. W przypadku, gdy użytkownik ma włączony internet i GPS, zostaje zapisana jego lokalizacja oraz możliwe jest pobranie jego nazwy oraz email. Na podstawie danych o zalogowanym zostaje utworzony obiekt  \verb|Map<String, Object>|, który jest potrzebny do poprawnego zapisu zgłoszenia. Następnie dane przekazane w parametrze funkcji zostają dodane do obiektu “danger”, który zawiera informacje o zagrożeniu. \\W kolejnym kroku zostają one zapisane do bazy. W przypadku niepowodzenia zostaje wyświetlony komunikat o błędzie. \\
 
 \noindent
 \setlength{\fboxrule}{0.5pt}
@@ -143,7 +143,7 @@ Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokali
 \end{figure}
 \\
 \subsection{Moduł logowania i rejestracji}
-Logowanie i rejestracja pozwala na łatwe zidentyfikowanie użytkownika aplikacji, a także pozwala na śledzenie jego aktywności celem stworzenia raportów czy wykresów. Pozwala też na ustalenie, który użytkownik wysłał zgłoszenie o zagrożeniu. Poniżej przedstawione są funkcje niezbędne do implementacji logowania oraz rejestracji nowych użytkowników w systemie.
+Logowanie i rejestracja pozwala na łatwe zidentyfikowanie użytkownika aplikacji, a także pozwala na śledzenie jego aktywności celem stworzenia raportów czy wykresów. Pozwala też na ustalenie, który użytkownik wysłał zgłoszenie o zagrożeniu. Poniżej przedstawione są funkcje niezbędne do implementacji logowania oraz rejestracji nowych użytkowników \\w systemie.
 \\
 
 \noindent
@@ -307,7 +307,7 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \noindent
 \textbf{Wybieranie szlaku} \\
-\indent Po wybraniu opcji “Wybierz szlak” z widoku mapy (rys. \ref{widok:map}) pokaże się lista szlaków z oznaczeniem koloru, widoczna na rys. \ref{widok:wyborszlaku}. Użytkownik może przeszukać wszystkie szlaki górskie Tatr, a po kliknięciu przycisku “wybierz”, zostaje nakierowany na początek wybranej trasy, jak zostało przedstawione na rys. \ref{widok:szlak}. Na ekranie widoczna jest także kolejna opcja, która umożliwia użytkownikowi nawigację po trasie za pomocą aplikacji Mapy Google.\\
+\indent Po wybraniu opcji “Wybierz szlak” z widoku mapy (rys. \ref{widok:map}) pokaże się lista szlaków \\z oznaczeniem koloru, widoczna na rys. \ref{widok:wyborszlaku}. Użytkownik może przeszukać wszystkie szlaki górskie Tatr, a po kliknięciu przycisku “wybierz”, zostaje nakierowany na początek wybranej trasy, jak zostało przedstawione na rys. \ref{widok:szlak}. Na ekranie widoczna jest także kolejna opcja, która umożliwia użytkownikowi nawigację po trasie za pomocą aplikacji Mapy Google.\\
 
 \begin{figure}[H]
     \centering
@@ -336,7 +336,7 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \noindent
 \textbf{Widok ekranu z numerami alarmowymi} \\
-\indent Ekran aplikacji, pokazany na rys. \ref{widok:telefony} umożliwia użytkownikowi wezwanie pomocy w razie wypadku. Kliknięcie przycisków po lewej stronie spowoduje zadzwonienie na dany numer, natomiast przyciski po prawej pozwalają na skopiowanie numeru telefonu. Jest to bardzo wygodna opcja, która oszczędza użytkownikowi dużo czasu, gdyż nie musi go szukać i ma zawsze pod ręką.
+\indent Ekran aplikacji, pokazany na rys. \ref{widok:telefony} umożliwia użytkownikowi wezwanie pomocy \\w razie wypadku. Kliknięcie przycisków po lewej stronie spowoduje zadzwonienie na dany numer, natomiast przyciski po prawej pozwalają na skopiowanie numeru telefonu. Jest to bardzo wygodna opcja, która oszczędza użytkownikowi dużo czasu, gdyż nie musi go szukać i ma zawsze pod ręką.
 
 \begin{figure}[H]
     \centering

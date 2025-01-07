@@ -2,7 +2,7 @@
 Przeprowadzenie testów aplikacji zapewnia programistom pewność, że użytkownicy ich systemu nie napotkają żadnych błędów lub niedociągnięć podczas codziennego korzystania z usługi. Testy systemów informatycznych dzieli się na manualne i automatyczne, a te drugie na kolejne podtypy: jednostkowe, integracyjne, wydajnościowe, systemowe, bezpieczeństwa itp. Zdecydowano się na przeprowadzenie testów jednostkowe wybranych funkcji oraz testów manualnych najdłuższych sekwencji, jakie użytkownik jest w stanie wykonać w aplikacji.
 \subsection{Testy jednostkowe}
 Testy jednostkowe pozwalają na sprawdzenie działania poszczególnych, pojedynczych funkcji systemu celem weryfikacji wyniku ich użycia. \par
-Ze względu na to, że funkcje w opisywanej aplikacji skupione są głównie na wyświetlaniu poszczególnych elementów i pobieraniu danych z innych klas, funkcji czy widoków, niewiele testów jednostkowych było możliwych do zrealizowania. Przetestowane zostały jednak funkcje logowania, rejestracji oraz tworzenia linku używanego do wyznaczania trasy w Mapach Google. 
+Ze względu na to, że funkcje w opisywanej aplikacji skupione są głównie na wyświetlaniu poszczególnych elementów i pobieraniu danych z innych klas, funkcji czy widoków, niewiele testów jednostkowych było możliwych do zrealizowania. Przetestowane zostały jednak funkcje logowania, rejestracji oraz tworzenia linku używanego do wyznaczania trasy \\w Mapach Google. 
 
 \subsection*{Test jednostkowy - logowanie użytkownika}
 Test ma na celu sprawdzenie poprawności działania funkcji logowania. Do tego przygotowano próbną instancję Firebase Authentication oraz przykładowego użytkownika o danych logowania: user@example.com z hasłem password123. Taki użytkownik nie istnieje w prawdziwej bazie danych systemu, został stworzony w klasie testowej na potrzeby  przeprowadzenia tego testu. Treść testu sprawdzającego poprawność logowania przedstawiona jest na listingu \ref{test:login}. \\
@@ -52,7 +52,7 @@ Test ma na celu sprawdzenie poprawności działania funkcji rejestracji nowego u
 
 
 \subsection*{Test jednostkowy - generowanie URL trasy}
-Test ma na celu sprawdzenie poprawności generowania URL z trasą o podanym jej początku i końcu. Sprawdzono to za pomocą asercji.\\
+Test ma na celu sprawdzenie poprawności generowania URL \\z trasą o podanym jej początku i końcu. Sprawdzono to za pomocą asercji.\\
 \noindent
 \begin{minipage}{\linewidth}
     \captionof{listing}{Test jednostkowy - generowanie URL.}
@@ -67,7 +67,7 @@ Zgodnie z założeniami test przebiegł pomyślnie, a więc funkcja działa popr
 \begin{figure}[H]
     \centering
     \fbox{\includegraphics[scale=0.5]{img/test/maptest_wynik.jpg}}
-    \caption{Wynik testu jednostkowego sprawdzającego poprawność generowania URL z trasą o podanym punkcie początkowym i końcowym.}
+    \caption{Wynik testu jednostkowego sprawdzającego poprawność generowania URL \\z trasą o podanym punkcie początkowym i końcowym.}
     \label{result:map}
 \end{figure}
 
@@ -84,7 +84,7 @@ Główną funkcjonalnością opisywanej aplikacji są mapy i usługi z nimi zwi�
     \item Wybierz punkt początkowy trasy (rys. \ref{test:map3}).
     \item Wybierz punkt końcowy trasy.
     \item Zatwierdź wybór (rys. \ref{test:map4}).
-    \item Przeprowadź nawigację w aplikacji Google Maps lub idź po trasie wyświetlonej w aplikacji (rys. \ref{test:map5}).
+    \item Przeprowadź nawigację w aplikacji Google Maps lub idź po trasie wyświetlonej \\w aplikacji (rys. \ref{test:map5}).
 \end{enumerate}
 
 \setlength{\fboxrule}{0.5pt}
@@ -198,4 +198,4 @@ Po kliknięciu “Zgłoś zagrożenie” i spełnieniu wszystkich wymagań, form
     \caption{Pomyślnie wysłane zgłoszenie i wyswietlenie go w interfejsie administratora.}
     \label{test:zglos5}
 \end{figure}
-Opisany test dowiódł, iż zgłoszenie zostanie wysłane tylko wtedy, gdy użytkownik poda wszystkie wymagane informacje dotyczące zagrożenia oraz będzie miał włączony internet, a także udostępnioną lokalizację.
+Opisany test dowiódł, iż zgłoszenie zostanie wysłane tylko wtedy, gdy użytkownik poda wszystkie wymagane informacje dotyczące zagrożenia oraz będzie miał włączony internet, \\a także udostępnioną lokalizację.
