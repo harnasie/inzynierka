@@ -1,6 +1,7 @@
 \section{Projekt aplikacji} 
 Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszystkich funkcji. Przed stworzeniem aplikacji należy dokładnie zastanowić się nad najważniejszymi wymaganiami funkcjonalnymi i niefunkcjonalnymi, przypadkami użycia aplikacji, a także zaprojektować model danych. Przydatne jest także rozpisanie przykładowych scenariuszy, które mogą wystąpić przy korzystaniu z aplikacji przez użytkownika. Wcześniejsze zaprojektowanie przykładowych interfejsów użytkownika pomaga dostosować wygląd systemu do potrzeb grupy docelowej. Poniższy rozdział skupia się na przedstawieniu projektu aplikacji zawierający wszystkie wcześniej wymienione elementy.
     \subsection{Wymagania funkcjonalne}
+    \noindent
     \textbf{Administrator}
     \begin{enumerate}
         \item Zarządzanie trasami dostępnymi w systemie
@@ -8,7 +9,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
             \item Dodawanie nowych tras (jeśli nowe zostały wyznaczone).
             \item Rozbudowa bazy tras o nowe regiony.
             \item Aktualizacja istniejących w systemie szlaków i ich opisów.
-            \item Usuwanie szlaków, które są tymczasowo wyłączone z użycia przez TPN (np. w celu modernizacji).
+            \item Usuwanie szlaków, które są tymczasowo wyłączone z użycia przez TPN (np. \\w celu modernizacji).
         \end{enumerate}
         \item Obsługa powiadomień
         \begin{enumerate}
@@ -164,6 +165,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     \subsection{Scenariusze}
     Scenariusze pozwalają rozpatrzeć dokładnie konkretne użycia danych funkcji oraz ich przebiegi alternatywne i sytuacje wyjątkowe. Poniższe wybrane scenariusze opisują kolejno: zgłoszenie zagrożenia przez użytkownika, wyznaczanie trasy, wysyłanie przez administratora powiadomienia o zagrożeniu do użytkowników oraz wyłączanie szlaku z użycia przez administratora.
     \subsection*{Scenariusz 1: Zgłaszanie zagrożeń}
+    \noindent
     \textbf{S1.1 Opis} \par
     Scenariusz opisujący zgłaszanie przez użytkownika zagrożeń występujących na danej trasie w celu poinformowania innych o utrudnieniach przez aplikację mobilną. \\
     \textbf{S1.2. Aktorzy} \par
@@ -206,6 +208,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     Brak
 
     \subsection*{Scenariusz 2: Wyznaczanie trasy}
+    \noindent
     \textbf{S2.1 Opis} \par
     Scenariusz opisujący wyznaczenie najlepszej trasy dla użytkownika. \\
     \textbf{S2.2 Aktorzy} \par
@@ -244,6 +247,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     Brak 
 
     \subsection*{Scenariusz 3: Wysyłanie powiadomień do użytkowników w obrębie konkretnego regionu o miejscowym zagrożeniu bądź utrudnieniach.} 
+    \noindent
     \textbf{S3.1.Opis} \par
     Scenariusz opisujący wysyłanie przez administratora powiadomień do użytkowników znajdujących się w obrębie danego regionu o miejscowym zagrożeniu. \\
     \textbf{S3.2. Aktorzy} \par
@@ -284,6 +288,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     Brak
 
     \subsection*{Scenariusz 4: Tymczasowe wyłączanie szlaków z użycia}
+    \noindent
     \textbf{S4.1.Opis} \par
     Scenariusz opisujący tymczasowe wyłączanie szlaków z użycia przez administratora ze względu na prowadzone na nim prace konserwacyjne bądź inne, długotrwałe trudnienia. \\
     \textbf{S4.2. Aktorzy} \par
@@ -336,6 +341,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \label{klasy}
     \end{figure}
     \subsection*{Opis klas}
+    \noindent
     \textbf{Klasa Osoba:}
     \begin{itemize}
         \item []Atrybuty:
@@ -368,7 +374,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
             \item \textit{dodajszlak()} - funkcja void, tworzy nowy szlak i dodaje go do bazy danych,
             \item \textit{usuńszlak()} - funkcja void, usuwa wybrany szlak z bazy danych,
             \item \textit{wyłączszlak()} - funkcja void, wyłącza tymczasowo wybrany Szlak z użycia,
-            \item \textit{włączszlak()} - funkcja void, włącza ponownie wybrany, uprzednio wyłączony z użycia Szlak,
+            \item \textit{włączszlak()} - funkcja void, włącza ponownie wybrany, uprzednio wyłączony \\z użycia Szlak,
             \item \textit{zmodyfikujszlak()} - funkcja void, modyfikuje istniejący już Szlak według nowych wytycznych,
             \item \textit{weryfikujZgłoszenie()} - funkcja void, pozwala na zweryfikowanie poprawności Zgłoszenia; po weryfikacji zamienia Zgłoszenie w Powiadomienie,
             \item \textit{dodajAtrakcje()} - funkcja void, dodaje do bazy danych nową Atrakcję do bazy Atrakcji dostępnych dla turystów,
@@ -449,7 +455,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     \end{itemize}
 
      \subsection{Diagram ERD}
-   Diagram ERD (Entity-Relationship Diagram) to graficzne przedstawienie modelu danych, które pokazuje związki między różnymi elementami systemu. ERD składa się z trzech głównych komponentów: encje - reprezentują obiekty lub pojęcia, które mają znaczenie w kontekście bazy danych, atrybuty - określają właściwości lub cechy encji oraz związki - pokazują, jak encje są ze sobą powiązane.
+   Diagram ERD (Entity-Relationship Diagram) to graficzne przedstawienie modelu danych, które pokazuje związki między różnymi elementami systemu. ERD składa się z trzech głównych komponentów: encje - reprezentują obiekty lub pojęcia, które mają znaczenie \\w kontekście bazy danych, atrybuty - określają właściwości lub cechy encji oraz związki - pokazują, jak encje są ze sobą powiązane.
 
      \begin{figure}[H]
         \centering
@@ -513,6 +519,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \end{itemize}
     \end{itemize}
     
+    \noindent
     \textbf{Relacje}
     \begin{itemize}
         \item Zgłoszenie - Lokalizacja: jedno zgłoszenie musi mieć jedną lokalizację, ale z jednej lokalizacji można wysłać kilka zgłoszeń
@@ -520,7 +527,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \item Użytkownik - Trasa: użytkownik może, ale nie musi stworzyć wiele tras, ale jedna trasa może być stworzona tylko przez jednego użytkownika,
         \item Trasa - Szlak: jeden szlak może, ale nie musi być zawarty w wielu trasach, a jedna trasa może przebiegać przez tylko jeden szlak,
         \item Lokalizacja - Szlak: jeden szlak zbudowany jest z wielu lokalizacji, ale jedna lokalizacja może występować tylko na jednym szlaku,
-        \item Lokalizacja - Atrakcja: w jednej lokalizacji może występować tylko jedna atrakcja, a jedna atrakcja ma jedną lokalizację.
+        \item Lokalizacja - Atrakcja: w jednej lokalizacji może występować tylko jedna atrakcja, \\a jedna atrakcja ma jedną lokalizację.
     \end{itemize}
 
     \subsection{Projekt interfejsu graficznego}
@@ -574,7 +581,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \caption{Interfejs użytkownika: moje konto.}
         \label{interfejs:konto}
     \end{figure}
-    Widok na rys \ref{interfejs:konto} zawiera wypisane dane użytkownika, jego zdjęcie profilowe oraz przyciski pozwalające na przejrzenie historii wędrówek, edycję danych oraz usunięcie konta. W przypadku wybrania przycisku "Historia tras" użytkownik przenoszony jest do kolejnego, osobnego widoku (rys. \ref{interfejs:historia}). \\
+    Widok na rys \ref{interfejs:konto} zawiera wypisane dane użytkownika, jego zdjęcie profilowe oraz przyciski pozwalające na przejrzenie historii wędrówek, edycję danych oraz usunięcie konta. \\W przypadku wybrania przycisku "Historia tras" użytkownik przenoszony jest do kolejnego, osobnego widoku (rys. \ref{interfejs:historia}). \\
     \\
     \textbf{Historia tras}
     \begin{figure}[H]
@@ -594,6 +601,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     \end{figure}
    Widok na rys. \ref{interfejs:wyznacz} zawiera pola do wpisania początku i końca trasy, jaką użytkownik chce przejść. Pod nimi znajduje się przycisk "+", który pozwala na dodanie punktu postojowego i doprecyzowanie najbardziej pożądanej trasy. Wprowadzone dane po kliknięciu "Szukaj" wprowadzane są na mapę jako punkty i na ich podstawie wyznaczana jest najlepsza trasa, którą widać pod wyżej wymienionymi kontrolkami. \\
    \newpage
+   \noindent
    \textbf{Zgłaszanie zagrożenia}
     \begin{figure}[H]
         \centering
@@ -610,7 +618,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \caption{Interfejs użytkownika: telefony alarmowe.}
         \label{interfejs:alarm}
     \end{figure}
-   Widok na rys. \ref{interfejs:alarm} zawiera wypisane ogólnopolskie telefony alarmowe, jak i numer na Górskie Ochotnicze Pogotowie Ratunkowe. Każdy numer można skopiować lub wybrać i zadzwonić na niego bezpośrednio z poziomu aplikacji.
+   Widok na rys. \ref{interfejs:alarm} zawiera wypisane ogólnopolskie telefony alarmowe, jak i numer na Górskie Ochotnicze Pogotowie Ratunkowe. Każdy numer można skopiować lub wybrać \\i zadzwonić na niego bezpośrednio z poziomu aplikacji.
 
     \subsection*{Administrator}
     Administrator aplikacji jest jednostką bardzo istotną dla poprawnego działania całej aplikacji. Po zalogowaniu na konto administratora (rys. \ref{interfejs:logowanie}) dostępne są następujące widoki: ekran główny, zatwierdzanie zgłoszeń przesłanych przez użytkowników, zarządzanie szlakami, zarządzanie atrakcjami, wysyłanie powiadomień oraz sekcja poświęcona GOPR.\\
@@ -624,6 +632,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     \end{figure}
    Widok na rys. \ref{interfejs:admin} zawiera kilka przycisków wspomagających nawigację po aplikacji. Dzięki tym przyciskom może przenieść się do ekranów: wyślij powiadomienie, zgłoszenia do zatwierdzenia, zarządzaj szlakami, zarządzaj atrakcjami oraz GOPR. Przyciski są odpowiednio nazwane, aby nie było wątpliwości, na jaki ekran użytkownik za chwilę zostanie przeniesiony. 
    \newpage
+   \noindent
    \textbf{Zatwierdź zgłoszenia}
      \begin{figure}[H]
         \centering
@@ -655,9 +664,9 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
 Dla prawidłowej i jak najskuteczniejszej pracy przygotowywanej aplikacji najważniejsze jest w procesie jej projektowania, aby dobrać optymalne narzędzia i technologie. W tym rozdziale skupiono się na krótkim omówieniu popularnych technologii programistycznych, które posiadają najbardziej potrzebne funkcje do prawidłowego działania systemu.
 
 \subsection*{Usługi Firebase}
-Dla prostej skalowalności całego projektu, a także usprawnienie połączeń między bazą danych a aplikacją oraz względne pozbycie się serwera aplikacji wielu programistów decyduje się na korzystanie z usług oferowanych przez Firebase \cite{firebase}. Do obsługi bazy danych najczęściej wybieraną usługą jest Firebase Firestore \cite{firebase-book}. Jest to szybka i elastyczna baza danych NoSQL, która działa w infrastrukturze Google Cloud i synchronizuje dane pomiędzy różnymi platformami.\par
-Do usprawnienia logowania i autoryzacji w aplikacji często wykorzystuje się usługę Firebase Authentication \cite{fireauth} pozwalającą na sprawdzanie tożsamości użytkowników i personalizowanie treści wyświetlanych na urządzeniach klientów. Authentication obsługuje uwierzytelnianie przy użyciu haseł, numerów telefonów, a także kont na platformach mediów społecznościowych, takich jak Google, Facebook, Twitter i innych kanałów.\par
-Przechowywanie plików w chmurze często jest potrzebne do sprawnej synchronizacji danych pomiędzy urządzeniami, kontami, jak i platformami. Firebase również tym razem wychodzi programistom na przeciw, udostępniając usługę Storage. Jest to wydajna, prosta w obsłudze i niedroga usługa pamięci masowej opracowana z myślą o skali Google.
+Dla prostej skalowalności całego projektu, a także usprawnienie połączeń między bazą danych a aplikacją oraz względne pozbycie się serwera aplikacji wielu programistów decyduje się na korzystanie z usług oferowanych przez Firebase \cite{firebase}. Do obsługi bazy danych najczęściej wybieraną usługą jest Firebase Firestore \cite{firebase-book}. Jest to szybka \\i elastyczna baza danych NoSQL, która działa w infrastrukturze Google Cloud i synchronizuje dane pomiędzy różnymi platformami.\par
+Do usprawnienia logowania i autoryzacji w aplikacji często wykorzystuje się usługę Firebase Authentication \cite{fireauth} pozwalającą na sprawdzanie tożsamości użytkowników \\i personalizowanie treści wyświetlanych na urządzeniach klientów. Authentication obsługuje uwierzytelnianie przy użyciu haseł, numerów telefonów, a także kont na platformach mediów społecznościowych, takich jak Google, Facebook, Twitter i innych kanałów.\par
+Przechowywanie plików w chmurze często jest potrzebne do sprawnej synchronizacji danych pomiędzy urządzeniami, kontami, jak i platformami. Firebase również tym razem wychodzi programistom na przeciw, udostępniając usługę Storage. Jest to wydajna, prosta \\w obsłudze i niedroga usługa pamięci masowej opracowana z myślą o skali Google.
 
 \subsection*{Google Maps Platform}
 Po dogłębnym przeszukaniu rynku oferującego wiele API obsługujących mapy na platformę Android, Google Maps Platform \cite{gmapsand} okazała się najbardziej odpowiednia. Jest to jedno z wielu usprawnień oferowanych przez Google przez dostęp do ich Google Clouds Platform. Dzięki temu wszelkie inne API z kategorii takich jak: obliczenia, przechowywanie i bazy danych, analiza danych, sztuczna inteligencja, sieci itp. są ze sobą zsynchronizowane, a do obsługiwania ich wszystkich wystarczy jedno konto, które przez pierwsze 90 dni jest darmowe i posiada 300USD przypisanych do portfela usługi. Po tym czasie użytkownik może zmienić typ swojego konta na płatne, wtedy środki pobierane są bezpośrednio z karty użytkownika za każde ponadplanowe użycie zasobów.
@@ -665,7 +674,7 @@ Aspekt płatności, choć może się wydawać odstraszający dla wielu, nie jest
 
 
 \subsection*{Android Studio}
-Najpopularniejsze IDE pozwalające na tworzenie aplikacji mobilnych na urządzenia z systemem Android \cite{androidstudio} \cite{android-studio-book}. Obsługuje język Java oraz Kotlin i zawiera wiele wbudowanych narzędzi ułatwiających tworzenie aplikacji na urządzenia mobilne. Posiada m.in. emulatory urządzeń, integrację z systemem kontroli wersji Git oraz narzędzia do profilowania wydajności aplikacji.
+Najpopularniejsze IDE pozwalające na tworzenie aplikacji mobilnych na urządzenia \\z systemem Android \cite{androidstudio} \cite{android-studio-book}. Obsługuje język Java oraz Kotlin i zawiera wiele wbudowanych narzędzi ułatwiających tworzenie aplikacji na urządzenia mobilne. Posiada m.in. emulatory urządzeń, integrację z systemem kontroli wersji Git oraz narzędzia do profilowania wydajności aplikacji.
 
 \subsection*{Język Java}
 Java \cite{java} jest to wysokopoziomowy, obiektowy język programowania. Jego szeroki zakres użytku pozwala na tworzenie różnych aplikacji w zależności od potrzeby, m.in. aplikacji webowych, systemów biznesowych, aplikacji mobilnych (Android), a także można go wykorzystać w systemach wbudowanych i przetwarzaniu danych \cite{java-book}.
@@ -676,7 +685,7 @@ Dlaczego Java?
     \item Aplikacje tworzone w Javie można uruchamiać na wszelkiego typu urządzeniach dzięki maszynie wirtualnej (JVM).
 \end{itemize}
 
-Aplikacja Harnasie umożliwia nam bezpieczne wędrówki po górach w rejonie Tatr Polskich. Dzięki opcji zgłaszaniu zagrożeń, które administrator akceptuje, poprawia się bezpieczeństwo wszystkich użytkowników. Wszyscy turyści korzystający z aplikacji zostaną powiadomieni o zagrożeniach miejscowych oraz otrzymają powiadomienie ogólne o komunikatach przekazywanych przez Tatrzańskie Ochotnicze Pogotowie Ratunkowe i Tatrzański Park Narodowy. Aplikacja śledzi również aktywność użytkownika oraz tworzy z niej przejrzysty wykres w interfejsie profilu. Zalogowany użytkownik może dzięki temu w prosty sposób zobaczyć swoje osiągnięcia oraz rozpowszechnić je znajomym, gdyż wszytskie dane zawierają się na jednym widoku. Harnasie posiada także funkcję wyznaczania trasy na mapie oraz możliwość wyboru sposobu nawigacji po niej. Użytkownik z dobrą orientacją w terenie może korzystać z trasy wyznaczonej w aplikacji, a dla osób, które wolą nawigację dostępną w Google Maps istnieje opcja otworzenia wyznaczonej trasy właśnie w tej aplikacji. Pozwala to wtedy na dokładne naprowadzanie po szlaku i zmniejsza ryzyko zagubienia się. Aplikacja zawiera także naniesione kolorami szlaki turystyczne na mapę, aby zapwenić przejrzystość i rozwiać wątpliwości o rodzaju szlaku. Często zdarza się, że idąc po wyznaczonym w górach szlaku, nawet na rozdrożu, ciężko zobaczyć oznaczenia kolorystyczne oznaczające długość szlaku. 
+Aplikacja Harnasie umożliwia nam bezpieczne wędrówki po górach w rejonie Tatr Polskich. Dzięki opcji zgłaszaniu zagrożeń, które administrator akceptuje, poprawia się bezpieczeństwo wszystkich użytkowników. Wszyscy turyści korzystający z aplikacji zostaną powiadomieni o zagrożeniach miejscowych oraz otrzymają powiadomienie ogólne o komunikatach przekazywanych przez Tatrzańskie Ochotnicze Pogotowie Ratunkowe i Tatrzański Park Narodowy. Aplikacja śledzi również aktywność użytkownika oraz tworzy z niej przejrzysty wykres w interfejsie profilu. Zalogowany użytkownik może dzięki temu w prosty sposób zobaczyć swoje osiągnięcia oraz rozpowszechnić je znajomym, gdyż wszytskie dane zawierają się na jednym widoku. Harnasie posiada także funkcję wyznaczania trasy na mapie oraz możliwość wyboru sposobu nawigacji po niej. Użytkownik z dobrą orientacją w terenie może korzystać z trasy wyznaczonej w aplikacji, a dla osób, które wolą nawigację dostępną w Google Maps istnieje opcja otworzenia wyznaczonej trasy właśnie w tej aplikacji. Pozwala to wtedy na dokładne naprowadzanie po szlaku i zmniejsza ryzyko zagubienia się. Aplikacja zawiera także naniesione kolorami szlaki turystyczne na mapę, aby zapwenić przejrzystość \\i rozwiać wątpliwości o rodzaju szlaku. Często zdarza się, że idąc po wyznaczonym w górach szlaku, nawet na rozdrożu, ciężko zobaczyć oznaczenia kolorystyczne oznaczające długość szlaku. 
 
 
   

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.30)  7 JAN 2025 15:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.30)  7 JAN 2025 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1391,9 +1391,14 @@ File: img/rynek/mapatu-warstwy.jpg Graphic file (type bmp)
 <img/rynek/mapatu-warstwy.jpg>
 File: img/rynek/mapatu-premium.jpg Graphic file (type bmp)
 <img/rynek/mapatu-premium.jpg>
- [12] [13]
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
-LaTeX Warning: Citation 'mapycz' on page 14 undefined on input line 59.
+ []
+
+[13]
+
+LaTeX Warning: Citation 'mapycz' on page 14 undefined on input line 61.
 
 File: img/rynek/Mapycz_logowanie.jpg Graphic file (type bmp)
 <img/rynek/Mapycz_logowanie.jpg>
@@ -1406,7 +1411,12 @@ File: img/rynek/Mapycz_mapy.jpg Graphic file (type bmp)
 File: img/rynek/Mapycz_pomoc.jpg Graphic file (type bmp)
 <img/rynek/Mapycz_pomoc.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--89
+Underfull \hbox (badness 10000) in paragraph at lines 84--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
@@ -1414,7 +1424,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--89
 \openout2 = `chapters/chapter5.aux'.
 
  (chapters/chapter5.tex
-Overfull \hbox (3.23427pt too wide) in paragraph at lines 17--18
+Overfull \hbox (3.23427pt too wide) in paragraph at lines 18--19
 []\TU/TeXGyreTermesX(0)/m/n/12 Wysyłanie powiadomień do użytkowników w obrębie 
 konkretnego regionu o miej-
  []
@@ -1424,7 +1434,7 @@ konkretnego regionu o miej-
 
 
 ]
-Overfull \hbox (7.89825pt too wide) in paragraph at lines 57--58
+Overfull \hbox (7.89825pt too wide) in paragraph at lines 58--59
 []\TU/TeXGyreTermesX(0)/m/n/12 Generowanie podsumowań jednodniowych, tygodniowy
 ch lub z wybranego okresu. 
  []
@@ -1433,7 +1443,7 @@ ch lub z wybranego okresu.
 File: img/diagramy/UCD/UCDszlaki.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDszlaki.jpg>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 85--86
+Overfull \hbox (7.0pt too wide) in paragraph at lines 86--87
  [][] 
  []
 
@@ -1441,14 +1451,14 @@ Overfull \hbox (7.0pt too wide) in paragraph at lines 85--86
 File: img/diagramy/UCD/UCDpowiadomieniaAdmin.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDpowiadomieniaAdmin.jpg>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 94--95
+Overfull \hbox (7.0pt too wide) in paragraph at lines 95--96
  [][] 
  []
 
 File: img/diagramy/UC/UCkonto.jpg Graphic file (type bmp)
 <img/diagramy/UC/UCkonto.jpg>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 104--105
+Overfull \hbox (7.0pt too wide) in paragraph at lines 105--106
  [][] 
  []
 
@@ -1456,14 +1466,14 @@ Overfull \hbox (7.0pt too wide) in paragraph at lines 104--105
 File: img/diagramy/UC/UCplan.jpg Graphic file (type bmp)
 <img/diagramy/UC/UCplan.jpg>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 113--114
+Overfull \hbox (7.0pt too wide) in paragraph at lines 114--115
  [][] 
  []
 
 File: img/diagramy/UC/UCnawigacja.jpg Graphic file (type bmp)
 <img/diagramy/UC/UCnawigacja.jpg>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 122--123
+Overfull \hbox (7.0pt too wide) in paragraph at lines 123--124
  [][] 
  []
 
@@ -1471,21 +1481,21 @@ Overfull \hbox (7.0pt too wide) in paragraph at lines 122--123
 File: img/diagramy/UCD/UCDhistoria.jpg Graphic file (type bmp)
 <img/diagramy/UCD/UCDhistoria.jpg>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 131--132
+Overfull \hbox (7.0pt too wide) in paragraph at lines 132--133
  [][] 
  []
 
 File: img/diagramy/UC/UCpomoc.jpg Graphic file (type bmp)
 <img/diagramy/UC/UCpomoc.jpg>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 140--141
+Overfull \hbox (7.0pt too wide) in paragraph at lines 141--142
  [][] 
  []
 
 File: img/diagramy/UC/UCzagrozenie.jpg Graphic file (type bmp)
 <img/diagramy/UC/UCzagrozenie.jpg>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 149--150
+Overfull \hbox (7.0pt too wide) in paragraph at lines 150--151
  [][] 
  []
 
@@ -1493,7 +1503,7 @@ Overfull \hbox (7.0pt too wide) in paragraph at lines 149--150
 File: img/diagramy/UC/UCkrokomierz.jpg Graphic file (type bmp)
 <img/diagramy/UC/UCkrokomierz.jpg>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 158--159
+Overfull \hbox (7.0pt too wide) in paragraph at lines 159--160
  [][] 
  []
 
@@ -1502,15 +1512,15 @@ File: img/diagramy/klasyyy.jpg Graphic file (type bmp)
 <img/diagramy/klasyyy.jpg>
  [29]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 343.
+(Font)              scaled to size 12.0pt on input line 349.
 
-Overfull \hbox (2.52226pt too wide) in paragraph at lines 346--347
+Overfull \hbox (2.52226pt too wide) in paragraph at lines 352--353
 []\TU/TeXGyreTermesX(0)/m/it/12 login\TU/TeXGyreTermesX(0)/m/n/12 : string - pr
 zechowuje login użytkownika będący adresem e-mail danej osoby, 
  []
 
 [30]
-Overfull \hbox (0.60226pt too wide) in paragraph at lines 356--357
+Overfull \hbox (0.60226pt too wide) in paragraph at lines 362--363
 []\TU/TeXGyreTermesX(0)/m/it/12 zgłośzagrożenie() \TU/TeXGyreTermesX(0)/m/n/12 
 - zwraca nowo utworzony obiekt typu Zagrożenie z jego wszyst-
  []
@@ -1522,19 +1532,19 @@ File: img/diagramy/erd.jpg Graphic file (type bmp)
 File: img/interfejsy/if_rejestracja.jpg Graphic file (type bmp)
 <img/interfejsy/if_rejestracja.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--540
+Underfull \hbox (badness 10000) in paragraph at lines 539--547
 
  []
 
 File: img/interfejsy/if_loguj.jpg Graphic file (type bmp)
 <img/interfejsy/if_loguj.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--549
+Underfull \hbox (badness 10000) in paragraph at lines 548--556
 
  []
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
 
  []
 
@@ -1544,14 +1554,14 @@ File: img/interfejsy/if_główna.jpg Graphic file (type bmp)
 File: img/interfejsy/if_menu.jpg Graphic file (type bmp)
 <img/interfejsy/if_menu.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--567
+Underfull \hbox (badness 10000) in paragraph at lines 566--574
 
  []
 
 File: img/interfejsy/if_konto.jpg Graphic file (type bmp)
 <img/interfejsy/if_konto.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--576
+Underfull \hbox (badness 10000) in paragraph at lines 575--583
 
  []
 
@@ -1559,19 +1569,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 568--576
 File: img/interfejsy/if_historia.jpg Graphic file (type bmp)
 <img/interfejsy/if_historia.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--585
+Underfull \hbox (badness 10000) in paragraph at lines 584--592
 
  []
 
 File: img/interfejsy/if_wyznacz.jpg Graphic file (type bmp)
 <img/interfejsy/if_wyznacz.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--594
+Underfull \hbox (badness 10000) in paragraph at lines 593--601
 
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
 
  []
 
@@ -1581,7 +1591,7 @@ File: img/interfejsy/if_zgłoszenie.jpg Graphic file (type bmp)
 File: img/interfejsy/if_alarmm.jpg Graphic file (type bmp)
 <img/interfejsy/if_alarmm.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--612
+Underfull \hbox (badness 10000) in paragraph at lines 612--620
 
  []
 
@@ -1589,7 +1599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 604--612
 File: img/interfejsy/if_admin.jpg Graphic file (type bmp)
 <img/interfejsy/if_admin.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--624
+Underfull \hbox (badness 10000) in paragraph at lines 624--632
 
  []
 
@@ -1599,48 +1609,48 @@ File: img/interfejsy/if_zatwierdz.jpg Graphic file (type bmp)
 File: img/interfejsy/if_zarzadzaj_szlaki.jpg Graphic file (type bmp)
 <img/interfejsy/if_zarzadzaj_szlaki.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 634--642
+Underfull \hbox (badness 10000) in paragraph at lines 643--651
 
  []
 
 File: img/interfejsy/if_nowy_szlak.jpg Graphic file (type bmp)
 <img/interfejsy/if_nowy_szlak.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--651
+Underfull \hbox (badness 10000) in paragraph at lines 652--660
 
  []
 
 [43]
 
-LaTeX Warning: Citation 'firebase' on page 44 undefined on input line 658.
+LaTeX Warning: Citation 'firebase' on page 44 undefined on input line 667.
 
 
-LaTeX Warning: Citation 'firebase-book' on page 44 undefined on input line 658.
+LaTeX Warning: Citation 'firebase-book' on page 44 undefined on input line 667.
 
 
 [44]
 
-LaTeX Warning: Citation 'fireauth' on page 45 undefined on input line 659.
+LaTeX Warning: Citation 'fireauth' on page 45 undefined on input line 668.
 
 
-LaTeX Warning: Citation 'gmapsand' on page 45 undefined on input line 663.
+LaTeX Warning: Citation 'gmapsand' on page 45 undefined on input line 672.
 
 
-LaTeX Warning: Citation 'gmapsogol' on page 45 undefined on input line 664.
+LaTeX Warning: Citation 'gmapsogol' on page 45 undefined on input line 673.
 
 
-LaTeX Warning: Citation 'androidstudio' on page 45 undefined on input line 668.
+LaTeX Warning: Citation 'androidstudio' on page 45 undefined on input line 677.
 
 
 
 LaTeX Warning: Citation 'android-studio-book' on page 45 undefined on input lin
-e 668.
+e 677.
 
 
-LaTeX Warning: Citation 'java' on page 45 undefined on input line 671.
+LaTeX Warning: Citation 'java' on page 45 undefined on input line 680.
 
 
-LaTeX Warning: Citation 'java-book' on page 45 undefined on input line 671.
+LaTeX Warning: Citation 'java-book' on page 45 undefined on input line 680.
 
 [45]) [46]
 \openout2 = `chapters/chapter6.aux'.
@@ -1841,12 +1851,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--112
 
  []
 
-
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-[52]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 118.
@@ -2167,6 +2176,6 @@ Here is how much of TeX's memory you used:
  49655 multiletter control sequences out of 15000+600000
  564428 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,9n,117p,1503b,4981s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,9n,117p,1505b,4981s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (83 pages).
