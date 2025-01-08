@@ -455,7 +455,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     \end{itemize}
 
      \subsection{Diagram ERD}
-   Diagram ERD (Entity-Relationship Diagram) to graficzne przedstawienie modelu danych, które pokazuje związki między różnymi elementami systemu. ERD składa się z trzech głównych komponentów: encje - reprezentują obiekty lub pojęcia, które mają znaczenie \\w kontekście bazy danych, atrybuty - określają właściwości lub cechy encji oraz związki - pokazują, jak encje są ze sobą powiązane.
+   Diagram ERD (Entity-Relationship Diagram) to graficzne przedstawienie modelu danych, które pokazuje związki między różnymi elementami systemu. ERD składa się z trzech głównych komponentów: encje - reprezentują obiekty lub pojęcia, które mają znaczenie w~kontekście bazy danych, atrybuty - określają właściwości lub cechy encji oraz związki - pokazują, jak encje są ze sobą powiązane.
 
      \begin{figure}[H]
         \centering
@@ -581,7 +581,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \caption{Interfejs użytkownika: moje konto.}
         \label{interfejs:konto}
     \end{figure}
-    Widok na rys \ref{interfejs:konto} zawiera wypisane dane użytkownika, jego zdjęcie profilowe oraz przyciski pozwalające na przejrzenie historii wędrówek, edycję danych oraz usunięcie konta. \\W przypadku wybrania przycisku "Historia tras" użytkownik przenoszony jest do kolejnego, osobnego widoku (rys. \ref{interfejs:historia}). \\
+    Widok na rys \ref{interfejs:konto} zawiera wypisane dane użytkownika, jego zdjęcie profilowe oraz przyciski pozwalające na przejrzenie historii wędrówek, edycję danych oraz usunięcie konta. W~przypadku wybrania przycisku "Historia tras" użytkownik przenoszony jest do kolejnego, osobnego widoku (rys. \ref{interfejs:historia}). \\
     \\
     \textbf{Historia tras}
     \begin{figure}[H]
@@ -618,7 +618,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \caption{Interfejs użytkownika: telefony alarmowe.}
         \label{interfejs:alarm}
     \end{figure}
-   Widok na rys. \ref{interfejs:alarm} zawiera wypisane ogólnopolskie telefony alarmowe, jak i numer na Górskie Ochotnicze Pogotowie Ratunkowe. Każdy numer można skopiować lub wybrać \\i zadzwonić na niego bezpośrednio z poziomu aplikacji.
+   Widok na rys. \ref{interfejs:alarm} zawiera wypisane ogólnopolskie telefony alarmowe, jak i numer na Górskie Ochotnicze Pogotowie Ratunkowe. Każdy numer można skopiować lub wybrać i~zadzwonić na niego bezpośrednio z poziomu aplikacji.
 
     \subsection*{Administrator}
     Administrator aplikacji jest jednostką bardzo istotną dla poprawnego działania całej aplikacji. Po zalogowaniu na konto administratora (rys. \ref{interfejs:logowanie}) dostępne są następujące widoki: ekran główny, zatwierdzanie zgłoszeń przesłanych przez użytkowników, zarządzanie szlakami, zarządzanie atrakcjami, wysyłanie powiadomień oraz sekcja poświęcona GOPR.\\
@@ -664,9 +664,9 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
 Dla prawidłowej i jak najskuteczniejszej pracy przygotowywanej aplikacji najważniejsze jest w procesie jej projektowania, aby dobrać optymalne narzędzia i technologie. W tym rozdziale skupiono się na krótkim omówieniu popularnych technologii programistycznych, które posiadają najbardziej potrzebne funkcje do prawidłowego działania systemu.
 
 \subsection*{Usługi Firebase}
-Dla prostej skalowalności całego projektu, a także usprawnienie połączeń między bazą danych a aplikacją oraz względne pozbycie się serwera aplikacji wielu programistów decyduje się na korzystanie z usług oferowanych przez Firebase \cite{firebase}. Do obsługi bazy danych najczęściej wybieraną usługą jest Firebase Firestore \cite{firebase-book}. Jest to szybka \\i elastyczna baza danych NoSQL, która działa w infrastrukturze Google Cloud i synchronizuje dane pomiędzy różnymi platformami.\par
-Do usprawnienia logowania i autoryzacji w aplikacji często wykorzystuje się usługę Firebase Authentication \cite{fireauth} pozwalającą na sprawdzanie tożsamości użytkowników \\i personalizowanie treści wyświetlanych na urządzeniach klientów. Authentication obsługuje uwierzytelnianie przy użyciu haseł, numerów telefonów, a także kont na platformach mediów społecznościowych, takich jak Google, Facebook, Twitter i innych kanałów.\par
-Przechowywanie plików w chmurze często jest potrzebne do sprawnej synchronizacji danych pomiędzy urządzeniami, kontami, jak i platformami. Firebase również tym razem wychodzi programistom na przeciw, udostępniając usługę Storage. Jest to wydajna, prosta \\w obsłudze i niedroga usługa pamięci masowej opracowana z myślą o skali Google.
+Dla prostej skalowalności całego projektu, a także usprawnienie połączeń między bazą danych a aplikacją oraz względne pozbycie się serwera aplikacji wielu programistów decyduje się na korzystanie z usług oferowanych przez Firebase \cite{firebase}. Do obsługi bazy danych najczęściej wybieraną usługą jest Firebase Firestore \cite{firebase-book}. Jest to szybka i~elastyczna baza danych NoSQL, która działa w infrastrukturze Google Cloud i synchronizuje dane pomiędzy różnymi platformami.\par
+Do usprawnienia logowania i autoryzacji w aplikacji często wykorzystuje się usługę Firebase Authentication \cite{fireauth} pozwalającą na sprawdzanie tożsamości użytkowników i~personalizowanie treści wyświetlanych na urządzeniach klientów. Authentication obsługuje uwierzytelnianie przy użyciu haseł, numerów telefonów, a także kont na platformach mediów społecznościowych, takich jak Google, Facebook, Twitter i innych kanałów.\par
+Przechowywanie plików w chmurze często jest potrzebne do sprawnej synchronizacji danych pomiędzy urządzeniami, kontami, jak i platformami. Firebase również tym razem wychodzi programistom na przeciw, udostępniając usługę Storage. Jest to wydajna, prosta w~obsłudze i niedroga usługa pamięci masowej opracowana z myślą o skali Google.
 
 \subsection*{Google Maps Platform}
 Po dogłębnym przeszukaniu rynku oferującego wiele API obsługujących mapy na platformę Android, Google Maps Platform \cite{gmapsand} okazała się najbardziej odpowiednia. Jest to jedno z wielu usprawnień oferowanych przez Google przez dostęp do ich Google Clouds Platform. Dzięki temu wszelkie inne API z kategorii takich jak: obliczenia, przechowywanie i bazy danych, analiza danych, sztuczna inteligencja, sieci itp. są ze sobą zsynchronizowane, a do obsługiwania ich wszystkich wystarczy jedno konto, które przez pierwsze 90 dni jest darmowe i posiada 300USD przypisanych do portfela usługi. Po tym czasie użytkownik może zmienić typ swojego konta na płatne, wtedy środki pobierane są bezpośrednio z karty użytkownika za każde ponadplanowe użycie zasobów.
@@ -674,7 +674,7 @@ Aspekt płatności, choć może się wydawać odstraszający dla wielu, nie jest
 
 
 \subsection*{Android Studio}
-Najpopularniejsze IDE pozwalające na tworzenie aplikacji mobilnych na urządzenia \\z systemem Android \cite{androidstudio} \cite{android-studio-book}. Obsługuje język Java oraz Kotlin i zawiera wiele wbudowanych narzędzi ułatwiających tworzenie aplikacji na urządzenia mobilne. Posiada m.in. emulatory urządzeń, integrację z systemem kontroli wersji Git oraz narzędzia do profilowania wydajności aplikacji.
+Najpopularniejsze IDE pozwalające na tworzenie aplikacji mobilnych na urządzenia z~systemem Android \cite{androidstudio} \cite{android-studio-book}. Obsługuje język Java oraz Kotlin i zawiera wiele wbudowanych narzędzi ułatwiających tworzenie aplikacji na urządzenia mobilne. Posiada m.in. emulatory urządzeń, integrację z systemem kontroli wersji Git oraz narzędzia do profilowania wydajności aplikacji.
 
 \subsection*{Język Java}
 Java \cite{java} jest to wysokopoziomowy, obiektowy język programowania. Jego szeroki zakres użytku pozwala na tworzenie różnych aplikacji w zależności od potrzeby, m.in. aplikacji webowych, systemów biznesowych, aplikacji mobilnych (Android), a także można go wykorzystać w systemach wbudowanych i przetwarzaniu danych \cite{java-book}.
@@ -685,7 +685,7 @@ Dlaczego Java?
     \item Aplikacje tworzone w Javie można uruchamiać na wszelkiego typu urządzeniach dzięki maszynie wirtualnej (JVM).
 \end{itemize}
 
-Aplikacja Harnasie umożliwia nam bezpieczne wędrówki po górach w rejonie Tatr Polskich. Dzięki opcji zgłaszaniu zagrożeń, które administrator akceptuje, poprawia się bezpieczeństwo wszystkich użytkowników. Wszyscy turyści korzystający z aplikacji zostaną powiadomieni o zagrożeniach miejscowych oraz otrzymają powiadomienie ogólne o komunikatach przekazywanych przez Tatrzańskie Ochotnicze Pogotowie Ratunkowe i Tatrzański Park Narodowy. Aplikacja śledzi również aktywność użytkownika oraz tworzy z niej przejrzysty wykres w interfejsie profilu. Zalogowany użytkownik może dzięki temu w prosty sposób zobaczyć swoje osiągnięcia oraz rozpowszechnić je znajomym, gdyż wszytskie dane zawierają się na jednym widoku. Harnasie posiada także funkcję wyznaczania trasy na mapie oraz możliwość wyboru sposobu nawigacji po niej. Użytkownik z dobrą orientacją w terenie może korzystać z trasy wyznaczonej w aplikacji, a dla osób, które wolą nawigację dostępną w Google Maps istnieje opcja otworzenia wyznaczonej trasy właśnie w tej aplikacji. Pozwala to wtedy na dokładne naprowadzanie po szlaku i zmniejsza ryzyko zagubienia się. Aplikacja zawiera także naniesione kolorami szlaki turystyczne na mapę, aby zapwenić przejrzystość \\i rozwiać wątpliwości o rodzaju szlaku. Często zdarza się, że idąc po wyznaczonym w górach szlaku, nawet na rozdrożu, ciężko zobaczyć oznaczenia kolorystyczne oznaczające długość szlaku. 
+Aplikacja Harnasie umożliwia nam bezpieczne wędrówki po górach w rejonie Tatr Polskich. Dzięki opcji zgłaszaniu zagrożeń, które administrator akceptuje, poprawia się bezpieczeństwo wszystkich użytkowników. Wszyscy turyści korzystający z aplikacji zostaną powiadomieni o zagrożeniach miejscowych oraz otrzymają powiadomienie ogólne o komunikatach przekazywanych przez Tatrzańskie Ochotnicze Pogotowie Ratunkowe i Tatrzański Park Narodowy. Aplikacja śledzi również aktywność użytkownika oraz tworzy z niej przejrzysty wykres w interfejsie profilu. Zalogowany użytkownik może dzięki temu w prosty sposób zobaczyć swoje osiągnięcia oraz rozpowszechnić je znajomym, gdyż wszytskie dane zawierają się na jednym widoku. Harnasie posiada także funkcję wyznaczania trasy na mapie oraz możliwość wyboru sposobu nawigacji po niej. Użytkownik z dobrą orientacją w terenie może korzystać z trasy wyznaczonej w aplikacji, a dla osób, które wolą nawigację dostępną w Google Maps istnieje opcja otworzenia wyznaczonej trasy właśnie w tej aplikacji. Pozwala to wtedy na dokładne naprowadzanie po szlaku i zmniejsza ryzyko zagubienia się. Aplikacja zawiera także naniesione kolorami szlaki turystyczne na mapę, aby zapwenić przejrzystość i~rozwiać wątpliwości o rodzaju szlaku. Często zdarza się, że idąc po wyznaczonym w górach szlaku, nawet na rozdrożu, ciężko zobaczyć oznaczenia kolorystyczne oznaczające długość szlaku. 
 
 
   
