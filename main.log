@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.30)  8 JAN 2025 15:55
+=======
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  8 JAN 2025 13:24
+>>>>>>> 20ec5553781361753851e938b3201af8651a7fcb
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1964,11 +1968,32 @@ File: img/imp/widok-ikony.png Graphic file (type bmp)
  [56]
 File: img/imp/widok-loka.png Graphic file (type bmp)
 <img/imp/widok-loka.png>
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 270--271
+ [][] 
+ []
+
 File: img/imp/widok-marker.png Graphic file (type bmp)
 <img/imp/widok-marker.png>
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 277--278
+ [][] 
+ []
+
 File: img/imp/widok-pkt.png Graphic file (type bmp)
 <img/imp/widok-pkt.png>
+<<<<<<< HEAD
  [57]
+=======
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 284--285
+ [][] 
+ []
+
+
+
+[60]
+>>>>>>> 20ec5553781361753851e938b3201af8651a7fcb
 Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
@@ -1982,9 +2007,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--309
 
 File: img/imp/lista_szlakow.png Graphic file (type bmp)
 <img/imp/lista_szlakow.png>
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 314--315
+ [][] 
+ []
+
 File: img/imp/po-wyborze-z-listy.png Graphic file (type bmp)
 <img/imp/po-wyborze-z-listy.png>
+<<<<<<< HEAD
 [59]
+=======
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 321--322
+ [][] 
+ []
+
+
+
+[62]
+>>>>>>> 20ec5553781361753851e938b3201af8651a7fcb
 File: img/imp/widok-danger.png Graphic file (type bmp)
 <img/imp/widok-danger.png>
  [60]
