@@ -158,12 +158,16 @@ Projektując aplikację miano na uwadze omylność ludzką, dlatego starano się
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
     \centering
-    \fbox{\includegraphics[scale=0.75]{img/test/testzglos1.jpg}}
+    \fbox{\includegraphics[scale=0.6]{img/test/testzglos1.jpg}}
     \caption{Formularz zgłaszania zagrożenia na trasie.}
     \label{test:zglos1}
 \end{figure}
 
-Formularz przedstawiony na rys. \ref{test:zglos1} wymaga od użytkownika podania typu oraz opisu zagrożenia występującego na szlaku. W przypadku braku opisu, na ekranie pojawia się komunikat, widoczny na rys. \ref{test:zglos2}, informormujący o konieczności jego uzupełnienia.
+Formularz przedstawiony na rys. \ref{test:zglos1} wymaga od użytkownika podania typu oraz opisu zagrożenia występującego na szlaku. W przypadku braku opisu, na ekranie pojawia się komunikat, widoczny na rys. \ref{test:zglos2}, informormujący o konieczności jego uzupełnienia.\\
+\indent W sytuacji, gdy użytkownik chce wysłać zgłoszenie, lecz w danym momencie nie ma połączenia z internetem, aplikacja wyświetla powiadomienie o braku połączenia, tak jak na rys. \ref{test:zglos3}. 
+Jednak, aby zgłoszenie zostało wysłane, użytkownik musi mieć jeszcze włączoną lokalizację, o czym informuje komunikat przedstawiony na rys. \ref{test:zglos4}. 
+Po kliknięciu “Zgłoś zagrożenie” i spełnieniu wszystkich wymagań, formularz zostanie pomyślnie wysłany i wyświetlony na liście zgłoszeń do zaakceptowania w interfejsie administratora (rys. \ref{test:zglos5}).\\ 
+
 
 \begin{figure}[H]
     \begin{minipage}{0.3\textwidth} % Pierwszy obraz
@@ -188,15 +192,13 @@ Formularz przedstawiony na rys. \ref{test:zglos1} wymaga od użytkownika podania
     \end{minipage}
 \end{figure}
 
-W sytuacji, gdy użytkownik chce wysłać zgłoszenie, lecz w danym momencie nie ma połączenia z internetem, aplikacja wyświetla powiadomienie o braku połączenia, tak jak na rys. \ref{test:zglos3}. 
-Jednak, aby zgłoszenie zostało wysłane, użytkownik musi mieć jeszcze włączoną lokalizację, o czym informuje komunikat przedstawiony na rys. \ref{test:zglos4}. 
-Po kliknięciu “Zgłoś zagrożenie” i spełnieniu wszystkich wymagań, formularz zostanie pomyślnie wysłany i wyświetlony na liście zgłoszeń do zaakceptowania w interfejsie administratora (rys. \ref{test:zglos5}).\\ 
-\indent Opisany test dowiódł, iż zgłoszenie zostanie wysłane tylko wtedy, gdy użytkownik poda wszystkie wymagane informacje dotyczące zagrożenia oraz będzie miał włączony internet, a~także udostępnioną lokalizację.
-
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
     \centering
-    \fbox{\includegraphics[scale=0.6]{img/test/testdanger.png}}
+    \fbox{\includegraphics[scale=0.5]{img/test/testdanger.png}}
     \caption{Pomyślnie wysłane zgłoszenie i wyswietlenie go w interfejsie administratora.}
     \label{test:zglos5}
 \end{figure}
+
+
+\indent Opisany test dowiódł, iż zgłoszenie zostanie wysłane tylko wtedy, gdy użytkownik poda wszystkie wymagane informacje dotyczące zagrożenia oraz będzie miał włączony internet, a~także udostępnioną lokalizację.
