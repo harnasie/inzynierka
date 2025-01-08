@@ -1672,17 +1672,22 @@ plikacji mobilnych na urządzenia z sys-
 \openout2 = `chapters/chapter6.aux'.
 
  (chapters/chapter6.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--9
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 12.
+(caption)                particular \caption on input line 14.
 See the caption package documentation for explanation.
 
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
-t line 12.
+t line 14.
 File: img/kod/rysowanie-szlakow.png Graphic file (type bmp)
 <img/kod/rysowanie-szlakow.png>
 
@@ -1697,43 +1702,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--17
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 25.
+(caption)                particular \caption on input line 28.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-ckeckandadd.jpg Graphic file (type bmp)
 <img/kod/imp-ckeckandadd.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
+Underfull \hbox (badness 10000) in paragraph at lines 26--33
 
  []
 
 
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 32--35
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 38.
+(caption)                particular \caption on input line 41.
 See the caption package documentation for explanation.
 
 File: img/kod/schroniska.png Graphic file (type bmp)
 <img/kod/schroniska.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--43
+Underfull \hbox (badness 10000) in paragraph at lines 39--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
 
@@ -1742,18 +1747,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--47
 [49]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 50.
+(caption)                particular \caption on input line 53.
 See the caption package documentation for explanation.
 
 File: img/kod/trasa.png Graphic file (type bmp)
 <img/kod/trasa.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--56
+Underfull \hbox (badness 10000) in paragraph at lines 51--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
@@ -1766,7 +1771,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 
+l.71 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1777,75 +1782,75 @@ or  <return>  to continue without it.
 [50]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 72.
+(caption)                particular \caption on input line 75.
 See the caption package documentation for explanation.
 
 File: img/kod/rys-tras.png Graphic file (type bmp)
 <img/kod/rys-tras.png>
 
-Overfull \hbox (2.0pt too wide) in paragraph at lines 69--78
+Overfull \hbox (2.0pt too wide) in paragraph at lines 72--81
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--78
+Underfull \hbox (badness 10000) in paragraph at lines 72--81
 
  []
 
 
-Overfull \hbox (5.43831pt too wide) in paragraph at lines 80--82
+Overfull \hbox (5.43831pt too wide) in paragraph at lines 83--85
 []\TU/TeXGyreTermesX(0)/m/n/12 Przy procesie obsługi zgłoszeń uczestniczy zarów
 no użytkownik jak i administrator. Pierw-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
 
 
 [51]
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--89
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 90.
+(caption)                particular \caption on input line 93.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-adddanger.png Graphic file (type bmp)
 <img/kod/imp-adddanger.png>
 
-Overfull \hbox (2.0pt too wide) in paragraph at lines 87--96
+Overfull \hbox (2.0pt too wide) in paragraph at lines 90--99
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--96
+Underfull \hbox (badness 10000) in paragraph at lines 90--99
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 104.
+(caption)                particular \caption on input line 107.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-acceptdanger.png Graphic file (type bmp)
 <img/kod/imp-acceptdanger.png>
 
-Overfull \hbox (2.0pt too wide) in paragraph at lines 101--110
+Overfull \hbox (2.0pt too wide) in paragraph at lines 104--113
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--110
+Underfull \hbox (badness 10000) in paragraph at lines 104--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
@@ -1854,20 +1859,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 [52]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 116.
+(caption)                particular \caption on input line 119.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-getacceptedloc.png Graphic file (type bmp)
 <img/kod/imp-getacceptedloc.png>
 
+Overfull \hbox (2.0pt too wide) in paragraph at lines 116--125
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--125
+
+ []
+
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 125.
+(caption)                particular \caption on input line 129.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-updatemap.png Graphic file (type bmp)
 <img/kod/imp-updatemap.png>
 
-Overfull \hbox (2.0pt too wide) in paragraph at lines 113--130
+Overfull \hbox (2.0pt too wide) in paragraph at lines 126--134
  $[]$ 
  []
 
@@ -1880,7 +1895,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141 \subsection
+l.145 \subsection
                  {Moduł logowania i rejestracji}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1889,19 +1904,19 @@ or  <return>  to continue without it.
 
 
 [53]
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 151.
+(caption)                particular \caption on input line 155.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-reje.jpg Graphic file (type bmp)
 <img/kod/imp-reje.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--157
+Underfull \hbox (badness 10000) in paragraph at lines 149--161
 
  []
 
@@ -1910,48 +1925,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--157
 [54]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 162.
+(caption)                particular \caption on input line 166.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-addtofs.jpg Graphic file (type bmp)
 <img/kod/imp-addtofs.jpg>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 174.
+(caption)                particular \caption on input line 178.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-login1.jpg Graphic file (type bmp)
 <img/kod/imp-login1.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--184
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
 
  []
 
 
 
 [55]
-Underfull \hbox (badness 10000) in paragraph at lines 185--188
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
 
  []
 
 File: img/imp/welcome.png Graphic file (type bmp)
 <img/imp/welcome.png>
-
-Overfull \hbox (7.0pt too wide) in paragraph at lines 193--194
- [][] 
- []
-
 File: img/imp/widok-reje.png Graphic file (type bmp)
 <img/imp/widok-reje.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 200--201
+Overfull \hbox (7.0pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
 File: img/imp/widok-log.png Graphic file (type bmp)
 <img/imp/widok-log.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 207--208
+Overfull \hbox (7.0pt too wide) in paragraph at lines 212--213
  [][] 
  []
 
@@ -1961,7 +1971,7 @@ Overfull \hbox (7.0pt too wide) in paragraph at lines 207--208
 File: img/imp/widok-user.png Graphic file (type bmp)
 <img/imp/widok-user.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--222
+Underfull \hbox (badness 10000) in paragraph at lines 219--227
 
  []
 
@@ -1981,28 +1991,28 @@ File: img/imp/widok-ikony.png Graphic file (type bmp)
 File: img/imp/widok-loka.png Graphic file (type bmp)
 <img/imp/widok-loka.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 270--271
+Overfull \hbox (7.0pt too wide) in paragraph at lines 275--276
  [][] 
  []
 
 File: img/imp/widok-marker.png Graphic file (type bmp)
 <img/imp/widok-marker.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 277--278
+Overfull \hbox (7.0pt too wide) in paragraph at lines 282--283
  [][] 
  []
 
 File: img/imp/widok-pkt.png Graphic file (type bmp)
 <img/imp/widok-pkt.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 284--285
+Overfull \hbox (7.0pt too wide) in paragraph at lines 289--290
  [][] 
  []
 
 
 
 [60]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
@@ -2011,21 +2021,21 @@ File: img/imp/widok-trasa.png Graphic file (type bmp)
 
 
 [61]
-Underfull \hbox (badness 10000) in paragraph at lines 306--309
+Underfull \hbox (badness 10000) in paragraph at lines 311--314
 
  []
 
 File: img/imp/lista_szlakow.png Graphic file (type bmp)
 <img/imp/lista_szlakow.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 314--315
+Overfull \hbox (7.0pt too wide) in paragraph at lines 319--320
  [][] 
  []
 
 File: img/imp/po-wyborze-z-listy.png Graphic file (type bmp)
 <img/imp/po-wyborze-z-listy.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 321--322
+Overfull \hbox (7.0pt too wide) in paragraph at lines 326--327
  [][] 
  []
 

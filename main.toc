@@ -24,4 +24,4 @@
 \contentsline {section}{\numberline {7}Testy}{70}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Testy jednostkowe}{70}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Testy manualne}{73}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Wnioski}{81}{section.8}%
+\contentsline {section}{\numberline {8}Wnioski}{84}{section.8}%
