@@ -2,6 +2,7 @@
 Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszystkich funkcji. Przed stworzeniem aplikacji należy dokładnie zastanowić się nad najważniejszymi wymaganiami funkcjonalnymi i niefunkcjonalnymi, przypadkami użycia aplikacji, a także zaprojektować model danych. Przydatne jest także rozpisanie przykładowych scenariuszy, które mogą wystąpić przy korzystaniu z aplikacji przez użytkownika. Wcześniejsze zaprojektowanie przykładowych interfejsów użytkownika pomaga dostosować wygląd systemu do potrzeb grupy docelowej. Poniższy rozdział skupia się na przedstawieniu projektu aplikacji zawierający wszystkie wcześniej wymienione elementy.
     \subsection{Wymagania funkcjonalne}
     \noindent
+    \noindent
     \textbf{Administrator}
     \begin{enumerate}
         \item Zarządzanie trasami dostępnymi w systemie
@@ -9,6 +10,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
             \item Dodawanie nowych tras (jeśli nowe zostały wyznaczone).
             \item Rozbudowa bazy tras o nowe regiony.
             \item Aktualizacja istniejących w systemie szlaków i ich opisów.
+            \item Usuwanie szlaków, które są tymczasowo wyłączone z użycia przez TPN (np. \\w celu modernizacji).
             \item Usuwanie szlaków, które są tymczasowo wyłączone z użycia przez TPN (np. \\w celu modernizacji).
         \end{enumerate}
         \item Obsługa powiadomień
@@ -166,6 +168,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     Scenariusze pozwalają rozpatrzeć dokładnie konkretne użycia danych funkcji oraz ich przebiegi alternatywne i sytuacje wyjątkowe. Poniższe wybrane scenariusze opisują kolejno: zgłoszenie zagrożenia przez użytkownika, wyznaczanie trasy, wysyłanie przez administratora powiadomienia o zagrożeniu do użytkowników oraz wyłączanie szlaku z użycia przez administratora.
     \subsection*{Scenariusz 1: Zgłaszanie zagrożeń}
     \noindent
+    \noindent
     \textbf{S1.1 Opis} \par
     Scenariusz opisujący zgłaszanie przez użytkownika zagrożeń występujących na danej trasie w celu poinformowania innych o utrudnieniach przez aplikację mobilną. \\
     \textbf{S1.2. Aktorzy} \par
@@ -209,6 +212,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
 
     \subsection*{Scenariusz 2: Wyznaczanie trasy}
     \noindent
+    \noindent
     \textbf{S2.1 Opis} \par
     Scenariusz opisujący wyznaczenie najlepszej trasy dla użytkownika. \\
     \textbf{S2.2 Aktorzy} \par
@@ -247,6 +251,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     Brak 
 
     \subsection*{Scenariusz 3: Wysyłanie powiadomień do użytkowników w obrębie konkretnego regionu o miejscowym zagrożeniu bądź utrudnieniach.} 
+    \noindent
     \noindent
     \textbf{S3.1.Opis} \par
     Scenariusz opisujący wysyłanie przez administratora powiadomień do użytkowników znajdujących się w obrębie danego regionu o miejscowym zagrożeniu. \\
@@ -288,6 +293,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     Brak
 
     \subsection*{Scenariusz 4: Tymczasowe wyłączanie szlaków z użycia}
+    \noindent
     \noindent
     \textbf{S4.1.Opis} \par
     Scenariusz opisujący tymczasowe wyłączanie szlaków z użycia przez administratora ze względu na prowadzone na nim prace konserwacyjne bądź inne, długotrwałe trudnienia. \\
@@ -342,6 +348,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     \end{figure}
     \subsection*{Opis klas}
     \noindent
+    \noindent
     \textbf{Klasa Osoba:}
     \begin{itemize}
         \item []Atrybuty:
@@ -374,6 +381,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
             \item \textit{dodajszlak()} - funkcja void, tworzy nowy szlak i dodaje go do bazy danych,
             \item \textit{usuńszlak()} - funkcja void, usuwa wybrany szlak z bazy danych,
             \item \textit{wyłączszlak()} - funkcja void, wyłącza tymczasowo wybrany Szlak z użycia,
+            \item \textit{włączszlak()} - funkcja void, włącza ponownie wybrany, uprzednio wyłączony \\z użycia Szlak,
             \item \textit{włączszlak()} - funkcja void, włącza ponownie wybrany, uprzednio wyłączony \\z użycia Szlak,
             \item \textit{zmodyfikujszlak()} - funkcja void, modyfikuje istniejący już Szlak według nowych wytycznych,
             \item \textit{weryfikujZgłoszenie()} - funkcja void, pozwala na zweryfikowanie poprawności Zgłoszenia; po weryfikacji zamienia Zgłoszenie w Powiadomienie,
@@ -520,6 +528,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     \end{itemize}
     
     \noindent
+    \noindent
     \textbf{Relacje}
     \begin{itemize}
         \item Zgłoszenie - Lokalizacja: jedno zgłoszenie musi mieć jedną lokalizację, ale z jednej lokalizacji można wysłać kilka zgłoszeń
@@ -527,6 +536,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
         \item Użytkownik - Trasa: użytkownik może, ale nie musi stworzyć wiele tras, ale jedna trasa może być stworzona tylko przez jednego użytkownika,
         \item Trasa - Szlak: jeden szlak może, ale nie musi być zawarty w wielu trasach, a jedna trasa może przebiegać przez tylko jeden szlak,
         \item Lokalizacja - Szlak: jeden szlak zbudowany jest z wielu lokalizacji, ale jedna lokalizacja może występować tylko na jednym szlaku,
+        \item Lokalizacja - Atrakcja: w jednej lokalizacji może występować tylko jedna atrakcja, \\a jedna atrakcja ma jedną lokalizację.
         \item Lokalizacja - Atrakcja: w jednej lokalizacji może występować tylko jedna atrakcja, \\a jedna atrakcja ma jedną lokalizację.
     \end{itemize}
 
@@ -602,6 +612,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
    Widok na rys. \ref{interfejs:wyznacz} zawiera pola do wpisania początku i końca trasy, jaką użytkownik chce przejść. Pod nimi znajduje się przycisk "+", który pozwala na dodanie punktu postojowego i doprecyzowanie najbardziej pożądanej trasy. Wprowadzone dane po kliknięciu "Szukaj" wprowadzane są na mapę jako punkty i na ich podstawie wyznaczana jest najlepsza trasa, którą widać pod wyżej wymienionymi kontrolkami. \\
    \newpage
    \noindent
+   \noindent
    \textbf{Zgłaszanie zagrożenia}
     \begin{figure}[H]
         \centering
@@ -632,6 +643,7 @@ Rozplanowanie działania aplikacji pozwala na przemyślaną implementację wszys
     \end{figure}
    Widok na rys. \ref{interfejs:admin} zawiera kilka przycisków wspomagających nawigację po aplikacji. Dzięki tym przyciskom może przenieść się do ekranów: wyślij powiadomienie, zgłoszenia do zatwierdzenia, zarządzaj szlakami, zarządzaj atrakcjami oraz GOPR. Przyciski są odpowiednio nazwane, aby nie było wątpliwości, na jaki ekran użytkownik za chwilę zostanie przeniesiony. 
    \newpage
+   \noindent
    \noindent
    \textbf{Zatwierdź zgłoszenia}
      \begin{figure}[H]

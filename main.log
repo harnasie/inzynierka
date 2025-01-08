@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  8 JAN 2025 09:50
+=======
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.30)  7 JAN 2025 16:14
+>>>>>>> ef87fb0c3198c63c70d6fd366c816fb53fcac900
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1361,7 +1365,18 @@ File: img/rynek/mapatu-warstwy.jpg Graphic file (type bmp)
 <img/rynek/mapatu-warstwy.jpg>
 File: img/rynek/mapatu-premium.jpg Graphic file (type bmp)
 <img/rynek/mapatu-premium.jpg>
+<<<<<<< HEAD
 
+=======
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+[13]
+
+LaTeX Warning: Citation 'mapycz' on page 14 undefined on input line 61.
+>>>>>>> ef87fb0c3198c63c70d6fd366c816fb53fcac900
 
 [12]
 Underfull \hbox (badness 10000) in paragraph at lines 37--39
@@ -1387,6 +1402,14 @@ File: img/rynek/Mapycz_pomoc.jpg Graphic file (type bmp)
 <img/rynek/Mapycz_pomoc.jpg>
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--91
+<<<<<<< HEAD
+=======
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+>>>>>>> ef87fb0c3198c63c70d6fd366c816fb53fcac900
 
  []
 
@@ -1511,12 +1534,19 @@ Overfull \hbox (7.0pt too wide) in paragraph at lines 159--160
 [28]
 File: img/diagramy/klasyyy.jpg Graphic file (type bmp)
 <img/diagramy/klasyyy.jpg>
+<<<<<<< HEAD
 
 
 [29]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 349.
 
+=======
+ [29]
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 349.
+
+>>>>>>> ef87fb0c3198c63c70d6fd366c816fb53fcac900
 Overfull \hbox (2.52226pt too wide) in paragraph at lines 352--353
 []\TU/TeXGyreTermesX(0)/m/it/12 login\TU/TeXGyreTermesX(0)/m/n/12 : string - pr
 zechowuje login użytkownika będący adresem e-mail danej osoby, 
@@ -1658,10 +1688,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 652--660
 
 [43]
 
+<<<<<<< HEAD
 [44]
 Overfull \hbox (0.2173pt too wide) in paragraph at lines 677--678
 []\TU/TeXGyreTermesX(0)/m/n/12 Najpopularniejsze IDE pozwalające na tworzenie a
 plikacji mobilnych na urządzenia z sys-
+=======
+LaTeX Warning: Citation 'firebase' on page 44 undefined on input line 667.
+
+
+LaTeX Warning: Citation 'firebase-book' on page 44 undefined on input line 667.
+
+
+[44]
+
+LaTeX Warning: Citation 'fireauth' on page 45 undefined on input line 668.
+
+
+LaTeX Warning: Citation 'gmapsand' on page 45 undefined on input line 672.
+
+
+LaTeX Warning: Citation 'gmapsogol' on page 45 undefined on input line 673.
+
+
+LaTeX Warning: Citation 'androidstudio' on page 45 undefined on input line 677.
+
+
+
+LaTeX Warning: Citation 'android-studio-book' on page 45 undefined on input lin
+e 677.
+
+
+LaTeX Warning: Citation 'java' on page 45 undefined on input line 680.
+
+
+LaTeX Warning: Citation 'java-book' on page 45 undefined on input line 680.
+
+[45]) [46]
+\openout2 = `chapters/chapter6.aux'.
+
+ (chapters/chapter6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+>>>>>>> ef87fb0c3198c63c70d6fd366c816fb53fcac900
  []
 
 
@@ -1844,6 +1913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--110
 
  []
 
+<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
@@ -1852,6 +1922,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
 
 [52]
+=======
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+>>>>>>> ef87fb0c3198c63c70d6fd366c816fb53fcac900
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 116.
@@ -2225,6 +2302,10 @@ Here is how much of TeX's memory you used:
  50542 multiletter control sequences out of 15000+600000
  564436 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  79i,9n,117p,1509b,5470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+=======
+ 79i,9n,117p,1505b,4981s stack positions out of 10000i,1000n,20000p,200000b,200000s
+>>>>>>> ef87fb0c3198c63c70d6fd366c816fb53fcac900
 
 Output written on main.pdf (84 pages).
