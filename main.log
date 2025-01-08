@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.30)  8 JAN 2025 16:49
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.30)  8 JAN 2025 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2119,43 +2119,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--66
 File: img/test/maptest_wynik.jpg Graphic file (type bmp)
 <img/test/maptest_wynik.jpg>
  [73]
-File: img/test/testmap1.jpg Graphic file (type bmp)
-<img/test/testmap1.jpg>
-
-Overfull \hbox (4.49031pt too wide) in paragraph at lines 99--100
+Overfull \hbox (4.49031pt too wide) in paragraph at lines 91--92
 []\TU/TeXGyreTermesX(0)/m/n/12 Aby przejść do trybu wyznaczania trasy należy kl
 iknąć przycisk ”Wyznacz trasę”widoczny
  []
 
+File: img/test/testmap1.jpg Graphic file (type bmp)
+<img/test/testmap1.jpg>
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 97--98
+ [][] 
+ []
+
 File: img/test/testmap2.jpg Graphic file (type bmp)
 <img/test/testmap2.jpg>
-[74]
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 104--105
+ [][] 
+ []
+
 File: img/test/testmap3.jpg Graphic file (type bmp)
 <img/test/testmap3.jpg>
- [75] [76]
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
 File: img/test/testmap4.jpg Graphic file (type bmp)
 <img/test/testmap4.jpg>
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 122--123
+ [][] 
+ []
+
 File: img/test/testmap5.jpg Graphic file (type bmp)
 <img/test/testmap5.jpg>
- [77] [78]
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 129--130
+ [][] 
+ []
+
+[74] [75]
 File: img/test/testzglos1.jpg Graphic file (type bmp)
 <img/test/testzglos1.jpg>
 File: img/test/testzglosopis.jpg Graphic file (type bmp)
 <img/test/testzglosopis.jpg>
- [79]
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 171--172
+ [][] 
+ []
+
 File: img/test/brakinternetu.jpg Graphic file (type bmp)
 <img/test/brakinternetu.jpg>
- [80]
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 178--179
+ [][] 
+ []
+
 File: img/test/braklok.jpg Graphic file (type bmp)
 <img/test/braklok.jpg>
- [81]
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 185--186
+ [][] 
+ []
+
+[76]
 File: img/test/testdanger.png Graphic file (type bmp)
 <img/test/testdanger.png>
- [82]) [83]
+) [77] [78]
 \openout2 = `chapters/chapter7.aux'.
 
- (chapters/chapter7.tex)
-[84
+ (chapters/chapter7.tex) [79
 
 
 
@@ -2197,4 +2231,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  79i,10n,117p,1503b,5389s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (84 pages).
+Output written on main.pdf (79 pages).

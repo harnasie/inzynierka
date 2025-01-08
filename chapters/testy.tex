@@ -88,53 +88,53 @@ Główną funkcjonalnością opisywanej aplikacji są mapy i usługi z nimi zwi�
     \item Przeprowadź nawigację w aplikacji Google Maps lub idź po trasie wyświetlonej w~aplikacji (rys. \ref{test:map5}).
 \end{enumerate}
 
-\setlength{\fboxrule}{0.5pt}
-\begin{figure}[H]
-    \centering
-    \fbox{\includegraphics[scale=0.75]{img/test/testmap1.jpg}}
-    \caption{Widok początkowy map.}
-    \label{test:map1}
-\end{figure}
-
 Aby przejść do trybu wyznaczania trasy należy kliknąć przycisk "Wyznacz trasę" widoczny na dole ekranu na rys. \ref{test:map1}.
 
-\setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
     \centering
-    \fbox{\includegraphics[scale=0.75]{img/test/testmap2.jpg}}
-    \caption{Wybranie funkcji wyznaczania trasy.}
-    \label{test:map2}
+    \begin{minipage}{0.3\textwidth} % Pierwszy obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/test/testmap1.jpg}}
+        \caption{Widok początkowy map.}
+        \label{test:map1}
+    \end{minipage}
+    \hspace{0.15\textwidth}
+    \begin{minipage}{0.3\textwidth} % Drugi obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/test/testmap2.jpg}}
+        \caption{Wybranie funkcji wyznaczania trasy.}
+        \label{test:map2}
+    \end{minipage}
 \end{figure}
 
 Tryb wyznaczania trasy posiada pola wyświetlające początek i koniec trasy (rys.\ref{test:map2}), które ustawia się za pomocą markera wyświetlanego na mapie, co jest widoczne na rys. \ref{test:map3}. Ponadto jest opcja dodania przystanku, która wyznacza trasę z uwzględnieniem wybranego punktu na mapie. Na potrzeby testów ten krok został pominięty.
 
-\setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
-    \centering
-    \fbox{\includegraphics[scale=0.75]{img/test/testmap3.jpg}}
-    \caption{Wybieranie punktu początkowego i końcowego trasy za pomocą markera.}
-    \label{test:map3}
+    \begin{minipage}{0.3\textwidth} % Pierwszy obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/test/testmap3.jpg}}
+        \caption{Wybieranie punktu początkowego i końcowego trasy za pomocą markera.}
+        \label{test:map3}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth} % Drugi obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/test/testmap4.jpg}}
+        \caption{Widoczne markery na początku i końcu trasy.}
+        \label{test:map4}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth} % Drugi obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/test/testmap5.jpg}}
+        \caption{Wyznaczona trasa i ukazany jej początek.}
+        \label{test:map5}
+    \end{minipage}
 \end{figure}
-\newpage
+
 Na rys. \ref{test:map4} ukazane są markery początkowe i końcowe wybranej przez użytkownika trasy oraz słowne określenie ich położenia w górnej części ekranu. Aby trasa została wyznaczona, użytkownik musi potwierdzić swój wybór klikając "Zatwierdź". Aplikacja wtedy wyznacza trasę i rysuje ją na mapie.
 
-\setlength{\fboxrule}{0.5pt}
-\begin{figure}[H]
-    \centering
-    \fbox{\includegraphics[scale=0.75]{img/test/testmap4.jpg}}
-    \caption{Widoczne markery na początku i końcu trasy.}
-    \label{test:map4}
-\end{figure}
-
 Po zatwierdzeniu wybranej trasy jest ona rysowana na mapie z pomocą koloru różowego, aby była łatwa do odróżnienia od szlaków rysowanych na mapie. Aplikacja od razu nakierowuje kamerę na początek trasy (rys. \ref{test:map5}) i jest gotowa do pokazywania użytkownikowi jego lokalizacji względem wyznaczonej trasy.
-
-\setlength{\fboxrule}{0.5pt}
-\begin{figure}[H]
-    \centering
-    \fbox{\includegraphics[scale=0.75]{img/test/testmap5.jpg}}
-    \caption{Wyznaczona trasa i ukazany jej początek.}
-    \label{test:map5}
-\end{figure}
 
 Przedstawoiny powyżej test przebiegł pomyślnie i potwierdził poprawne działanie funkcjonalności pozwalającej na wyznaczenie trasy z wybranego punktu początkowego do punktu końcowego. Użytkownik w tym momencie może wybrać, czy woli kierować się trasą pokazaną na mapie w aplikacji, czy woli nawigację w aplikacji Google Maps po wyznaczonej trasie.
 
@@ -164,33 +164,34 @@ Projektując aplikację miano na uwadze omylność ludzką, dlatego starano się
 \end{figure}
 
 Formularz przedstawiony na rys. \ref{test:zglos1} wymaga od użytkownika podania typu oraz opisu zagrożenia występującego na szlaku. W przypadku braku opisu, na ekranie pojawia się komunikat, widoczny na rys. \ref{test:zglos2}, informormujący o konieczności jego uzupełnienia.
-\setlength{\fboxrule}{0.5pt}
+
 \begin{figure}[H]
-    \centering
-    \fbox{\includegraphics[scale=0.75]{img/test/testzglosopis.jpg}}
-    \caption{Komunikat informujący o braku opisu zagrożenia.}
-    \label{test:zglos2}
+    \begin{minipage}{0.3\textwidth} % Pierwszy obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/test/testzglosopis.jpg}}
+        \caption{Komunikat informujący o braku opisu zagrożenia.}
+        \label{test:zglos2}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth} % Drugi obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/test/brakinternetu.jpg}}
+        \caption{Komunikat informujący o braku internetu.}
+        \label{test:zglos3}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth} % Drugi obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/test/braklok.jpg}}
+        \caption{Komunikat informujący o braku lokalizacji.}
+        \label{test:zglos4}
+    \end{minipage}
 \end{figure}
 
 W sytuacji, gdy użytkownik chce wysłać zgłoszenie, lecz w danym momencie nie ma połączenia z internetem, aplikacja wyświetla powiadomienie o braku połączenia, tak jak na rys. \ref{test:zglos3}. 
-\setlength{\fboxrule}{0.5pt}
-\begin{figure}[H]
-    \centering
-    \fbox{\includegraphics[scale=0.75]{img/test/brakinternetu.jpg}}
-    \caption{Komunikat informujący o braku internetu.}
-    \label{test:zglos3}
-\end{figure}
 Jednak, aby zgłoszenie zostało wysłane, użytkownik musi mieć jeszcze włączoną lokalizację, o czym informuje komunikat przedstawiony na rys. \ref{test:zglos4}. 
-
-\setlength{\fboxrule}{0.5pt}
-\begin{figure}[H]
-    \centering
-    \fbox{\includegraphics[scale=0.75]{img/test/braklok.jpg}}
-    \caption{Komunikat informujący o braku lokalizacji.}
-    \label{test:zglos4}
-\end{figure}
-
-Po kliknięciu “Zgłoś zagrożenie” i spełnieniu wszystkich wymagań, formularz zostanie pomyślnie wysłany i wyświetlony na liście zgłoszeń do zaakceptowania w interfejsie administratora (rys. \ref{test:zglos5}) . 
+Po kliknięciu “Zgłoś zagrożenie” i spełnieniu wszystkich wymagań, formularz zostanie pomyślnie wysłany i wyświetlony na liście zgłoszeń do zaakceptowania w interfejsie administratora (rys. \ref{test:zglos5}).\\ 
+\indent Opisany test dowiódł, iż zgłoszenie zostanie wysłane tylko wtedy, gdy użytkownik poda wszystkie wymagane informacje dotyczące zagrożenia oraz będzie miał włączony internet, a~także udostępnioną lokalizację.
 
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
@@ -199,4 +200,3 @@ Po kliknięciu “Zgłoś zagrożenie” i spełnieniu wszystkich wymagań, form
     \caption{Pomyślnie wysłane zgłoszenie i wyswietlenie go w interfejsie administratora.}
     \label{test:zglos5}
 \end{figure}
-Opisany test dowiódł, iż zgłoszenie zostanie wysłane tylko wtedy, gdy użytkownik poda wszystkie wymagane informacje dotyczące zagrożenia oraz będzie miał włączony internet, a~także udostępnioną lokalizację.
