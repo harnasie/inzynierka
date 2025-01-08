@@ -188,30 +188,29 @@ Wygląd aplikacji został idealnie dobrany do potrzeb użytkowników, tak aby mo
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/imp/welcome.png}
-    \caption{Widok początkowy po uruchomieniu aplikacji.}
-    \label{widok:home}
+    \begin{minipage}{0.32\textwidth} % Pierwszy obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/imp/welcome.png}}
+        \caption{Widok początkowy po uruchomieniu aplikacji.}
+        \label{widok:home}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth} % Drugi obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/imp/widok-reje.png}}
+        \caption{Widok formularza rejestracji do aplikacji.}
+        \label{widok:register}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth} % Trzeci obraz
+        \centering
+        \fbox{\includegraphics[width=\linewidth]{img/imp/widok-log.png}}
+        \caption{Widok formularza logowania do aplikacji.}
+        \label{widok:login}
+    \end{minipage}
 \end{figure}
 
-\begin{tabular}{|c|c|}
-    \hline
-    \includegraphics[width=0.4\textwidth]{img/imp/widok-reje.png} & \includegraphics[width=0.4\textwidth]{img/imp/widok-log.png} \\ \hline
-    \hline
-    \end{tabular}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{img/imp/widok-reje.png}
-    \caption{Widok formularza rejestracji do aplikacji.}
-    \label{widok:register}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{img/imp/widok-log.png}
-    \caption{Widok formularza logowania do aplikacji.}
-    \label{widok:login}
-\end{figure}
-\newpage
 \noindent
 \textbf{Konto użytkownika} \\
 \indent Na ekranie zaprezentowanym na rys.\ref{widok:user} użytkownik może zobaczyć swoją nazwę oraz wykaz pokonanych dystansów, przedstawionych w formie wykresu słupkowego. Pod nim znajduje się przycisk, dzięki któremu użytkownik może się wylogować z aplikacji. Na samym dole ekranu widoczne jest menu z czterema ikonami. Po naciśnięciu na wybrany przycisk, użytkownik zostanie przeniesiony do odpowiedniej aktywności. Pasek menu znajduje się na każdym ekranie aplikacji i umożliwia szybką nawigację między jej widokami.\\
@@ -266,25 +265,28 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/imp/widok-loka.png}
-    \caption{Opcje widoczne po kliknięciu przycisku "Wyznacz trasę".}
-    \label{widok:wyznacztrase}
+    \begin{minipage}{0.32\textwidth} % Pierwszy obraz
+        \centering
+        \includegraphics[width=\linewidth]{img/imp/widok-loka.png}
+        \caption{Opcje widoczne po kliknięciu przycisku "Wyznacz trasę".}
+        \label{widok:wyznacztrase}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth} % Drugi obraz
+        \centering
+        \includegraphics[width=\linewidth]{img/imp/widok-marker.png}
+        \caption{Wybór punktów trasy za pomocą markera.}
+        \label{widok:ustawlokalizacje}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.32\textwidth} % Trzeci obraz
+        \centering
+        \includegraphics[width=\linewidth]{img/imp/widok-pkt.png}
+        \caption{Rezultat wyboru lokalizacji punktu trasy.}
+        \label{widok:ustawlokalizacjewynik}
+    \end{minipage}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{img/imp/widok-marker.png}
-    \caption{Wybór punktów trasy za pomocą markera.}
-    \label{widok:ustawlokalizacje}
-\end{figure}
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{img/imp/widok-pkt.png}
-    \caption{Rezultat wyboru lokalizacji punktu trasy.}
-    \label{widok:ustawlokalizacjewynik}
-\end{figure}
 
 \noindent
 \textbf{Zatwierdzanie trasy} \\
@@ -307,18 +309,22 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/imp/lista_szlakow.png}
-    \caption{Lista dostępnych szlaków.}
-    \label{widok:wyborszlaku}
+    \begin{minipage}{0.48\textwidth} % Pierwszy obraz
+        \centering
+        \includegraphics[width=\linewidth]{img/imp/lista_szlakow.png}
+        \caption{Lista dostępnych szlaków.}
+        \label{widok:wyborszlaku}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth} % Drugi obraz
+        \centering
+        \includegraphics[width=\linewidth]{img/imp/po-wyborze-z-listy.png}
+        \caption{Widok z początkiem wybranego z listy szlaku.}
+        \label{widok:szlak}
+    \end{minipage}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.6]{img/imp/po-wyborze-z-listy.png}
-    \caption{Widok z początkiem wybranego z listy szlaku.}
-    \label{widok:szlak}
-\end{figure}
-\newpage
+
 \noindent
 \textbf{Widok formularza zgłoszeń zagrożeń} \\
 \indent Ekran zgłoszenia pokazany na rys. \ref{widok:zgłoszenie} spełnia jedno z podstawowych funkcjonalności aplikacji. To tutaj użytkownik, mając włączoną lokalizację i internet, może wygenerować powiadomienie dla innych użytkowników o danym zagrożeniu na szlaku, wybierając jego typ z listy i opisując szczegóły. Po naciśnięciu “Zgłoś zagrożenie”, zgłoszenie zostaje od razu wysłane lub w przypadku problemów z internetem, zapisane i wysłane natychmiast po ponownym nawiązaniu połączenia.
@@ -360,7 +366,7 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
 \indent Formularz przedstawiony na poniższym widoku (rys. \ref{widok:admindanger}) umożliwia administratorowi wysłanie powiadomień do wszystkich użytkowników jednocześnie z komunikatami bezpieczeństwa wydawanymi przez TOPR, GOPR lub TPN najczęściej dotyczących stanu meteorologicznego panującego w Tatrach.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.15]{img/imp/widok-admin-danger.jpg}
+    \fbox{\includegraphics[scale=0.15]{img/imp/widok-admin-danger.jpg}}
     \caption{Widok formularza administratora do przekazywania komunikatów TOPR, GOPR, TPN w formie powiadomienia dla wszystkich użytkowników.}
     \label{widok:admindanger}
 \end{figure}
@@ -370,7 +376,7 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
 \indent Poniższy widok (rys. \ref{widok:adminaccept}) przedstawia listę zgłoszonych przez użytkowników zagrożeń na trasie, które czekają na akceptację po stronie administratora. Każde zgłoszenie musi mieć swój typ oraz krótki opis, a aplikacja zbiera dodatkowo informacje o aktualnym miejscu użytkownika w momencie wysłania zgłoszenia (nawet offline) oraz jego identyfikator.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/test/testdanger.png}
+    \fbox{\includegraphics[scale=0.6]{img/test/testdanger.png}}
     \caption{Widok administratora z listą zagrożeń do zaakceptowania.}
     \label{widok:adminaccept}
 \end{figure}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  8 JAN 2025 12:25
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  8 JAN 2025 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1936,52 +1936,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--188
 
 File: img/imp/welcome.png Graphic file (type bmp)
 <img/imp/welcome.png>
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 193--194
+ [][] 
+ []
+
 File: img/imp/widok-reje.png Graphic file (type bmp)
 <img/imp/widok-reje.png>
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 200--201
+ [][] 
+ []
+
 File: img/imp/widok-log.png Graphic file (type bmp)
 <img/imp/widok-log.png>
-File: img/imp/widok-reje.png Graphic file (type bmp)
-<img/imp/widok-reje.png>
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 207--208
+ [][] 
+ []
+
 
 
 [56]
-File: img/imp/widok-log.png Graphic file (type bmp)
-<img/imp/widok-log.png>
-
-
-[57]
-
-[58]
 File: img/imp/widok-user.png Graphic file (type bmp)
 <img/imp/widok-user.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--223
+Underfull \hbox (badness 10000) in paragraph at lines 214--222
 
  []
 
 
 
-[59]
+[57]
 File: img/imp/widok-mapa.png Graphic file (type bmp)
 <img/imp/widok-mapa.png>
+
+
+[58]
 File: img/imp/widok-ikony.png Graphic file (type bmp)
 <img/imp/widok-ikony.png>
 
 
-[60]
+[59]
 File: img/imp/widok-loka.png Graphic file (type bmp)
 <img/imp/widok-loka.png>
-
-
-[61]
 File: img/imp/widok-marker.png Graphic file (type bmp)
 <img/imp/widok-marker.png>
 File: img/imp/widok-pkt.png Graphic file (type bmp)
 <img/imp/widok-pkt.png>
 
 
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
@@ -1989,29 +1995,29 @@ File: img/imp/widok-trasa.png Graphic file (type bmp)
 <img/imp/widok-trasa.png>
 
 
-[63]
-Underfull \hbox (badness 10000) in paragraph at lines 304--307
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 306--309
 
  []
 
 File: img/imp/lista_szlakow.png Graphic file (type bmp)
 <img/imp/lista_szlakow.png>
-
-
-[64]
 File: img/imp/po-wyborze-z-listy.png Graphic file (type bmp)
 <img/imp/po-wyborze-z-listy.png>
 
 
-[65]
+[62]
 File: img/imp/widok-danger.png Graphic file (type bmp)
 <img/imp/widok-danger.png>
+
+
+[63]
 File: img/imp/widok-telefony.png Graphic file (type bmp)
 <img/imp/widok-telefony.png>
 
 
-[66]
-Underfull \hbox (badness 10000) in paragraph at lines 345--347
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
 
  []
 
@@ -2019,24 +2025,24 @@ File: img/imp/widok-admin-home.jpg Graphic file (type bmp)
 <img/imp/widok-admin-home.jpg>
 
 
-[67]
+[65]
 File: img/imp/widok-admin-danger.jpg Graphic file (type bmp)
 <img/imp/widok-admin-danger.jpg>
 
 
-[68]
+[66]
 File: img/test/testdanger.png Graphic file (type bmp)
 <img/test/testdanger.png>
 
 
-[69]
+[67]
 File: img/imp/widok-dodajkml.jpg Graphic file (type bmp)
 <img/imp/widok-dodajkml.jpg>
 
 
-[70])
+[68])
 
-[71]
+[69]
 \openout2 = `chapters/testy.aux'.
 
  (chapters/testy.tex
@@ -2065,7 +2071,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
 
 
-[72
+[70
 
 
 
@@ -2092,31 +2098,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--51
 
 
 
-[73]
+[71]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 58.
+(caption)                particular \caption on input line 59.
 See the caption package documentation for explanation.
 
 File: img/test/testmap.jpg Graphic file (type bmp)
 <img/test/testmap.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--65
+Underfull \hbox (badness 10000) in paragraph at lines 56--66
 
  []
 
 
 
-[74]
+[72]
 File: img/test/maptest_wynik.jpg Graphic file (type bmp)
 <img/test/maptest_wynik.jpg>
 
 
-[75]
+[73]
 File: img/test/testmap1.jpg Graphic file (type bmp)
 <img/test/testmap1.jpg>
 
-Overfull \hbox (4.49031pt too wide) in paragraph at lines 98--99
+Overfull \hbox (4.49031pt too wide) in paragraph at lines 99--100
 []\TU/TeXGyreTermesX(0)/m/n/12 Aby przejść do trybu wyznaczania trasy należy kl
 iknąć przycisk ”Wyznacz trasę”widoczny
  []
@@ -2125,45 +2131,45 @@ File: img/test/testmap2.jpg Graphic file (type bmp)
 <img/test/testmap2.jpg>
 
 
-[76]
+[74]
 File: img/test/testmap3.jpg Graphic file (type bmp)
 <img/test/testmap3.jpg>
 
 
-[77]
+[75]
 File: img/test/testmap4.jpg Graphic file (type bmp)
 <img/test/testmap4.jpg>
 File: img/test/testmap5.jpg Graphic file (type bmp)
 <img/test/testmap5.jpg>
 
 
-[78]
+[76]
 File: img/test/testzglos1.jpg Graphic file (type bmp)
 <img/test/testzglos1.jpg>
 
 
-[79]
+[77]
 File: img/test/testzglosopis.jpg Graphic file (type bmp)
 <img/test/testzglosopis.jpg>
 File: img/test/brakinternetu.jpg Graphic file (type bmp)
 <img/test/brakinternetu.jpg>
 
 
-[80]
+[78]
 File: img/test/braklok.jpg Graphic file (type bmp)
 <img/test/braklok.jpg>
 File: img/test/testdanger.png Graphic file (type bmp)
 <img/test/testdanger.png>
 
 
-[81])
+[79])
 
-[82]
+[80]
 \openout2 = `chapters/chapter7.aux'.
 
  (chapters/chapter7.tex)
 
-[83
+[81
 
 
 
@@ -2172,7 +2178,7 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 174.
 
 
-[84
+[82
 
 
 ] (main.aux (chapters/chapter0.aux) (chapters/chapter1.aux)
@@ -2201,12 +2207,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28098 strings out of 408758
- 547244 string characters out of 5748069
+ 28096 strings out of 408758
+ 547186 string characters out of 5748069
  1482168 words of memory out of 5000000
- 50542 multiletter control sequences out of 15000+600000
+ 50540 multiletter control sequences out of 15000+600000
  564436 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,9n,117p,1514b,5470s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,10n,117p,1514b,5470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (84 pages).
+Output written on main.pdf (82 pages).
