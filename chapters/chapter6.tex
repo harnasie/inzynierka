@@ -4,6 +4,8 @@ Przedstawione zostały 3 moduły: moduł map, moduł zgłaszania zagrożeń oraz
 \subsection{Moduł map}
 Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób działają funkcje, które umożliwiają poruszanie się po górach oraz wpływają na wygląd mapy. Każda z nich sprawia, iż użytkownik ma możliwość pokonania wybranej trasy, a naniesione na mapę szlaki pozwalają mu zaplanować wędrówkę w każdym momencie. Poniżej przedstawione zostały wybrane funkcje składające się na implementację rysowania szlaków, wyznaczenia trasy, zapisu lokalnego plików oraz obsługi ikon ze schroniskami, szczytami i stawami.
 \\ 
+
+\noindent
 \textbf{Implementacja rysowania szlaków na mapie} \\
 \indent Fragment kodu, zaprezentowany na listingu \ref{lst:rysowanie} odczytuje dane z pliku KML i na ich podstawie rysuje szlaki na mapie. Za pomocą FileInputStream zostaje stworzony strumień wejściowy do odczytania pliku, który potrzebny jest do utworzenia warstwy KML. Następnie jest ona dodawana do mapy i rozpoczyna się iterowanie po kontenerach. Pętla odczytująca obiekty KmlPlacemark, pobiera ich nazwę i na jej podstawie określa kolor szlaku. W~kolejnym kroku zostają zdefiniowane opcje linii, czyli wybrany kolor oraz szerokość. Jeżeli geometria danego znacznika jest linią (KmlLineString), tworzona jest lista, przechowująca współrzędne szlaku, które następnie dodane są do wcześniej zdefiniowanej linii. Na koniec, utworzona trasa zostanie narysowana na mapie, dzięki czemu użytkownik widzi wszystkie szlaki Tatr. Efekt ten widoczny jest na rys.\ref{widok:map}.\\
 
@@ -14,6 +16,7 @@ Podrozdział został poświęcony na dokładne przyjrzenie w jaki sposób dział
     \centering
     \fbox{\includegraphics[width=0.6\linewidth]{img/kod/rysowanie-szlakow.png}}
 \end{minipage}\\
+\\
 
 
 \noindent \textbf{Implementacja lokalnego zapisu plików} \\ 
@@ -119,6 +122,7 @@ Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokali
     \fbox{\includegraphics[width=0.6\linewidth]{img/kod/imp-getacceptedloc.png}}
 \end{minipage}
 \\
+
 \noindent
 \setlength{\fboxrule}{0.5pt}
 \begin{minipage}{\linewidth}
@@ -133,7 +137,7 @@ Funkcja przedstawiona na rys. \ref{lst:getaccepted} służy do pobierania lokali
 \setlength{\fboxrule}{0.5pt}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/imp/test-accpeted.png}
+    \fbox{\includegraphics[scale=0.6]{img/imp/test-accpeted.png}}
     \caption{Zaktualizowana mapa po akceptacji zgłoszeń przez administratora.}
     \label{widok:markeraccepted1}
 \end{figure}
@@ -186,22 +190,23 @@ Wygląd aplikacji został idealnie dobrany do potrzeb użytkowników, tak aby mo
 \textbf{Widok główny}\\
 \indent Po uruchomieniu aplikacji użytkownik ma do wyboru dwie opcje “Zaloguj” oraz “Zarejestruj”, co zostało przedstawione na rys. \ref{widok:home}. Po kliknięciu danej opcji, wyświetla się formularz, który pobiera od użytkownika potrzebne dane i zapisuje je w bazie. Rejestrację przestawia rys. \ref{widok:register}, natomiast logowanie rys. \ref{widok:login}. Jeżeli użytkownik logował się już wcześniej do aplikacji, widok początkowy jest pomijany i od razu przenosi użytkownika do następnego ekranu, pokazanego na rys. \ref{widok:user}. W sytuacji, gdy zalogowanym jest administrator, wyświetlony zostanie widok aplikacji, przedstawiony na rys. \ref{widok:adminhome}. Tło na początkowym ekranie reprezentuje dwie najważniejsze funkcjonalności aplikacji t.j. wędrówki po górach oraz ostrzeganie innych o zagrożeniu. Rejestracja jest ważna, gdyż dzięki niej wiadomo kto zgłosił dane zagrożenie oraz pozwala na zbieranie danych o aktywności użytkownika.\\
 
+\noindent
 \begin{figure}[H]
     \centering
-    \begin{minipage}{0.3\textwidth} % Pierwszy obraz
-        \centering
-        \fbox{\includegraphics[width=\linewidth]{img/imp/welcome.png}}
-        \caption{Widok początkowy po uruchomieniu aplikacji.}
-        \label{widok:home}
-    \end{minipage}
-    \hfill
+    \fbox{\includegraphics[scale=0.6]{img/imp/welcome.png}}
+    \caption{Widoku mapy z narysowanymi szlakami.}
+    \label{widok:home}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \begin{minipage}{0.3\textwidth} % Drugi obraz
         \centering
         \fbox{\includegraphics[width=\linewidth]{img/imp/widok-reje.png}}
         \caption{Widok formularza rejestracji do aplikacji.}
         \label{widok:register}
     \end{minipage}
-    \hfill
+    \hspace{0.15\textwidth}
     \begin{minipage}{0.3\textwidth} % Trzeci obraz
         \centering
         \fbox{\includegraphics[width=\linewidth]{img/imp/widok-log.png}}
@@ -309,14 +314,14 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
 
 \begin{figure}[H]
     \centering
-    \begin{minipage}{0.48\textwidth} % Pierwszy obraz
+    \begin{minipage}{0.3\textwidth} % Pierwszy obraz
         \centering
         \fbox{\includegraphics[width=\linewidth]{img/imp/lista_szlakow.png}}
         \caption{Lista dostępnych szlaków.}
         \label{widok:wyborszlaku}
     \end{minipage}
-    \hfill
-    \begin{minipage}{0.48\textwidth} % Drugi obraz
+    \hspace{0.15\textwidth}
+    \begin{minipage}{0.3\textwidth} % Drugi obraz
         \centering
         \fbox{\includegraphics[width=\linewidth]{img/imp/po-wyborze-z-listy.png}}
         \caption{Widok z początkiem wybranego z listy szlaku.}
@@ -324,14 +329,13 @@ Szczegółowy opis ostatnich dwóch opcji będzie przedstawiony w dalszej pracy.
     \end{minipage}
 \end{figure}
 
-
 \noindent
 \textbf{Widok formularza zgłoszeń zagrożeń} \\
 \indent Ekran zgłoszenia pokazany na rys. \ref{widok:zgłoszenie} spełnia jedno z podstawowych funkcjonalności aplikacji. To tutaj użytkownik, mając włączoną lokalizację i internet, może wygenerować powiadomienie dla innych użytkowników o danym zagrożeniu na szlaku, wybierając jego typ z listy i opisując szczegóły. Po naciśnięciu “Zgłoś zagrożenie”, zgłoszenie zostaje od razu wysłane lub w przypadku problemów z internetem, zapisane i wysłane natychmiast po ponownym nawiązaniu połączenia.
 
 \begin{figure}[H]
     \centering
-    \fbox{\includegraphics[scale=0.70]{img/imp/widok-danger.png}}
+    \fbox{\includegraphics[scale=0.6]{img/imp/widok-danger.png}}
     \caption{Widok z formularzem zgłoszeniowym dla zagrożeń.}
     \label{widok:zgłoszenie}
 \end{figure}
@@ -356,7 +360,7 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
 \indent Administrator posiada swoją własną wersję aplikacji. Jego ekran główny \ref{widok:adminhome} posiada zestaw przycisków odpowiedzialnych za główne elementy, którymi zarządza. Kolejno od góry widoczne są przyciski "Wyślij powiadomienie ogólne", przenoszący go do widoku krótkiego formularza (rys. \ref{widok:admindanger}), gdzie może wkleić treść komunikatu od służb tatrzańskich lub napisać własną treść powiadomienia wysyłanego do wszystkich użytkowników, "Pokaż wszystkie zgłoszenia" przenoszący do widoku listy wszystkich zgłoszonych zagrożeń (rys. \ref{widok:adminaccept}) czekających na akceptację, "Dodaj trasę" przenoszący do widoku umożliwiającego dodanie nowego szlaku do bazy (rys. \ref{widok:kml}) oraz "Wyloguj" zamykający bieżącą sesję użytkownika.
 \begin{figure}[H]
     \centering
-    \fbox{\includegraphics[scale=0.15]{img/imp/widok-admin-home.jpg}}
+    \fbox{\includegraphics[scale=0.12]{img/imp/widok-admin-home.jpg}}
     \caption{Widok główny po zalogowaniu na konto z uprawnieniami administratora.}
     \label{widok:adminhome}
 \end{figure}
@@ -366,7 +370,7 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
 \indent Formularz przedstawiony na poniższym widoku (rys. \ref{widok:admindanger}) umożliwia administratorowi wysłanie powiadomień do wszystkich użytkowników jednocześnie z komunikatami bezpieczeństwa wydawanymi przez TOPR, GOPR lub TPN najczęściej dotyczących stanu meteorologicznego panującego w Tatrach.
 \begin{figure}[H]
     \centering
-    \fbox{\includegraphics[scale=0.15]{img/imp/widok-admin-danger.jpg}}
+    \fbox{\includegraphics[scale=0.12]{img/imp/widok-admin-danger.jpg}}
     \caption{Widok formularza administratora do przekazywania komunikatów TOPR, GOPR, TPN w formie powiadomienia dla wszystkich użytkowników.}
     \label{widok:admindanger}
 \end{figure}
@@ -386,7 +390,7 @@ Dodając do dowolnego zarejestrowanego użytkownika rolę administratora, zmieni
 \indent Poniższy widok (rys. \ref{widok:kml}) przedstawia prosty proces dodawania plików .kml z nowymi szlakami. Najpierw administrator wyznacza przebieg szlaku za pomocą strony Google My Maps, gdzie ma możliwość eksportowania pliku z nowo utworzonym szlakiem do formatu .kml. Następnie może wybrać świeżo przygotowany plik i spróbować wysłać go do usługi Firebase Storage. Pojawia się jednak jeden problem - w procesie implementacji tej funkcji oraz testowania jej poprawnego działania okazało się, że urządzenia mobilne mogą zapisywać pliki .kml jako pliki .xml. Dlatego zdecydowano się na dodanie kolejnego przycisku "Otwórz konwerter xml na kml", który przenosi administratora na przeglądarkowy konwerter plików. Wyeksportowany, przekonwertowany plik administrator wysyła na serwer za pomocą przycisku "Prześlij plik".
 \begin{figure}[H]
     \centering
-    \fbox{\includegraphics[scale=0.15]{img/imp/widok-dodajkml.jpg}}
+    \fbox{\includegraphics[scale=0.12]{img/imp/widok-dodajkml.jpg}}
     \caption{Widok administratora z przeprowadzeniem krok po kroku po procedurze dodania nowych szlaków do bazy dostępnych szlaków.}
     \label{widok:kml}
 \end{figure}
