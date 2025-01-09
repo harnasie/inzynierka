@@ -17,11 +17,12 @@
 \contentsline {subsection}{\numberline {5.8}Przegląd narzędzi implementacyjnych}{44}{subsection.5.8}%
 \contentsline {section}{\numberline {6}Implementacja}{47}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Moduł map}{47}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Moduł zgłoszeń}{52}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Moduł logowania i rejestracji}{54}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Widoki - użytkownik}{56}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Widoki - administrator}{65}{subsection.6.5}%
-\contentsline {section}{\numberline {7}Testy}{70}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Testy jednostkowe}{70}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Testy manualne}{73}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Wnioski}{78}{section.8}%
+\contentsline {subsection}{\numberline {6.2}Moduł zgłoszeń}{53}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Moduł logowania i rejestracji}{56}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Moduł powiadomień}{58}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Widoki - użytkownik}{59}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Widoki - administrator}{67}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Testy}{71}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Testy jednostkowe}{71}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Testy manualne}{74}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Wnioski}{79}{section.8}%
