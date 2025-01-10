@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  9 JAN 2025 10:42
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  10 JAN 2025 10:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1804,8 +1804,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--81
  []
 
 
-
-[52]
 Overfull \hbox (5.43831pt too wide) in paragraph at lines 83--85
 []\TU/TeXGyreTermesX(0)/m/n/12 Przy procesie obsługi zgłoszeń uczestniczy zarów
 no użytkownik jak i administrator. Pierw-
@@ -1817,13 +1815,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--85
  []
 
 
+
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 86--89
 
  []
 
-
-
-[53]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 93.
@@ -1859,13 +1856,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--113
  []
 
 
+
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-
-
-[54]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 119.
@@ -1873,6 +1869,11 @@ See the caption package documentation for explanation.
 
 File: img/kod/imp-getacceptedloc.png Graphic file (type bmp)
 <img/kod/imp-getacceptedloc.png>
+
+Overfull \hbox (7.0pt too wide) in paragraph at lines 122--123
+ [][] 
+ []
+
 
 Overfull \hbox (2.0pt too wide) in paragraph at lines 116--125
  $[]$ 
@@ -1895,8 +1896,12 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 126--134
  $[]$ 
  []
 
+
+
+[54]
 File: img/imp/test-accpeted.png Graphic file (type bmp)
 <img/imp/test-accpeted.png>
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1911,8 +1916,6 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-
-[55]
 Underfull \hbox (badness 10000) in paragraph at lines 146--148
 
  []
@@ -1931,7 +1934,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--161
 
 
 
-[56]
+[55]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 166.
@@ -1948,7 +1951,7 @@ File: img/kod/imp-login1.jpg Graphic file (type bmp)
 <img/kod/imp-login1.jpg>
 
 
-[57]
+[56]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 192.
@@ -1958,7 +1961,7 @@ File: img/kod/imp-getdangers.jpg Graphic file (type bmp)
 <img/kod/imp-getdangers.jpg>
 
 
-[58]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 201--203
 
  []
@@ -1970,7 +1973,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--207
 
 
 
-[59]
+[58]
 File: img/imp/welcome.png Graphic file (type bmp)
 <img/imp/welcome.png>
 File: img/imp/widok-reje.png Graphic file (type bmp)
@@ -2009,17 +2012,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--242
 
 
 
-[60]
+[59]
 File: img/imp/widok-mapa.png Graphic file (type bmp)
 <img/imp/widok-mapa.png>
 
 
-[61]
+[60]
 File: img/imp/widok-ikony.png Graphic file (type bmp)
 <img/imp/widok-ikony.png>
 
 
-[62]
+[61]
 File: img/imp/widok-loka.png Graphic file (type bmp)
 <img/imp/widok-loka.png>
 
@@ -2048,7 +2051,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
 
 
-[63]
+[62]
 File: img/imp/widok-trasa.png Graphic file (type bmp)
 <img/imp/widok-trasa.png>
 
@@ -2072,12 +2075,12 @@ Overfull \hbox (7.0pt too wide) in paragraph at lines 341--342
 
 
 
-[64]
+[63]
 File: img/imp/widok-danger.png Graphic file (type bmp)
 <img/imp/widok-danger.png>
 
 
-[65]
+[64]
 File: img/imp/widok-telefony.png Graphic file (type bmp)
 <img/imp/widok-telefony.png>
 
@@ -2087,26 +2090,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 370--372
 
 
 
-[66]
+[65]
 File: img/imp/widok-admin-home.jpg Graphic file (type bmp)
 <img/imp/widok-admin-home.jpg>
 File: img/imp/widok-admin-danger.jpg Graphic file (type bmp)
 <img/imp/widok-admin-danger.jpg>
 
 
-[67]
+[66]
 File: img/test/testdanger.png Graphic file (type bmp)
 <img/test/testdanger.png>
 
 
-[68]
+[67]
 File: img/imp/widok-dodajkml.jpg Graphic file (type bmp)
 <img/imp/widok-dodajkml.jpg>
 
 
-[69])
+[68])
 
-[70]
+[69]
 \openout2 = `chapters/testy.aux'.
 
  (chapters/testy.tex
@@ -2135,7 +2138,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--27
 
 
 
-[71
+[70
 
 
 
@@ -2162,7 +2165,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--51
 
 
 
-[72]
+[71]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 59.
@@ -2177,12 +2180,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--66
 
 
 
-[73]
+[72]
 File: img/test/maptest_wynik.jpg Graphic file (type bmp)
 <img/test/maptest_wynik.jpg>
 
 
-[74]
+[73]
 Overfull \hbox (4.49031pt too wide) in paragraph at lines 91--92
 []\TU/TeXGyreTermesX(0)/m/n/12 Aby przejść do trybu wyznaczania trasy należy kl
 iknąć przycisk ”Wyznacz trasę”widoczny
@@ -2225,9 +2228,9 @@ Overfull \hbox (7.0pt too wide) in paragraph at lines 129--130
 
 
 
-[75]
+[74]
 
-[76]
+[75]
 File: img/test/testzglos1.jpg Graphic file (type bmp)
 <img/test/testzglos1.jpg>
 
@@ -2258,31 +2261,32 @@ Overfull \hbox (7.0pt too wide) in paragraph at lines 189--190
 
 
 
-[77]
+[76]
 File: img/test/testdanger.png Graphic file (type bmp)
 <img/test/testdanger.png>
 )
 
-[78]
+[77]
 \openout2 = `chapters/chapter7.aux'.
 
- (chapters/chapter7.tex)
+ (chapters/chapter7.tex
+Overfull \hbox (2.44228pt too wide) in paragraph at lines 10--11
+\TU/TeXGyreTermesX(0)/m/n/12 z wysyłania powiadomień do użytkowników zawierając
+ych treści komunikatów TOPR, GOPR
+ []
 
-[79
+)
+
+[78
 
 
 
 ]
-
-Package biblatex Warning: 'sorting' option to '\printbibliography' is no longer
- supported.
-(biblatex)                Please use 'sorting' option to '\newrefcontext'.
-
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 174.
 
 
-[80
+[79
 
 
 ] (main.aux (chapters/chapter0.aux) (chapters/chapter1.aux)
@@ -2313,10 +2317,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  28106 strings out of 408758
  547471 string characters out of 5748069
- 1483485 words of memory out of 5000000
+ 1482484 words of memory out of 5000000
  50549 multiletter control sequences out of 15000+600000
  564436 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,10n,117p,1514b,5470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (80 pages).
+Output written on main.pdf (79 pages).
