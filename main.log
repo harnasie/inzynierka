@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  10 JAN 2025 10:10
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.30)  10 JAN 2025 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1050,11 +1050,7 @@ Package csquotes Info: Redefining alias 'default' -> 'polish'.
 
 (main.aux (chapters/chapter0.aux) (chapters/chapter1.aux)
 (chapters/chapter2.aux) (chapters/chapter3.aux) (chapters/chapter5.aux)
-(chapters/chapter6.aux
-
-LaTeX Warning: Label `widok:zatwierdztrase' multiply defined.
-
-) (chapters/testy.aux
+(chapters/chapter6.aux) (chapters/testy.aux
 
 LaTeX Warning: Label `result:login' multiply defined.
 
@@ -1768,8 +1764,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 65.
+See the caption package documentation for explanation.
+
+File: img/kod/rys-tras.png Graphic file (type bmp)
+<img/kod/rys-tras.png>
+
+Overfull \hbox (2.0pt too wide) in paragraph at lines 62--71
+ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--71
+
+ []
+
+
+
+[51]
 File: img/imp/widok-trasa.png Graphic file (type bmp)
 <img/imp/widok-trasa.png>
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1777,122 +1794,102 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 
+l.81 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-
-[51]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 75.
-See the caption package documentation for explanation.
-
-File: img/kod/rys-tras.png Graphic file (type bmp)
-<img/kod/rys-tras.png>
-
-Overfull \hbox (2.0pt too wide) in paragraph at lines 72--81
- $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--81
-
- []
-
-
-Overfull \hbox (5.43831pt too wide) in paragraph at lines 83--85
+Overfull \hbox (5.43831pt too wide) in paragraph at lines 85--87
 []\TU/TeXGyreTermesX(0)/m/n/12 Przy procesie obsługi zgłoszeń uczestniczy zarów
 no użytkownik jak i administrator. Pierw-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
 
 
 [52]
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 93.
+(caption)                particular \caption on input line 95.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-adddanger.png Graphic file (type bmp)
 <img/kod/imp-adddanger.png>
 
-Overfull \hbox (2.0pt too wide) in paragraph at lines 90--99
+Overfull \hbox (2.0pt too wide) in paragraph at lines 92--101
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--99
+Underfull \hbox (badness 10000) in paragraph at lines 92--101
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 107.
+(caption)                particular \caption on input line 109.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-acceptdanger.png Graphic file (type bmp)
 <img/kod/imp-acceptdanger.png>
 
-Overfull \hbox (2.0pt too wide) in paragraph at lines 104--113
+Overfull \hbox (2.0pt too wide) in paragraph at lines 106--115
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--113
+Underfull \hbox (badness 10000) in paragraph at lines 106--115
 
  []
 
 
 
 [53]
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 119.
+(caption)                particular \caption on input line 121.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-getacceptedloc.png Graphic file (type bmp)
 <img/kod/imp-getacceptedloc.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 122--123
+Overfull \hbox (7.0pt too wide) in paragraph at lines 124--125
  [][] 
  []
 
 
-Overfull \hbox (2.0pt too wide) in paragraph at lines 116--125
+Overfull \hbox (2.0pt too wide) in paragraph at lines 118--127
  $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--125
+Underfull \hbox (badness 10000) in paragraph at lines 118--127
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 129.
+(caption)                particular \caption on input line 131.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-updatemap.png Graphic file (type bmp)
 <img/kod/imp-updatemap.png>
 
-Overfull \hbox (2.0pt too wide) in paragraph at lines 126--134
+Overfull \hbox (2.0pt too wide) in paragraph at lines 128--136
  $[]$ 
  []
 
@@ -1909,26 +1906,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 \subsection
+l.147 \subsection
                  {Moduł logowania i rejestracji}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 155.
+(caption)                particular \caption on input line 157.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-reje.jpg Graphic file (type bmp)
 <img/kod/imp-reje.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--161
+Underfull \hbox (badness 10000) in paragraph at lines 151--163
 
  []
 
@@ -1937,14 +1934,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--161
 [55]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 166.
+(caption)                particular \caption on input line 168.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-addtofs.jpg Graphic file (type bmp)
 <img/kod/imp-addtofs.jpg>
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 178.
+(caption)                particular \caption on input line 180.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-login1.jpg Graphic file (type bmp)
@@ -1954,7 +1951,7 @@ File: img/kod/imp-login1.jpg Graphic file (type bmp)
 [56]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 192.
+(caption)                particular \caption on input line 194.
 See the caption package documentation for explanation.
 
 File: img/kod/imp-getdangers.jpg Graphic file (type bmp)
@@ -1962,12 +1959,12 @@ File: img/kod/imp-getdangers.jpg Graphic file (type bmp)
 
 
 [57]
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--207
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
 
  []
 
@@ -1979,14 +1976,14 @@ File: img/imp/welcome.png Graphic file (type bmp)
 File: img/imp/widok-reje.png Graphic file (type bmp)
 <img/imp/widok-reje.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 220--221
+Overfull \hbox (7.0pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
 File: img/imp/widok-log.png Graphic file (type bmp)
 <img/imp/widok-log.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 227--228
+Overfull \hbox (7.0pt too wide) in paragraph at lines 229--230
  [][] 
  []
 
@@ -1997,7 +1994,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 \\~
+l.235 \\~
          \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2006,7 +2003,7 @@ or  <return>  to continue without it.
 File: img/imp/widok-user.png Graphic file (type bmp)
 <img/imp/widok-user.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--242
+Underfull \hbox (badness 10000) in paragraph at lines 235--244
 
  []
 
@@ -2026,26 +2023,26 @@ File: img/imp/widok-ikony.png Graphic file (type bmp)
 File: img/imp/widok-loka.png Graphic file (type bmp)
 <img/imp/widok-loka.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 290--291
+Overfull \hbox (7.0pt too wide) in paragraph at lines 292--293
  [][] 
  []
 
 File: img/imp/widok-marker.png Graphic file (type bmp)
 <img/imp/widok-marker.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 297--298
+Overfull \hbox (7.0pt too wide) in paragraph at lines 299--300
  [][] 
  []
 
 File: img/imp/widok-pkt.png Graphic file (type bmp)
 <img/imp/widok-pkt.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 304--305
+Overfull \hbox (7.0pt too wide) in paragraph at lines 306--307
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
@@ -2055,21 +2052,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 316--317
 File: img/imp/widok-trasa.png Graphic file (type bmp)
 <img/imp/widok-trasa.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--329
+Underfull \hbox (badness 10000) in paragraph at lines 328--331
 
  []
 
 File: img/imp/lista_szlakow.png Graphic file (type bmp)
 <img/imp/lista_szlakow.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 334--335
+Overfull \hbox (7.0pt too wide) in paragraph at lines 336--337
  [][] 
  []
 
 File: img/imp/po-wyborze-z-listy.png Graphic file (type bmp)
 <img/imp/po-wyborze-z-listy.png>
 
-Overfull \hbox (7.0pt too wide) in paragraph at lines 341--342
+Overfull \hbox (7.0pt too wide) in paragraph at lines 343--344
  [][] 
  []
 
@@ -2084,7 +2081,7 @@ File: img/imp/widok-danger.png Graphic file (type bmp)
 File: img/imp/widok-telefony.png Graphic file (type bmp)
 <img/imp/widok-telefony.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
 
  []
 
@@ -2315,10 +2312,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28106 strings out of 408758
- 547471 string characters out of 5748069
- 1482484 words of memory out of 5000000
- 50549 multiletter control sequences out of 15000+600000
+ 28107 strings out of 408758
+ 547494 string characters out of 5748069
+ 1482584 words of memory out of 5000000
+ 50550 multiletter control sequences out of 15000+600000
  564436 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,10n,117p,1514b,5470s stack positions out of 10000i,1000n,20000p,200000b,200000s
